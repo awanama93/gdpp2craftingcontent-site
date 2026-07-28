@@ -1,0 +1,157 @@
+filters:
+  and:
+    - file.inFolder("QuestNarrative/Quest")
+views:
+  - type: table
+    name: BasicView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_Description
+      - QuestType
+      - Q_GoalType
+      - Q_ConditionType
+      - IsTimeLimit
+      - TimeLimit
+      - QG_QuestID
+      - QG_ItemE_ID
+      - QG_ItemE_Amount
+      - QG_ItemD_ID
+      - QG_ItemD_Amount
+      - QG_ItemC_ID
+      - QG_ItemC_Amount
+      - QG_ItemB_ID
+      - QG_ItemB_Amount
+      - QG_ItemA_ID
+      - QG_ItemA_Amount
+      - QG_DialogueID
+      - QG_ConvictionType
+      - QG_ConvictionCharacter
+      - QG_ConvictionAmount
+      - QG_ClosenessNPC
+      - QG_ClosenessAmount
+      - QC_Time
+      - QC_ItemE_ID
+      - QC_ItemE_Amount
+      - QC_ItemD_ID
+      - QC_ItemD_Amount
+      - QC_ItemC_ID
+      - QC_ItemC_Amount
+      - QC_ItemB_ID
+      - QC_ItemB_Amount
+      - QC_ItemA_ID
+      - QC_ItemA_Amount
+      - QC_DialogueID
+      - QC_ConvictionType
+      - QC_ConvictionCharacter
+      - QC_ConvictionAmount
+      - QC_ClosenessNPC
+      - QC_ClosenessAmount
+    columnSize:
+      note.QuestID: 117
+      note.Q_Description: 142
+  - type: table
+    name: GoalDialogueView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_GoalType
+      - QG_DialogueID
+  - type: table
+    name: GoalItemView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_GoalType
+      - QG_ItemA_ID
+      - QG_ItemA_Amount
+      - QG_ItemB_ID
+      - QG_ItemB_Amount
+      - QG_ItemC_ID
+      - QG_ItemC_Amount
+      - QG_ItemD_ID
+      - QG_ItemD_Amount
+      - QG_ItemE_ID
+      - QG_ItemE_Amount
+  - type: table
+    name: GoalConvictionView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_GoalType
+      - QG_ConvictionCharacter
+      - QG_ConvictionType
+      - QG_ConvictionAmount
+  - type: table
+    name: GoalClosenessView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_GoalType
+      - QG_ClosenessNPC
+      - QG_ClosenessAmount
+  - type: table
+    name: ConditionQuestView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_ConditionType
+      - QC_QuestID
+  - type: table
+    name: GoalQuestView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_GoalType
+      - QG_QuestID
+  - type: table
+    name: ConditionDialogueView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_ConditionType
+      - QC_DialogueID
+  - type: table
+    name: ConditionConvictionView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_ConditionType
+      - QC_ConvictionCharacter
+      - QC_ConvictionType
+      - QC_ConvictionAmount
+  - type: table
+    name: ConditionClosenessView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_ConditionType
+      - QC_ClosenessNPC
+      - QC_ClosenessAmount
+  - type: table
+    name: ConditionItemView
+    order:
+      - file.name
+      - QuestID
+      - Q_Name
+      - Q_ConditionType
+      - QC_ItemA_ID
+      - QC_ItemA_Amount
+      - QC_ItemB_ID
+      - QC_ItemB_Amount
+      - QC_ItemC_ID
+      - QC_ItemC_Amount
+      - QC_ItemD_ID
+      - QC_ItemD_Amount
+      - QC_ItemE_ID
+      - QC_ItemE_Amount

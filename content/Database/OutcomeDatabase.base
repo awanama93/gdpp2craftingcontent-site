@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("QuestNarrative/Outcome")
+views:
+  - type: table
+    name: BasicView
+    order:
+      - file.name
+      - OutcomeID
+      - O_ResponseText
+      - O_AlternativeResponse
+      - O_ExperiencePoint
+      - O_QuestData
+      - O_QuestStatus
+    columnSize:
+      note.OutcomeID: 127

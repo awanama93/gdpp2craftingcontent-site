@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.inFolder("QuestNarrative/Response")
+views:
+  - type: table
+    name: BasicView
+    order:
+      - file.name
+      - ResponseID
+      - R_Type
+      - R_Prerequisite
+      - R_Text
+      - R_Outcome
+    columnSize:
+      note.ResponseID: 148

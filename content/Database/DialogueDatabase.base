@@ -1,0 +1,15 @@
+filters:
+  and:
+    - file.inFolder("QuestNarrative/Dialogue")
+views:
+  - type: table
+    name: BasicView
+    order:
+      - file.name
+      - DialogueID
+      - D_NPC
+      - D_Exposition
+      - D_Responses
+    columnSize:
+      note.DialogueID: 131
+      note.D_NPC: 110

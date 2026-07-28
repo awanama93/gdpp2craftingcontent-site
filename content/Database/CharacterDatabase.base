@@ -1,0 +1,16 @@
+filters:
+  and:
+    - file.inFolder("Characters")
+views:
+  - type: table
+    name: BaseView
+    order:
+      - file.name
+      - CharacterID
+      - Ch_Name
+      - Ch_MaxHealth
+      - Ch_Closeness_Start
+      - Ch_Conviction_Selfsufficient_Start
+      - Ch_Conviction_Settler_Start
+      - Ch_Conviction_Signaler_Start
+      - Ch_Dialogues
