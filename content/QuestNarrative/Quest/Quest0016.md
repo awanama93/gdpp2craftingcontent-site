@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:07.267+07:00
-published: 2026-07-27T21:52:07.267+07:00
+modified: 2026-07-28T21:54:55.420+07:00
+published: 2026-07-28T21:54:55.420+07:00
 QuestID: "[[Quest0016]]"
 Q_Name: Learn how to climb
-Q_Description:
+Q_Description: Currie told you to climb the building next to this rooftop, and talk to Slocum
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0017]]"
+Q_GoalActionType: Unlock crafting machine
+Q_GoalActionTargetObject: "[[TO_Equipmaker]]"
 ---
 
 Quest0016
@@ -57,7 +59,7 @@ Quest0016
 
 - q\_name: Learn how to climb
 
-- q\_description: null
+- q\_description: Currie told you to climb the building next to this rooftop, and talk to Slocum
 
 - questtype: Main
 
@@ -140,3 +142,7 @@ Quest0016
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0017|Quest0017]]
+
+- q\_goalactiontype: Unlock crafting machine
+
+- q\_goalactiontargetobject: [[Item/TO_Equipmaker|TO_Equipmaker]]

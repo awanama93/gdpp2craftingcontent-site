@@ -19,10 +19,10 @@
 		{"id":"268400ca7c799a10","type":"file","file":"QuestNarrative/Quest/Quest0017.md","x":-4760,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"a69642002a348758","type":"file","file":"QuestNarrative/Quest/Quest0018.md","x":-4240,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"f858eb2292e397d3","type":"file","file":"QuestNarrative/Quest/Quest0019.md","x":-3720,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"422e2b268c3b03f5","type":"file","file":"QuestNarrative/Quest/Quest0020.md","x":-3200,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"856de9859861a1a9","type":"file","file":"QuestNarrative/Quest/Quest0021.md","x":-2640,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"0bc6a8e054797187","type":"file","file":"QuestNarrative/Quest/Quest0022.md","x":-2120,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"f15d4f3de455e94a","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-1600,"y":2680,"width":400,"height":400,"color":"5"}
+		{"id":"f15d4f3de455e94a","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-5840,"y":2680,"width":400,"height":400,"color":"5"},
+		{"id":"856de9859861a1a9","type":"file","file":"QuestNarrative/Quest/Quest0021.md","x":-3160,"y":2680,"width":400,"height":400,"color":"5"},
+		{"id":"422e2b268c3b03f5","type":"file","file":"QuestNarrative/Quest/Quest0020.md","x":-2640,"y":2880,"width":400,"height":400,"color":"5"}
 	],
 	"edges":[
 		{
@@ -179,61 +179,6 @@
 			"toSide":"left"
 		},
 		{
-			"id":"f4d0220829149092",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"f858eb2292e397d3",
-			"fromSide":"right",
-			"toNode":"422e2b268c3b03f5",
-			"toSide":"left"
-		},
-		{
-			"id":"3e08d495b44c4ee1",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"422e2b268c3b03f5",
-			"fromSide":"right",
-			"toNode":"856de9859861a1a9",
-			"toSide":"left"
-		},
-		{
-			"id":"277f413cf35df4c8",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"856de9859861a1a9",
-			"fromSide":"right",
-			"toNode":"0bc6a8e054797187",
-			"toSide":"left"
-		},
-		{
-			"id":"58cbbacfbbda4c28",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"0bc6a8e054797187",
-			"fromSide":"right",
-			"toNode":"f15d4f3de455e94a",
-			"toSide":"left"
-		},
-		{
-			"id":"3990042ed0057cae",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"ce6ca5e39e7a4103",
-			"fromSide":"bottom",
-			"toNode":"a93d2261befda792",
-			"toSide":"top"
-		},
-		{
-			"id":"26b579e0194f41da",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromFloating":false,
-			"fromNode":"f15d4f3de455e94a",
-			"fromSide":"top",
-			"toNode":"ce6ca5e39e7a4103",
-			"toSide":"bottom"
-		},
-		{
 			"id":"57f0c8b7bd9bab48",
 			"styleAttributes":{},
 			"toFloating":false,
@@ -258,6 +203,60 @@
 			"fromNode":"ce6ca5e39e7a4103",
 			"fromSide":"right",
 			"toNode":"0f9c22e06d7a4d1f",
+			"toSide":"left"
+		},
+		{
+			"id":"88762493f102ef24",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ce6ca5e39e7a4103",
+			"fromSide":"bottom",
+			"toNode":"f15d4f3de455e94a",
+			"toSide":"top"
+		},
+		{
+			"id":"51bf7daced6c4b83",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f15d4f3de455e94a",
+			"fromSide":"right",
+			"toNode":"a93d2261befda792",
+			"toSide":"left"
+		},
+		{
+			"id":"823dd0b8f4a775b3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0bc6a8e054797187",
+			"fromSide":"left",
+			"toNode":"ce6ca5e39e7a4103",
+			"toSide":"right"
+		},
+		{
+			"id":"993a2c497909d015",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f858eb2292e397d3",
+			"fromSide":"right",
+			"toNode":"856de9859861a1a9",
+			"toSide":"left"
+		},
+		{
+			"id":"4dea89bf390ac3b0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"856de9859861a1a9",
+			"fromSide":"right",
+			"toNode":"422e2b268c3b03f5",
+			"toSide":"left"
+		},
+		{
+			"id":"7793c5a11f741787",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"422e2b268c3b03f5",
+			"fromSide":"right",
+			"toNode":"0bc6a8e054797187",
 			"toSide":"left"
 		}
 	],

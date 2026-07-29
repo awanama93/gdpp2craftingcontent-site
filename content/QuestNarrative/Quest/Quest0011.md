@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:45:17.088+07:00
-published: 2026-07-27T20:45:17.088+07:00
+modified: 2026-07-28T21:53:15.724+07:00
+published: 2026-07-28T21:53:15.724+07:00
 QuestID: "[[Quest0011]]"
 Q_Name: Help to build bouyancy so the deck can float on the water
 Q_Description: To make the boat floating, we need bouyancy
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Item ownership
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -16,12 +16,12 @@ QG_ItemE_ID:
 QG_ItemE_Amount:
 QG_ItemD_ID:
 QG_ItemD_Amount:
-QG_ItemC_ID:
-QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemC_ID: "[[IN_BoatSealing]]"
+QG_ItemC_Amount: "1"
+QG_ItemB_ID: "[[IN_FlotationSupport]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[IN_PontoonPrimer]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0012]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0011
@@ -61,7 +63,7 @@ Quest0011
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Item ownership
 
 - q\_conditiontype: null
 
@@ -79,17 +81,17 @@ Quest0011
 
 - qg\_itemd\_amount: null
 
-- qg\_itemc\_id: null
+- qg\_itemc\_id: [[Item/IN_BoatSealing|IN_BoatSealing]]
 
-- qg\_itemc\_amount: null
+- qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/IN_FlotationSupport|IN_FlotationSupport]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_PontoonPrimer|IN_PontoonPrimer]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -140,3 +142,7 @@ Quest0011
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0012|Quest0012]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

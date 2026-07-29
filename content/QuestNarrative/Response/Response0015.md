@@ -1,13 +1,19 @@
 ---
 publish: true
 created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-27T22:30:27.414+07:00
-published: 2026-07-27T22:30:27.414+07:00
+modified: 2026-07-29T11:33:28.545+07:00
+published: 2026-07-29T11:33:28.545+07:00
 ResponseID: "[[Response0015]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+R_Text: Acknowledge the information
 R_Outcome:
+R_NextDialogue: "[[Dialogue0008]]"
+R_ResponseRelation:
+R_PrerequisiteValue:
+R_ResponseCodename: Back to HolderQuestHeadSignaler
+R_DialogueParent:
+  - "[[Dialogue0007]]"
 ---
 
 Response0015
@@ -18,6 +24,16 @@ Response0015
 
 - r\_prerequisite: null
 
-- r\_text: null
+- r\_text: Acknowledge the information
 
 - r\_outcome: null
+
+- r\_nextdialogue: [[QuestNarrative/Dialogue/Dialogue0008|Dialogue0008]]
+
+- r\_responserelation: null
+
+- r\_prerequisitevalue: null
+
+- r\_responsecodename: Back to HolderQuestHeadSignaler
+
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0007|Dialogue0007]]

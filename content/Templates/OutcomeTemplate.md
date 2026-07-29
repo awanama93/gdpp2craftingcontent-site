@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-07-27T17:18:18.431+07:00
-modified: 2026-07-27T18:56:55.930+07:00
-published: 2026-07-27T18:56:55.930+07:00
+modified: 2026-07-28T20:35:20.313+07:00
+published: 2026-07-28T20:35:20.313+07:00
 OutcomeID:
 O_ResponseText:
 O_AlternativeResponse:
 O_ExperiencePoint:
-O_QuestData:
-O_QuestStatus:
+O_QuestDataA:
+O_QuestStatusA:
 ---
 
 OutcomeTemplate
@@ -21,6 +21,6 @@ OutcomeTemplate
 
 - o\_experiencepoint: null
 
-- o\_questdata: null
+- o\_questdataa: null
 
-- o\_queststatus: null
+- o\_queststatusa: null

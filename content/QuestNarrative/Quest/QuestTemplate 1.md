@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T17:18:56.500+07:00
-modified: 2026-07-27T17:36:41.672+07:00
-published: 2026-07-27T17:36:41.672+07:00
+modified: 2026-07-28T21:53:16.860+07:00
+published: 2026-07-28T21:53:16.860+07:00
 QuestID:
 QuestType:
 Q_Name:
@@ -46,6 +46,8 @@ QG_ConvictionType:
 QG_ConvictionAmount:
 QG_ClosenessNPC:
 QG_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 QuestTemplate 1
@@ -135,3 +137,7 @@ QuestTemplate 1
 - qg\_closenessnpc: null
 
 - qg\_closenessamount: null
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

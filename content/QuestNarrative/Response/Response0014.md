@@ -1,13 +1,21 @@
 ---
 publish: true
 created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-27T22:30:24.098+07:00
-published: 2026-07-27T22:30:24.098+07:00
+modified: 2026-07-29T12:00:01.831+07:00
+published: 2026-07-29T12:00:01.831+07:00
 ResponseID: "[[Response0014]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+  - "[[Quest0021]]"
+R_Text: Tell him that you understand about the slingshoter
 R_Outcome:
+  - "[[Outcome0010]]"
+R_NextDialogue: "[[Dialogue0014]]"
+R_ResponseRelation:
+R_PrerequisiteValue: ongoing
+R_ResponseCodename: CompleteQuest0021
+R_DialogueParent:
+  - "[[Dialogue0005]]"
 ---
 
 Response0014
@@ -16,8 +24,18 @@ Response0014
 
 - r\_type: null
 
-- r\_prerequisite: null
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0021|Quest0021]]
 
-- r\_text: null
+- r\_text: Tell him that you understand about the slingshoter
 
-- r\_outcome: null
+- r\_outcome: [[QuestNarrative/Outcome/Outcome0010|Outcome0010]]
+
+- r\_nextdialogue: [[QuestNarrative/Dialogue/Dialogue0014|Dialogue0014]]
+
+- r\_responserelation: null
+
+- r\_prerequisitevalue: ongoing
+
+- r\_responsecodename: CompleteQuest0021
+
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0005|Dialogue0005]]

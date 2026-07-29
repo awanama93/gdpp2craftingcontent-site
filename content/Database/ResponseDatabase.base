@@ -7,9 +7,41 @@ views:
     order:
       - file.name
       - ResponseID
-      - R_Type
+      - R_DialogueParent
+      - R_ResponseCodename
       - R_Prerequisite
+      - R_PrerequisiteValue
       - R_Text
       - R_Outcome
+      - R_NextDialogue
+      - R_ResponseRelation
     columnSize:
       note.ResponseID: 148
+      note.R_Type: 99
+      note.R_Text: 172
+      note.R_Outcome: 122
+  - type: table
+    name: CodenameTextView
+    order:
+      - file.name
+      - R_DialogueParent
+      - R_ResponseCodename
+      - R_Text
+  - type: table
+    name: DialoguePrerequisiteView
+    order:
+      - file.name
+      - R_DialogueParent
+      - R_ResponseCodename
+      - R_Prerequisite
+      - R_PrerequisiteValue
+  - type: table
+    name: OutcomeNextDialogueView
+    order:
+      - file.name
+      - R_DialogueParent
+      - R_ResponseCodename
+      - R_Outcome
+      - R_NextDialogue
+    columnSize:
+      note.R_ResponseCodename: 190

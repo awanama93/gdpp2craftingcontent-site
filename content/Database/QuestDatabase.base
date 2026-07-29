@@ -48,6 +48,9 @@ views:
       - QC_ConvictionAmount
       - QC_ClosenessNPC
       - QC_ClosenessAmount
+      - Q_GoalActionTargetObject
+      - Q_GoalActionType
+      - QC_QuestID
     columnSize:
       note.QuestID: 117
       note.Q_Description: 142
@@ -76,6 +79,12 @@ views:
       - QG_ItemD_Amount
       - QG_ItemE_ID
       - QG_ItemE_Amount
+    columnSize:
+      note.QG_ItemA_ID: 203
+      note.QG_ItemB_ID: 200
+      note.QG_ItemC_ID: 163
+      note.QG_ItemD_ID: 150
+      note.QG_ItemE_ID: 167
   - type: table
     name: GoalConvictionView
     order:
@@ -155,3 +164,22 @@ views:
       - QC_ItemD_Amount
       - QC_ItemE_ID
       - QC_ItemE_Amount
+  - type: table
+    name: NameDescriptionOnlyView
+    order:
+      - file.name
+      - Q_Name
+      - Q_Description
+    columnSize:
+      file.name: 87
+      note.Q_Description: 142
+  - type: table
+    name: GoalActionView
+    order:
+      - file.name
+      - Q_Name
+      - Q_GoalActionType
+      - Q_GoalActionTargetObject
+    columnSize:
+      file.name: 87
+      note.Q_GoalActionType: 165

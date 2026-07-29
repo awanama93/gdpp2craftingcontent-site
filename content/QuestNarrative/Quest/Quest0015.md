@@ -1,27 +1,27 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:49:24.992+07:00
-published: 2026-07-27T20:49:24.992+07:00
+modified: 2026-07-28T21:53:15.789+07:00
+published: 2026-07-28T21:53:15.789+07:00
 QuestID: "[[Quest0015]]"
 Q_Name: Help to build the generator for the radio
 Q_Description: We have radio transmitter. But the power is not enough to reach far. Now we need to build generator to reach further
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Item ownership
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
-QG_ItemE_ID:
-QG_ItemE_Amount:
-QG_ItemD_ID:
-QG_ItemD_Amount:
-QG_ItemC_ID:
-QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemE_ID: "[[IN_Bearing]]"
+QG_ItemE_Amount: "1"
+QG_ItemD_ID: "[[IN_Shaft]]"
+QG_ItemD_Amount: "1"
+QG_ItemC_ID: "[[IN_Housing]]"
+QG_ItemC_Amount: "1"
+QG_ItemB_ID: "[[IN_Stator]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[IN_Rotor]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0004]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0015
@@ -61,7 +63,7 @@ Quest0015
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Item ownership
 
 - q\_conditiontype: null
 
@@ -71,25 +73,25 @@ Quest0015
 
 - qg\_questid: null
 
-- qg\_iteme\_id: null
+- qg\_iteme\_id: [[Item/IN_Bearing|IN_Bearing]]
 
-- qg\_iteme\_amount: null
+- qg\_iteme\_amount: 1
 
-- qg\_itemd\_id: null
+- qg\_itemd\_id: [[Item/IN_Shaft|IN_Shaft]]
 
-- qg\_itemd\_amount: null
+- qg\_itemd\_amount: 1
 
-- qg\_itemc\_id: null
+- qg\_itemc\_id: [[Item/IN_Housing|IN_Housing]]
 
-- qg\_itemc\_amount: null
+- qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/IN_Stator|IN_Stator]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_Rotor|IN_Rotor]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -140,3 +142,7 @@ Quest0015
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0004|Quest0004]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

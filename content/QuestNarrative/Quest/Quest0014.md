@@ -1,27 +1,27 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:48:24.161+07:00
-published: 2026-07-27T20:48:24.161+07:00
+modified: 2026-07-28T21:53:15.687+07:00
+published: 2026-07-28T21:53:15.687+07:00
 QuestID: "[[Quest0014]]"
 Q_Name: Help to build the spark gap transmitter
 Q_Description: Currently, we can receive signal, and now we need to be able to send signal. Let's build the spark gap transmitter
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Item ownership
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
-QG_ItemE_ID:
-QG_ItemE_Amount:
-QG_ItemD_ID:
-QG_ItemD_Amount:
-QG_ItemC_ID:
-QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemE_ID: "[[IN_AntennaNGround]]"
+QG_ItemE_Amount: "1"
+QG_ItemD_ID: "[[IN_RFTuningFilter]]"
+QG_ItemD_Amount: "1"
+QG_ItemC_ID: "[[IN_SignalKey]]"
+QG_ItemC_Amount: "1"
+QG_ItemB_ID: "[[IN_SparkGapOscillator]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[IN_HighvoltCharger]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0015]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0014
@@ -61,7 +63,7 @@ Quest0014
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Item ownership
 
 - q\_conditiontype: null
 
@@ -71,25 +73,25 @@ Quest0014
 
 - qg\_questid: null
 
-- qg\_iteme\_id: null
+- qg\_iteme\_id: [[Item/IN_AntennaNGround|IN_AntennaNGround]]
 
-- qg\_iteme\_amount: null
+- qg\_iteme\_amount: 1
 
-- qg\_itemd\_id: null
+- qg\_itemd\_id: [[Item/IN_RFTuningFilter|IN_RFTuningFilter]]
 
-- qg\_itemd\_amount: null
+- qg\_itemd\_amount: 1
 
-- qg\_itemc\_id: null
+- qg\_itemc\_id: [[Item/IN_SignalKey|IN_SignalKey]]
 
-- qg\_itemc\_amount: null
+- qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/IN_SparkGapOscillator|IN_SparkGapOscillator]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_HighvoltCharger|IN_HighvoltCharger]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -140,3 +142,7 @@ Quest0014
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0015|Quest0015]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

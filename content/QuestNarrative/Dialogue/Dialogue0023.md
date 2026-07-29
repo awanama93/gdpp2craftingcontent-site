@@ -1,12 +1,16 @@
 ---
 publish: true
 created: 2026-07-27T22:22:26.791+07:00
-modified: 2026-07-27T22:48:04.724+07:00
-published: 2026-07-27T22:48:04.724+07:00
+modified: 2026-07-28T18:57:13.527+07:00
+published: 2026-07-28T18:57:13.527+07:00
 DialogueID: "[[Dialogue0023]]"
 D_NPC:
 D_Exposition:
-D_Responses:
+D_ResponsesList:
+D_DialogueRelations:
+D_QuestRelations:
+D_DialogueCodename:
+D_ResponseTrigger:
 ---
 
 Dialogue0023
@@ -17,4 +21,12 @@ Dialogue0023
 
 - d\_exposition: null
 
-- d\_responses: null
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: null
+
+- d\_responsetrigger: null

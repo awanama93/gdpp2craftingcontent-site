@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:09.406+07:00
-published: 2026-07-27T21:52:09.406+07:00
+modified: 2026-07-29T11:57:38.371+07:00
+published: 2026-07-29T11:57:38.371+07:00
 QuestID: "[[Quest0019]]"
-Q_Name: Learn about urban mining
+Q_Name: Learn about lantern and urban mining
 Q_Description:
 QuestType: Main
 Q_GoalType:
@@ -47,15 +47,17 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 canvas:
   - "[[QuestMapping.canvas]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 QuestMapping:
-  - "[[Quest0020]]"
+  - "[[Quest0021]]"
 ---
 
 Quest0019
 
 - questid: [[QuestNarrative/Quest/Quest0019|Quest0019]]
 
-- q\_name: Learn about urban mining
+- q\_name: Learn about lantern and urban mining
 
 - q\_description: null
 
@@ -139,4 +141,8 @@ Quest0019
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0020|Quest0020]]
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
+- questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]]

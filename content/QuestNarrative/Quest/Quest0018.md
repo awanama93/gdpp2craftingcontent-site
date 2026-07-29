@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:08.755+07:00
-published: 2026-07-27T21:52:08.755+07:00
+modified: 2026-07-28T21:53:15.937+07:00
+published: 2026-07-28T21:53:15.937+07:00
 QuestID: "[[Quest0018]]"
 Q_Name: Learn how to break object
 Q_Description:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0019]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0018
@@ -140,3 +142,7 @@ Quest0018
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0019|Quest0019]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

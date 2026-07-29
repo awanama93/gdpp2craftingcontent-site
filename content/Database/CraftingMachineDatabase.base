@@ -1,0 +1,17 @@
+filters:
+  and:
+    - file.inFolder("Crafting/Machine")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - CM_Name
+      - CM_ItemRelation
+      - CM_Stage1
+      - CM_Stage2
+      - CM_Stage3
+      - CM_Stage4
+      - CM_Stage5
+    columnSize:
+      note.CM_ItemRelation: 199

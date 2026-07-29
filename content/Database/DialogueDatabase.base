@@ -7,9 +7,38 @@ views:
     order:
       - file.name
       - DialogueID
+      - D_QuestRelations
       - D_NPC
+      - D_DialogueCodename
+      - D_ResponseTrigger
       - D_Exposition
-      - D_Responses
+      - D_ResponsesList
+      - D_DialogueRelations
     columnSize:
       note.DialogueID: 131
       note.D_NPC: 110
+      note.D_Exposition: 182
+  - type: table
+    name: CodenameExpositionView
+    order:
+      - file.name
+      - D_NPC
+      - D_DialogueCodename
+      - D_Exposition
+    columnSize:
+      note.D_NPC: 162
+      note.D_DialogueCodename: 201
+      note.D_Exposition: 182
+  - type: table
+    name: RelationView
+    order:
+      - file.name
+      - D_Exposition
+      - D_ResponseTrigger
+      - D_ResponsesList
+      - D_DialogueRelations
+      - D_QuestRelations
+    columnSize:
+      note.D_Exposition: 182
+      note.D_ResponsesList: 233
+    rowHeight: medium

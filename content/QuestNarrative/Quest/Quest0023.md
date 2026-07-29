@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:11.902+07:00
-published: 2026-07-27T21:52:11.902+07:00
+modified: 2026-07-28T21:53:16.572+07:00
+published: 2026-07-28T21:53:16.572+07:00
 QuestID: "[[Quest0023]]"
-Q_Name: Talk about the deadline
+Q_Name: Talk about the storm
 Q_Description:
 QuestType: Main
 Q_GoalType:
@@ -48,14 +48,16 @@ QC_ClosenessAmount:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0001]]"
+  - "[[Quest0016]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0023
 
 - questid: [[QuestNarrative/Quest/Quest0023|Quest0023]]
 
-- q\_name: Talk about the deadline
+- q\_name: Talk about the storm
 
 - q\_description: null
 
@@ -139,4 +141,8 @@ Quest0023
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0001|Quest0001]]
+- questmapping: [[QuestNarrative/Quest/Quest0016|Quest0016]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

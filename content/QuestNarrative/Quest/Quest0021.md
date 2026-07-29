@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:10.933+07:00
-published: 2026-07-27T21:52:10.933+07:00
+modified: 2026-07-29T11:57:43.197+07:00
+published: 2026-07-29T11:57:43.197+07:00
 QuestID: "[[Quest0021]]"
 Q_Name: Learn about hunting
 Q_Description:
@@ -47,8 +47,10 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 canvas:
   - "[[QuestMapping.canvas]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 QuestMapping:
-  - "[[Quest0022]]"
+  - "[[Quest0020]]"
 ---
 
 Quest0021
@@ -139,4 +141,8 @@ Quest0021
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0022|Quest0022]]
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
+- questmapping: [[QuestNarrative/Quest/Quest0020|Quest0020]]

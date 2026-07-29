@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T19:51:42.003+07:00
-modified: 2026-07-28T11:10:27.474+07:00
-published: 2026-07-28T11:10:27.474+07:00
+modified: 2026-07-28T21:53:15.257+07:00
+published: 2026-07-28T21:53:15.257+07:00
 QuestID: "[[Quest0002]]"
 Q_Name: Help The Settler to build more permanent shelter
 Q_Description: Help The Settler Head to build various things to help them settling
@@ -18,14 +18,14 @@ QG_QuestID:
   - "[[Quest0008]]"
 QG_ItemE_ID:
 QG_ItemE_Amount:
-QG_ItemD_ID:
-QG_ItemD_Amount:
-QG_ItemC_ID:
-QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemD_ID: "[[GA_Campfire]]"
+QG_ItemD_Amount: "1"
+QG_ItemC_ID: "[[GA_Sanitary]]"
+QG_ItemC_Amount: "1"
+QG_ItemB_ID: "[[GA_Roofing]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[GA_Lighting]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -53,6 +53,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0005]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0002
@@ -79,21 +81,21 @@ Quest0002
 
 - qg\_iteme\_amount: null
 
-- qg\_itemd\_id: null
+- qg\_itemd\_id: [[Item/GA_Campfire|GA_Campfire]]
 
-- qg\_itemd\_amount: null
+- qg\_itemd\_amount: 1
 
-- qg\_itemc\_id: null
+- qg\_itemc\_id: [[Item/GA_Sanitary|GA_Sanitary]]
 
-- qg\_itemc\_amount: null
+- qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/GA_Roofing|GA_Roofing]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/GA_Lighting|GA_Lighting]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -144,3 +146,7 @@ Quest0002
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0005|Quest0005]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

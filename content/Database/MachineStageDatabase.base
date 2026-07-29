@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.inFolder("Crafting/MachineStageData")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - MS_DisplayText
+      - MS_MachineRelation
+      - MS_Recipes

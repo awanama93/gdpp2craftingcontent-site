@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T19:45:35.533+07:00
-modified: 2026-07-28T11:09:50.742+07:00
-published: 2026-07-28T11:09:50.742+07:00
+modified: 2026-07-28T21:53:15.024+07:00
+published: 2026-07-28T21:53:15.024+07:00
 QuestType: Main
 QuestID: "[[Quest0001]]"
 Q_Name: Learn how the world works
@@ -56,10 +56,12 @@ QC_ClosenessAmount:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0016]]"
   - "[[Quest0002]]"
   - "[[Quest0003]]"
   - "[[Quest0004]]"
+  - "[[Quest0023]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0001
@@ -150,4 +152,8 @@ Quest0001
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]]
+- questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

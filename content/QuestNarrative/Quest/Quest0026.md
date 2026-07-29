@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:23:59.273+07:00
-published: 2026-07-27T20:23:59.273+07:00
+modified: 2026-07-28T21:53:16.699+07:00
+published: 2026-07-28T21:53:16.699+07:00
 QuestID: "[[Quest0026]]"
 Q_Name:
 Q_Description:
@@ -45,6 +45,8 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0026
@@ -132,3 +134,7 @@ Quest0026
 - qc\_closenessnpc: null
 
 - qc\_closenessamount: null
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

@@ -1,13 +1,18 @@
 ---
 publish: true
 created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-27T22:30:46.329+07:00
-published: 2026-07-27T22:30:46.329+07:00
+modified: 2026-07-28T20:39:39.525+07:00
+published: 2026-07-28T20:39:39.525+07:00
 ResponseID: "[[Response0023]]"
 R_Type:
 R_Prerequisite:
 R_Text:
 R_Outcome:
+R_NextDialogue:
+R_ResponseRelation:
+R_PrerequisiteValue:
+R_ResponseCodename:
+R_DialogueParent:
 ---
 
 Response0023
@@ -21,3 +26,13 @@ Response0023
 - r\_text: null
 
 - r\_outcome: null
+
+- r\_nextdialogue: null
+
+- r\_responserelation: null
+
+- r\_prerequisitevalue: null
+
+- r\_responsecodename: null
+
+- r\_dialogueparent: null

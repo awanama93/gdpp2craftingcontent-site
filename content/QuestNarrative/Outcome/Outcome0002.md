@@ -1,14 +1,23 @@
 ---
 publish: true
 created: 2026-07-27T22:36:45.723+07:00
-modified: 2026-07-27T22:43:28.742+07:00
-published: 2026-07-27T22:43:28.742+07:00
+modified: 2026-07-28T21:47:57.750+07:00
+published: 2026-07-28T21:47:57.750+07:00
 OutcomeID: "[[Outcome0002]]"
 O_ResponseText:
 O_AlternativeResponse:
 O_ExperiencePoint:
-O_QuestData:
-O_QuestStatus:
+O_QuestDataA: "[[Quest0016]]"
+O_QuestStatusA: Complete
+O_ResponseRelation: "[[Response0005]]"
+O_QuestDataB:
+O_QuestStatusB:
+O_QuestDataC:
+O_QuestStatusC:
+O_QuestDataD:
+O_QuestStatusD:
+O_QuestDataE:
+O_QuestStatusE:
 ---
 
 Outcome0002
@@ -21,6 +30,24 @@ Outcome0002
 
 - o\_experiencepoint: null
 
-- o\_questdata: null
+- o\_questdataa: [[QuestNarrative/Quest/Quest0016|Quest0016]]
 
-- o\_queststatus: null
+- o\_queststatusa: Complete
+
+- o\_responserelation: [[QuestNarrative/Response/Response0005|Response0005]]
+
+- o\_questdatab: null
+
+- o\_queststatusb: null
+
+- o\_questdatac: null
+
+- o\_queststatusc: null
+
+- o\_questdatad: null
+
+- o\_queststatusd: null
+
+- o\_questdatae: null
+
+- o\_queststatuse: null

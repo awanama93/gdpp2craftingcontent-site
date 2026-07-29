@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:45:17.809+07:00
-published: 2026-07-27T20:45:17.809+07:00
+modified: 2026-07-28T21:53:15.827+07:00
+published: 2026-07-28T21:53:15.827+07:00
 QuestID: "[[Quest0012]]"
 Q_Name: Help to build propulsion for the boat
 Q_Description: Finally, to make the boat sailing, we need propulsion
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Item ownership
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -18,10 +18,10 @@ QG_ItemD_ID:
 QG_ItemD_Amount:
 QG_ItemC_ID:
 QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemB_ID: "[[IN_SteeringRudder]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[IN_Sailing]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0003]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0012
@@ -61,7 +63,7 @@ Quest0012
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Item ownership
 
 - q\_conditiontype: null
 
@@ -83,13 +85,13 @@ Quest0012
 
 - qg\_itemc\_amount: null
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/IN_SteeringRudder|IN_SteeringRudder]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_Sailing|IN_Sailing]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -140,3 +142,7 @@ Quest0012
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0003|Quest0003]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

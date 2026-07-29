@@ -1,27 +1,27 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T20:32:20.707+07:00
-published: 2026-07-27T20:32:20.707+07:00
+modified: 2026-07-28T21:53:15.463+07:00
+published: 2026-07-28T21:53:15.463+07:00
 QuestID: "[[Quest0006]]"
 Q_Name: Help to build roofing with The Settler
 Q_Description: Now we have campfire, maybe we can build better roofing
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Item ownership
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
 QG_ItemE_ID:
 QG_ItemE_Amount:
-QG_ItemD_ID:
-QG_ItemD_Amount:
-QG_ItemC_ID:
-QG_ItemC_Amount:
-QG_ItemB_ID:
-QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemD_ID: "[[IN_FastenerTies]]"
+QG_ItemD_Amount: "1"
+QG_ItemC_ID: "[[IN_SealsInsulation]]"
+QG_ItemC_Amount: "1"
+QG_ItemB_ID: "[[IN_StructureWaterproofing]]"
+QG_ItemB_Amount: "1"
+QG_ItemA_ID: "[[IN_StructureFrame]]"
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,6 +49,8 @@ canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0007]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0006
@@ -61,7 +63,7 @@ Quest0006
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Item ownership
 
 - q\_conditiontype: null
 
@@ -75,21 +77,21 @@ Quest0006
 
 - qg\_iteme\_amount: null
 
-- qg\_itemd\_id: null
+- qg\_itemd\_id: [[Item/IN_FastenerTies|IN_FastenerTies]]
 
-- qg\_itemd\_amount: null
+- qg\_itemd\_amount: 1
 
-- qg\_itemc\_id: null
+- qg\_itemc\_id: [[Item/IN_SealsInsulation|IN_SealsInsulation]]
 
-- qg\_itemc\_amount: null
+- qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: null
+- qg\_itemb\_id: [[Item/IN_StructureWaterproofing|IN_StructureWaterproofing]]
 
-- qg\_itemb\_amount: null
+- qg\_itemb\_amount: 1
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_StructureFrame|IN_StructureFrame]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -140,3 +142,7 @@ Quest0006
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0007|Quest0007]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

@@ -6,8 +6,8 @@ views:
     name: BaseView
     order:
       - file.name
-      - CharacterID
       - Ch_Name
+      - CharacterID
       - Ch_MaxHealth
       - Ch_Closeness_Start
       - Ch_Conviction_Selfsufficient_Start

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-27T21:52:12.791+07:00
-published: 2026-07-27T21:52:12.791+07:00
+modified: 2026-07-28T21:53:16.187+07:00
+published: 2026-07-28T21:53:16.187+07:00
 QuestID: "[[Quest0022]]"
 Q_Name: Get to know the people and their conviction
 Q_Description:
@@ -48,7 +48,9 @@ QC_ClosenessAmount:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0023]]"
+  - "[[Quest0001]]"
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 ---
 
 Quest0022
@@ -139,4 +141,8 @@ Quest0022
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0023|Quest0023]]
+- questmapping: [[QuestNarrative/Quest/Quest0001|Quest0001]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
