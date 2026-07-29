@@ -58,64 +58,102 @@ I_LootableH_Quantity:
 I_IsIngredientOf:
 ---
 
-```datacorejsx
+IN\_WoodPanel
 
-return function TitleHeader() {
+- itemid: null
 
-const file = dc.useCurrentFile();
+- itemtype: InventoryCraftable
 
-if (!file) return null;
+- i\_breakpoint: null
 
-// file.$name contains the clean string of the note title
+- i\_stacksize: null
 
-return <h1>{file.$name}</h1>; }
+- i\_description: null
 
-  
+- i\_spawneditem: null
 
-```
+- i\_processingstage: Level 1
 
-```datacorejsx
+- i\_effecta: null
 
-  
+- i\_effecta\_value: null
 
-return function View() {
+- i\_effectb: null
 
-  
+- i\_effectb\_value: null
 
-  const file = dc.useCurrentFile();
+- i\_effectc: null
 
-  
+- i\_effectc\_value: null
 
-  if (!file) return <p>loading</p>;
+- i\_lootablea: null
 
-  
+- i\_lootablea\_dropchance: null
 
-  const KUMPULAN = file.$frontmatter;
+- i\_lootablea\_quantity: null
 
-  
+- i\_lootableb: null
 
-  
+- i\_lootableb\_dropchance: null
 
-  const items = Object.entries(KUMPULAN)
+- i\_lootableb\_quantity: null
 
-  
+- i\_lootablec: null
 
-    .filter(([key]) => !key.startsWith("__"))
+- i\_lootablec\_dropchance: null
 
-  
+- i\_lootablec\_quantity: null
 
-    .map(([key, field]) => `${key}: ${field?.value}`);
+- i\_lootabled: null
 
-  
+- i\_lootabled\_dropchance: null
 
-  
+- i\_lootabled\_quantity: null
 
-  return <dc.List rows={items} />;
+- cr\_ingredienta: null
 
-  
+- cr\_ingredientaquantity: null
 
-}
+- cr\_ingredientb: null
 
-  
+- cr\_ingredientbquantity: null
 
-```
+- cr\_ingredientc: null
+
+- cr\_ingredientcquantity: null
+
+- cr\_ingredientd: null
+
+- cr\_ingredientdquantity: null
+
+- cr\_ingrediente: null
+
+- cr\_ingredientequantity: null
+
+- craftingmethod: Loot,[[Item/LO_CableRoll|LO_CableRoll]],[[Item/LO_Door|LO_Door]],[[Item/LO_Table|LO_Table]]
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: null
