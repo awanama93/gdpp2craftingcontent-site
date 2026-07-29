@@ -1,15 +1,15 @@
 ---
 publish: true
 created: 2026-07-28T11:47:56.281+07:00
-modified: 2026-07-28T12:10:42.835+07:00
-published: 2026-07-28T12:10:42.835+07:00
+modified: 2026-07-29T18:03:10.909+07:00
+published: 2026-07-29T18:03:10.909+07:00
 ItemID:
-ItemType:
+ItemType: Machine
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage:
+I_ProcessingStage: Quest-based
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -28,24 +28,37 @@ I_LootableC_Quantity:
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
-Cr_IngredientA:
-Cr_IngredientAQuantity:
-Cr_IngredientB:
-Cr_IngredientBQuantity:
-Cr_IngredientC:
-Cr_IngredientCQuantity:
-Cr_IngredientD:
-Cr_IngredientDQuantity:
-Cr_IngredientE:
-Cr_IngredientEQuantity:
-CraftingMethod:
+Cr_IngredientA: "[[IN_RazorBlade]]"
+Cr_IngredientAQuantity: "1"
+Cr_IngredientB: "[[IN_AlternatorCore]]"
+Cr_IngredientBQuantity: "1"
+Cr_IngredientC: "[[IN_Magnet]]"
+Cr_IngredientCQuantity: "1"
+Cr_IngredientD: "[[IN_SteelFrame]]"
+Cr_IngredientDQuantity: "1"
+Cr_IngredientE: "[[IN_Gear]]"
+Cr_IngredientEQuantity: "1"
+CraftingMethod: Quest
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+I_IsIngredientOf:
 ---
 
 TO\_Crafter
 
 - itemid: null
 
-- itemtype: null
+- itemtype: Machine
 
 - i\_breakpoint: null
 
@@ -55,7 +68,7 @@ TO\_Crafter
 
 - i\_spawneditem: null
 
-- i\_processingstage: null
+- i\_processingstage: Quest-based
 
 - i\_effecta: null
 
@@ -93,24 +106,50 @@ TO\_Crafter
 
 - i\_lootabled\_quantity: null
 
-- cr\_ingredienta: null
+- cr\_ingredienta: [[Item/IN_RazorBlade|IN_RazorBlade]]
 
-- cr\_ingredientaquantity: null
+- cr\_ingredientaquantity: 1
 
-- cr\_ingredientb: null
+- cr\_ingredientb: [[Item/IN_AlternatorCore|IN_AlternatorCore]]
 
-- cr\_ingredientbquantity: null
+- cr\_ingredientbquantity: 1
 
-- cr\_ingredientc: null
+- cr\_ingredientc: [[Item/IN_Magnet|IN_Magnet]]
 
-- cr\_ingredientcquantity: null
+- cr\_ingredientcquantity: 1
 
-- cr\_ingredientd: null
+- cr\_ingredientd: [[Item/IN_SteelFrame|IN_SteelFrame]]
 
-- cr\_ingredientdquantity: null
+- cr\_ingredientdquantity: 1
 
-- cr\_ingrediente: null
+- cr\_ingrediente: [[Item/IN_Gear|IN_Gear]]
 
-- cr\_ingredientequantity: null
+- cr\_ingredientequantity: 1
 
-- craftingmethod: null
+- craftingmethod: Quest
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: null

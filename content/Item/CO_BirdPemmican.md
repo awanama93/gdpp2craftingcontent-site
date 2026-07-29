@@ -1,15 +1,15 @@
 ---
 publish: true
 created: 2026-07-28T12:55:10.612+07:00
-modified: 2026-07-28T12:55:26.107+07:00
-published: 2026-07-28T12:55:26.107+07:00
+modified: 2026-07-29T18:00:51.720+07:00
+published: 2026-07-29T18:00:51.720+07:00
 ItemID:
-ItemType:
+ItemType: Consumable
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage:
+I_ProcessingStage: Level 2
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -38,13 +38,27 @@ Cr_IngredientD:
 Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+CraftingMethod: "[[CM_ConsumableProcessor]]"
+I_IsIngredientOf:
 ---
 
 CO\_BirdPemmican
 
 - itemid: null
 
-- itemtype: null
+- itemtype: Consumable
 
 - i\_breakpoint: null
 
@@ -54,7 +68,7 @@ CO\_BirdPemmican
 
 - i\_spawneditem: null
 
-- i\_processingstage: null
+- i\_processingstage: Level 2
 
 - i\_effecta: null
 
@@ -111,3 +125,31 @@ CO\_BirdPemmican
 - cr\_ingrediente: null
 
 - cr\_ingredientequantity: null
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]]
+
+- i\_isingredientof: null

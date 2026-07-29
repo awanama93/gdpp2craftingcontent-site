@@ -1,9 +1,23 @@
 ---
 publish: true
 created: 2026-07-28T15:36:23.233+07:00
-modified: 2026-07-28T15:49:18.288+07:00
-published: 2026-07-28T15:49:18.288+07:00
+modified: 2026-07-29T18:03:15.072+07:00
+published: 2026-07-29T18:03:15.072+07:00
 database-plugin: basic
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+ItemType: InventoryCraftable
+I_IsIngredientOf:
 ---
 
 ```yaml:dbfolder

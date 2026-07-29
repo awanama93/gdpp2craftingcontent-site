@@ -1,30 +1,30 @@
 ---
 publish: true
 created: 2026-07-28T11:25:40.245+07:00
-modified: 2026-07-28T12:10:41.003+07:00
-published: 2026-07-28T12:10:41.003+07:00
+modified: 2026-07-29T18:03:06.892+07:00
+published: 2026-07-29T18:03:06.892+07:00
 ItemID:
-ItemType:
+ItemType: Lootable
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage:
+I_ProcessingStage: LootableBreakable
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
 I_EffectB_Value:
 I_EffectC:
 I_EffectC_Value:
-I_LootableA:
+I_LootableA: "[[IN_FlexibleCopperWire]]"
 I_LootableA_DropChance:
-I_LootableA_Quantity:
-I_LootableB:
+I_LootableA_Quantity: "1"
+I_LootableB: "[[IN_Semiconductor]]"
 I_LootableB_DropChance:
-I_LootableB_Quantity:
-I_LootableC:
+I_LootableB_Quantity: "1"
+I_LootableC: "[[IN_GlassPanel]]"
 I_LootableC_DropChance:
-I_LootableC_Quantity:
+I_LootableC_Quantity: "1"
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
@@ -38,79 +38,80 @@ Cr_IngredientD:
 Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
-CraftingMethod:
+CraftingMethod: Non-craftable
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+I_IsIngredientOf:
 ---
 
-LO\_OldCRT
+```datacorejsx
 
-- itemid: null
+return function TitleHeader() {
 
-- itemtype: null
+const file = dc.useCurrentFile();
 
-- i\_breakpoint: null
+if (!file) return null;
 
-- i\_stacksize: null
+// file.$name contains the clean string of the note title
 
-- i\_description: null
+return <h1>{file.$name}</h1>; }
 
-- i\_spawneditem: null
+  
 
-- i\_processingstage: null
+```
 
-- i\_effecta: null
+```datacorejsx
 
-- i\_effecta\_value: null
+  
 
-- i\_effectb: null
+return function View() {
 
-- i\_effectb\_value: null
+  
 
-- i\_effectc: null
+  const file = dc.useCurrentFile();
 
-- i\_effectc\_value: null
+  
 
-- i\_lootablea: null
+  if (!file) return <p>loading</p>;
 
-- i\_lootablea\_dropchance: null
+  
 
-- i\_lootablea\_quantity: null
+  const KUMPULAN = file.$frontmatter;
 
-- i\_lootableb: null
+  
 
-- i\_lootableb\_dropchance: null
+  
 
-- i\_lootableb\_quantity: null
+  const items = Object.entries(KUMPULAN)
 
-- i\_lootablec: null
+  
 
-- i\_lootablec\_dropchance: null
+    .filter(([key]) => !key.startsWith("__"))
 
-- i\_lootablec\_quantity: null
+  
 
-- i\_lootabled: null
+    .map(([key, field]) => `${key}: ${field?.value}`);
 
-- i\_lootabled\_dropchance: null
+  
 
-- i\_lootabled\_quantity: null
+  
 
-- cr\_ingredienta: null
+  return <dc.List rows={items} />;
 
-- cr\_ingredientaquantity: null
+  
 
-- cr\_ingredientb: null
+}
 
-- cr\_ingredientbquantity: null
+  
 
-- cr\_ingredientc: null
-
-- cr\_ingredientcquantity: null
-
-- cr\_ingredientd: null
-
-- cr\_ingredientdquantity: null
-
-- cr\_ingrediente: null
-
-- cr\_ingredientequantity: null
-
-- craftingmethod: null
+```

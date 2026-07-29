@@ -1,15 +1,15 @@
 ---
 publish: true
 created: 2026-07-28T12:02:46.997+07:00
-modified: 2026-07-28T12:10:43.163+07:00
-published: 2026-07-28T12:10:43.163+07:00
+modified: 2026-07-29T18:00:52.031+07:00
+published: 2026-07-29T18:00:52.031+07:00
 ItemID:
-ItemType:
+ItemType: Consumable
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage:
+I_ProcessingStage: Level 0
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -39,13 +39,28 @@ Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
 CraftingMethod:
+  - Loot
+  - "[[MO_Fish]]"
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+I_IsIngredientOf:
 ---
 
 CO\_FishMeat
 
 - itemid: null
 
-- itemtype: null
+- itemtype: Consumable
 
 - i\_breakpoint: null
 
@@ -55,7 +70,7 @@ CO\_FishMeat
 
 - i\_spawneditem: null
 
-- i\_processingstage: null
+- i\_processingstage: Level 0
 
 - i\_effecta: null
 
@@ -113,4 +128,30 @@ CO\_FishMeat
 
 - cr\_ingredientequantity: null
 
-- craftingmethod: null
+- craftingmethod: Loot,[[Item/MO_Fish|MO_Fish]]
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: null

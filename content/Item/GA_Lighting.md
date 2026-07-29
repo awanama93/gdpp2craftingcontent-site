@@ -1,15 +1,15 @@
 ---
 publish: true
 created: 2026-07-28T11:31:38.646+07:00
-modified: 2026-07-28T14:35:14.537+07:00
-published: 2026-07-28T14:35:14.537+07:00
+modified: 2026-07-29T18:06:11.603+07:00
+published: 2026-07-29T18:06:11.603+07:00
 ItemID:
 ItemType: GameSpaceItem
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage:
+I_ProcessingStage: Level 4
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -39,78 +39,20 @@ Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
 CraftingMethod: Quest
+I_LootableE:
+I_LootableE_DropChance:
+I_LootableE_Quantity:
+I_LootableF:
+I_LootableF_DropChance:
+I_LootableF_Quantity:
+I_LootableG:
+I_LootableG_DropChance:
+I_LootableG_Quantity:
+I_LootableH:
+I_LootableH_DropChance:
+I_LootableH_Quantity:
+I_IsIngredientOf:
+  - "[[GA_Shelter]]"
 ---
 
 GA\_Lighting
-
-- itemid: null
-
-- itemtype: GameSpaceItem
-
-- i\_breakpoint: null
-
-- i\_stacksize: null
-
-- i\_description: null
-
-- i\_spawneditem: null
-
-- i\_processingstage: null
-
-- i\_effecta: null
-
-- i\_effecta\_value: null
-
-- i\_effectb: null
-
-- i\_effectb\_value: null
-
-- i\_effectc: null
-
-- i\_effectc\_value: null
-
-- i\_lootablea: null
-
-- i\_lootablea\_dropchance: null
-
-- i\_lootablea\_quantity: null
-
-- i\_lootableb: null
-
-- i\_lootableb\_dropchance: null
-
-- i\_lootableb\_quantity: null
-
-- i\_lootablec: null
-
-- i\_lootablec\_dropchance: null
-
-- i\_lootablec\_quantity: null
-
-- i\_lootabled: null
-
-- i\_lootabled\_dropchance: null
-
-- i\_lootabled\_quantity: null
-
-- cr\_ingredienta: [[Item/IN_PowerCircuit|IN_PowerCircuit]]
-
-- cr\_ingredientaquantity: 1
-
-- cr\_ingredientb: [[Item/IN_LightReflector|IN_LightReflector]]
-
-- cr\_ingredientbquantity: 1
-
-- cr\_ingredientc: [[Item/IN_LightMount|IN_LightMount]]
-
-- cr\_ingredientcquantity: 1
-
-- cr\_ingredientd: null
-
-- cr\_ingredientdquantity: null
-
-- cr\_ingrediente: null
-
-- cr\_ingredientequantity: null
-
-- craftingmethod: Quest
