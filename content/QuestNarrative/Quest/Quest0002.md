@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T12:51:42.003Z
-modified: 2026-07-28T14:53:15.257Z
-published: 2026-07-28T14:53:15.257Z
+modified: 2026-08-04T13:25:47.002Z
+published: 2026-08-04T13:25:47.002Z
 QuestID: "[[Quest0002]]"
 Q_Name: Help The Settler to build more permanent shelter
 Q_Description: Help The Settler Head to build various things to help them settling
@@ -49,12 +49,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0005]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0002
@@ -143,10 +144,12 @@ Quest0002
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0005|Quest0005]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

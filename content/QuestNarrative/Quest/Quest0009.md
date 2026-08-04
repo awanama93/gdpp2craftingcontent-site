@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:53:15.358Z
-published: 2026-07-28T14:53:15.358Z
+modified: 2026-08-04T13:25:47.418Z
+published: 2026-08-04T13:25:47.418Z
 QuestID: "[[Quest0009]]"
 Q_Name: Help to build base frame for the boat
 Q_Description: The basic component of a boat is frame. Find component to build that
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0010]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0009
@@ -139,10 +140,12 @@ Quest0009
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0010|Quest0010]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

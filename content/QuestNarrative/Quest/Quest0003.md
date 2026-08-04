@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T12:55:51.328Z
-modified: 2026-07-28T14:53:15.084Z
-published: 2026-07-28T14:53:15.084Z
+modified: 2026-08-04T13:25:47.098Z
+published: 2026-08-04T13:25:47.098Z
 QuestID: "[[Quest0003]]"
 Q_Name: Help The Self-Sufficient to build the Boat
 Q_Description: Help The Self-Sufficient to build the big boat to sail to the Safe Place
@@ -49,12 +49,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0009]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0003
@@ -143,10 +144,12 @@ Quest0003
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0009|Quest0009]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

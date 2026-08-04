@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-04T07:25:05.549Z
-published: 2026-08-04T07:25:05.549Z
+modified: 2026-08-04T13:40:32.433Z
+published: 2026-08-04T13:40:32.433Z
 DialogueID: "[[Dialogue0005]]"
 D_NPC: "[[HeadSelfsufficient]]"
 D_Exposition: Slocum is talking to you about what you should do next
@@ -18,9 +18,14 @@ D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename: HolderQuestHeadSelfsufficient
 D_ResponseTrigger:
+D_DialogueType: Holder
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Response0005]]"
 ---
 
-3Dialogue0005
+Dialogue0005
 
 - dialogueid: [[QuestNarrative/Dialogue/Dialogue0005|Dialogue0005]]
 
@@ -37,3 +42,9 @@ D_ResponseTrigger:
 - d\_dialoguecodename: HolderQuestHeadSelfsufficient
 
 - d\_responsetrigger: null
+
+- d\_dialoguetype: Holder
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Response/Response0005|Response0005]]

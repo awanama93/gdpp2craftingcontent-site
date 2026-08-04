@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:03:54.636Z
-published: 2026-08-04T02:03:54.636Z
+modified: 2026-08-04T13:25:48.149Z
+published: 2026-08-04T13:25:48.149Z
 QuestID: "[[Quest0021]]"
 Q_Name: Learn about hunting
 Q_Description: Slocum told you about how you can gather ingredient for food
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Dialogue completion
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
-canvas:
-  - "[[QuestMapping.canvas]]"
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+canvas:
+  - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0020]]"
+Q_CharacterRelation:
 ---
 
 Quest0021
@@ -63,7 +64,7 @@ Quest0021
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
 - q\_conditiontype: null
 
@@ -139,10 +140,12 @@ Quest0021
 
 - qc\_closenessamount: null
 
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
 
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
 - questmapping: [[QuestNarrative/Quest/Quest0020|Quest0020]]
+
+- q\_characterrelation: null

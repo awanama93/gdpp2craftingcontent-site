@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T03:36:32.327Z
-published: 2026-08-04T03:36:32.327Z
+modified: 2026-08-04T12:19:12.717Z
+published: 2026-08-04T12:19:12.717Z
 ResponseID: "[[Response0018]]"
-R_Type:
+R_Type: Starter
 R_Prerequisite:
   - "[[Quest0022]]"
 R_Text: Ask her what can you do to help her to settle
@@ -15,13 +15,15 @@ R_PrerequisiteValue: ongoing
 R_ResponseCodename: StartQuest0002
 R_DialogueParent:
   - "[[Dialogue0001]]"
+R_ResponseType: Starter
+R_QuestRelation: "[[Quest0002]]"
 ---
 
 Response0018
 
 - responseid: [[QuestNarrative/Response/Response0018|Response0018]]
 
-- r\_type: null
+- r\_type: Starter
 
 - r\_prerequisite: [[QuestNarrative/Quest/Quest0022|Quest0022]]
 
@@ -38,3 +40,7 @@ Response0018
 - r\_responsecodename: StartQuest0002
 
 - r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0001|Dialogue0001]]
+
+- r\_responsetype: Starter
+
+- r\_questrelation: [[QuestNarrative/Quest/Quest0002|Quest0002]]

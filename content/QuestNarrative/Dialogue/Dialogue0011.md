@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-07-29T04:46:18.641Z
-published: 2026-07-29T04:46:18.641Z
+modified: 2026-08-04T12:42:35.963Z
+published: 2026-08-04T12:42:35.963Z
 DialogueID: "[[Dialogue0011]]"
 D_NPC: "[[HeadSettler]]"
 D_Exposition: She said you can find things on the ruin that is called urban mine. But you have to bring Lantern. To use it, equip it first then press F. Try it. Then talk to her again.
@@ -11,6 +11,7 @@ D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename: FollowUpQuest0019A
 D_ResponseTrigger: "[[Response0011]]"
+D_DialogueType:
 ---
 
 Dialogue0011
@@ -30,3 +31,5 @@ Dialogue0011
 - d\_dialoguecodename: FollowUpQuest0019A
 
 - d\_responsetrigger: [[QuestNarrative/Response/Response0011|Response0011]]
+
+- d\_dialoguetype: null

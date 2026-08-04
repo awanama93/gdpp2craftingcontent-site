@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T03:27:25.534Z
-published: 2026-08-04T03:27:25.534Z
+modified: 2026-08-04T12:16:58.831Z
+published: 2026-08-04T12:16:58.831Z
 ResponseID: "[[Response0017]]"
-R_Type:
+R_Type: Confirmer
 R_Prerequisite:
 R_Text: '"Tell her that you have craft the [[CO_RoastBird | Roast bird]]"'
 R_Outcome:
@@ -15,13 +15,15 @@ R_PrerequisiteValue:
 R_ResponseCodename: ConfirmQuest0020Complete
 R_DialogueParent:
   - "[[Dialogue0001]]"
+R_ResponseType:
+R_QuestRelation:
 ---
 
 Response0017
 
 - responseid: [[QuestNarrative/Response/Response0017|Response0017]]
 
-- r\_type: null
+- r\_type: Confirmer
 
 - r\_prerequisite: null
 
@@ -38,3 +40,7 @@ Response0017
 - r\_responsecodename: ConfirmQuest0020Complete
 
 - r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0001|Dialogue0001]]
+
+- r\_responsetype: null
+
+- r\_questrelation: null

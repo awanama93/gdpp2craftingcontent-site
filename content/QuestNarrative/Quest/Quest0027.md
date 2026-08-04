@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:04:54.799Z
-published: 2026-08-04T02:04:54.799Z
+modified: 2026-08-04T13:25:48.474Z
+published: 2026-08-04T13:25:48.474Z
 QuestID: "[[Quest0027]]"
 Q_Name: Talk to The Settler
 Q_Description: Some of the survivors think that we should just settle on the rooftop island. Find out who they are.
@@ -47,6 +47,7 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0027
@@ -138,3 +139,5 @@ Quest0027
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- q\_characterrelation: null

@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:00:25.402Z
-published: 2026-08-04T02:00:25.402Z
+modified: 2026-08-04T15:44:59.974Z
+published: 2026-08-04T15:44:59.974Z
 QuestID: "[[Quest0017]]"
 Q_Name: Learn how to glide
-Q_Description: Slocum told you about another way to traverse the island, that is using glider
+Q_Description: Currie told you about another way to traverse the island, that is using glider
 QuestType: Main
-Q_GoalType:
-Q_ConditionType:
+Q_GoalType: Dialogue completion
+Q_ConditionType: Quest completion
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -22,7 +22,7 @@ QG_ItemB_ID:
 QG_ItemB_Amount:
 QG_ItemA_ID:
 QG_ItemA_Amount:
-QG_DialogueID:
+QG_DialogueID: "[[Response0007]]"
 QG_ConvictionType:
 QG_ConvictionCharacter:
 QG_ConvictionAmount:
@@ -45,12 +45,16 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0018]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
+  - "[[HeadSettler]]"
+  - "[[HeadSignaler]]"
+QC_QuestID: "[[Quest0016]]"
 ---
 
 Quest0017
@@ -59,13 +63,13 @@ Quest0017
 
 - q\_name: Learn how to glide
 
-- q\_description: Slocum told you about another way to traverse the island, that is using glider
+- q\_description: Currie told you about another way to traverse the island, that is using glider
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
-- q\_conditiontype: null
+- q\_conditiontype: Quest completion
 
 - istimelimit: null
 
@@ -93,7 +97,7 @@ Quest0017
 
 - qg\_itema\_amount: null
 
-- qg\_dialogueid: null
+- qg\_dialogueid: [[QuestNarrative/Response/Response0007|Response0007]]
 
 - qg\_convictiontype: null
 
@@ -139,10 +143,14 @@ Quest0017
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0018|Quest0018]]
 
-- q\_goalactiontype: null
+- q\_characterrelation: [[Characters/HeadSettler|HeadSettler]],[[Characters/HeadSignaler|HeadSignaler]]
 
-- q\_goalactiontargetobject: null
+- qc\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]]

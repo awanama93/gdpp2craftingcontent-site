@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-04T05:26:15.200Z
-published: 2026-08-04T05:26:15.200Z
+modified: 2026-08-04T15:17:44.152Z
+published: 2026-08-04T15:17:44.152Z
 DialogueID: "[[Dialogue0008]]"
 D_NPC: "[[HeadSignaler]]"
 D_Exposition: Marconi is talking to you about what you should do next
@@ -15,6 +15,11 @@ D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename: HolderQuestHeadSignaler
 D_ResponseTrigger:
+D_DialogueType: Holder
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Response0007]]"
 ---
 
 Dialogue0008
@@ -34,3 +39,9 @@ Dialogue0008
 - d\_dialoguecodename: HolderQuestHeadSignaler
 
 - d\_responsetrigger: null
+
+- d\_dialoguetype: Holder
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Response/Response0007|Response0007]]

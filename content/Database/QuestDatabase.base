@@ -183,3 +183,11 @@ views:
     columnSize:
       file.name: 87
       note.Q_GoalActionType: 165
+  - type: table
+    name: CharacterRelationView
+    order:
+      - file.name
+      - Q_Description
+      - Q_CharacterRelation
+    columnSize:
+      note.Q_Description: 172

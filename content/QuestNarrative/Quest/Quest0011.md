@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:53:15.724Z
-published: 2026-07-28T14:53:15.724Z
+modified: 2026-08-04T13:25:47.564Z
+published: 2026-08-04T13:25:47.564Z
 QuestID: "[[Quest0011]]"
 Q_Name: Help to build bouyancy so the deck can float on the water
 Q_Description: To make the boat floating, we need bouyancy
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0012]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0011
@@ -139,10 +140,12 @@ Quest0011
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0012|Quest0012]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

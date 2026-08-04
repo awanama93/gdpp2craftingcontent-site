@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:03:11.519Z
-published: 2026-08-04T02:03:11.519Z
+modified: 2026-08-04T13:25:48.075Z
+published: 2026-08-04T13:25:48.075Z
 QuestID: "[[Quest0020]]"
 Q_Name: Learn about crafting
 Q_Description: Currie told you about how crafting works
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Dialogue completion
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
-canvas:
-  - "[[QuestMapping.canvas]]"
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+canvas:
+  - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0022]]"
+Q_CharacterRelation:
 ---
 
 Quest0020
@@ -63,7 +64,7 @@ Quest0020
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
 - q\_conditiontype: null
 
@@ -139,10 +140,12 @@ Quest0020
 
 - qc\_closenessamount: null
 
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
 
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
 - questmapping: [[QuestNarrative/Quest/Quest0022|Quest0022]]
+
+- q\_characterrelation: null

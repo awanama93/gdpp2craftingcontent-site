@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:53:15.500Z
-published: 2026-07-28T14:53:15.500Z
+modified: 2026-08-04T13:25:47.352Z
+published: 2026-08-04T13:25:47.352Z
 QuestID: "[[Quest0008]]"
 Q_Name: Help to build sanitary property with The Settler
 Q_Description: We almost settled now. The last thing to do to settle in this rooftop island is making sanitary property
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0002]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0008
@@ -139,10 +140,12 @@ Quest0008
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

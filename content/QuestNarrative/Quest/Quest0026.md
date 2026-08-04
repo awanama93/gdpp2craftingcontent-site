@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T01:52:38.761Z
-published: 2026-08-04T01:52:38.761Z
+modified: 2026-08-04T13:25:48.424Z
+published: 2026-08-04T13:25:48.424Z
 QuestID: "[[Quest0026]]"
 Q_Name: '"Help to build the [[TO_ConsumableProcessor | Consumable processor]]"'
 Q_Description: You need to build machine to cook food. Find the ingredients then talk to
@@ -50,6 +50,7 @@ Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping: []
+Q_CharacterRelation:
 ---
 
 Quest0026
@@ -145,3 +146,5 @@ Quest0026
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping:
+
+- q\_characterrelation: null

@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:54:55.420Z
-published: 2026-07-28T14:54:55.420Z
+modified: 2026-08-04T14:52:21.364Z
+published: 2026-08-04T14:52:21.364Z
 QuestID: "[[Quest0016]]"
 Q_Name: Learn how to climb
 Q_Description: Currie told you to climb the building next to this rooftop, and talk to Slocum
 QuestType: Main
-Q_GoalType:
-Q_ConditionType:
+Q_GoalType: Dialogue completion
+Q_ConditionType: Quest completion
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -22,7 +22,7 @@ QG_ItemB_ID:
 QG_ItemB_Amount:
 QG_ItemA_ID:
 QG_ItemA_Amount:
-QG_DialogueID:
+QG_DialogueID: "[[Response0005]]"
 QG_ConvictionType:
 QG_ConvictionCharacter:
 QG_ConvictionAmount:
@@ -45,12 +45,16 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType: Unlock crafting machine
+Q_GoalActionTargetObject: "[[TO_Equipmaker]]"
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0017]]"
-Q_GoalActionType: Unlock crafting machine
-Q_GoalActionTargetObject: "[[TO_Equipmaker]]"
+Q_CharacterRelation:
+  - "[[HeadSettler]]"
+  - "[[HeadSelfsufficient]]"
+QC_QuestID: "[[Quest0023]]"
 ---
 
 Quest0016
@@ -63,9 +67,9 @@ Quest0016
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
-- q\_conditiontype: null
+- q\_conditiontype: Quest completion
 
 - istimelimit: null
 
@@ -93,7 +97,7 @@ Quest0016
 
 - qg\_itema\_amount: null
 
-- qg\_dialogueid: null
+- qg\_dialogueid: [[QuestNarrative/Response/Response0005|Response0005]]
 
 - qg\_convictiontype: null
 
@@ -139,10 +143,14 @@ Quest0016
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: Unlock crafting machine
+
+- q\_goalactiontargetobject: [[Item/TO_Equipmaker|TO_Equipmaker]]
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0017|Quest0017]]
 
-- q\_goalactiontype: Unlock crafting machine
+- q\_characterrelation: [[Characters/HeadSettler|HeadSettler]],[[Characters/HeadSelfsufficient|HeadSelfsufficient]]
 
-- q\_goalactiontargetobject: [[Item/TO_Equipmaker|TO_Equipmaker]]
+- qc\_questid: [[QuestNarrative/Quest/Quest0023|Quest0023]]

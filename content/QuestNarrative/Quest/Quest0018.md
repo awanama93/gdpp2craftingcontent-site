@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:01:08.071Z
-published: 2026-08-04T02:01:08.071Z
+modified: 2026-08-04T13:25:47.979Z
+published: 2026-08-04T13:25:47.979Z
 QuestID: "[[Quest0018]]"
 Q_Name: Learn how to break object
 Q_Description: Slocum told you to talk to Marconi about objecsmasher that you can use to break things
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Dialogue completion
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0019]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0018
@@ -63,7 +64,7 @@ Quest0018
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
 - q\_conditiontype: null
 
@@ -139,10 +140,12 @@ Quest0018
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0019|Quest0019]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

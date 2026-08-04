@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T03:42:38.653Z
-published: 2026-08-04T03:42:38.653Z
+modified: 2026-08-04T12:19:45.217Z
+published: 2026-08-04T12:19:45.217Z
 ResponseID: "[[Response0022]]"
-R_Type:
+R_Type: Completer
 R_Prerequisite:
 R_Text: Tell him that you have gathered materials for base frame
 R_Outcome:
@@ -14,13 +14,15 @@ R_PrerequisiteValue:
 R_ResponseCodename: CompleteQuest0009
 R_DialogueParent:
   - "[[Dialogue0005]]"
+R_ResponseType: Completer
+R_QuestRelation: "[[Quest0009]]"
 ---
 
 Response0022
 
 - responseid: [[QuestNarrative/Response/Response0022|Response0022]]
 
-- r\_type: null
+- r\_type: Completer
 
 - r\_prerequisite: null
 
@@ -37,3 +39,7 @@ Response0022
 - r\_responsecodename: CompleteQuest0009
 
 - r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0005|Dialogue0005]]
+
+- r\_responsetype: Completer
+
+- r\_questrelation: [[QuestNarrative/Quest/Quest0009|Quest0009]]

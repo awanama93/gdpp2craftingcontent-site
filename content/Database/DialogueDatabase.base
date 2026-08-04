@@ -8,12 +8,14 @@ views:
       - file.name
       - DialogueID
       - D_QuestRelations
+      - D_DialogueType
       - D_NPC
       - D_DialogueCodename
       - D_ResponseTrigger
       - D_Exposition
       - D_ResponsesList
       - D_DialogueRelations
+    sort: []
     columnSize:
       note.DialogueID: 131
       note.D_NPC: 110

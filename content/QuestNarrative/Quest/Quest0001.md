@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-07-27T12:45:35.533Z
-modified: 2026-07-28T14:53:15.024Z
-published: 2026-07-28T14:53:15.024Z
+modified: 2026-08-04T13:25:46.952Z
+published: 2026-08-04T13:25:46.952Z
 QuestType: Main
 QuestID: "[[Quest0001]]"
 Q_Name: Learn how the world works
 Q_Description: Ask around to help you understand how this world works
 Q_GoalType: Quest completion
-Q_ConditionType: none
+Q_ConditionType: Quest completion
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -18,8 +18,6 @@ QG_QuestID:
   - "[[Quest0019]]"
   - "[[Quest0020]]"
   - "[[Quest0021]]"
-  - "[[Quest0022]]"
-  - "[[Quest0023]]"
 QG_ItemE_ID:
 QG_ItemE_Amount:
 QG_ItemD_ID:
@@ -53,6 +51,8 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
@@ -60,8 +60,9 @@ QuestMapping:
   - "[[Quest0003]]"
   - "[[Quest0004]]"
   - "[[Quest0023]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+  - "[[Quest0016]]"
+QC_QuestID: "[[Quest0023]]"
+Q_CharacterRelation:
 ---
 
 Quest0001
@@ -76,13 +77,13 @@ Quest0001
 
 - q\_goaltype: Quest completion
 
-- q\_conditiontype: none
+- q\_conditiontype: Quest completion
 
 - istimelimit: null
 
 - timelimit: null
 
-- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0021|Quest0021]],[[QuestNarrative/Quest/Quest0022|Quest0022]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
+- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0021|Quest0021]]
 
 - qg\_iteme\_id: null
 
@@ -150,10 +151,14 @@ Quest0001
 
 - qc\_closenessamount: null
 
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
-
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]],[[QuestNarrative/Quest/Quest0023|Quest0023]],[[QuestNarrative/Quest/Quest0016|Quest0016]]
+
+- qc\_questid: [[QuestNarrative/Quest/Quest0023|Quest0023]]
+
+- q\_characterrelation: null

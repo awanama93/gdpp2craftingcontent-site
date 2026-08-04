@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:21:21.715Z
-modified: 2026-07-28T11:57:13.577Z
-published: 2026-07-28T11:57:13.577Z
+modified: 2026-08-04T12:42:36.703Z
+published: 2026-08-04T12:42:36.703Z
 DialogueID: "[[Dialogue0024]]"
 D_NPC:
 D_Exposition:
@@ -11,6 +11,7 @@ D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename:
 D_ResponseTrigger:
+D_DialogueType:
 ---
 
 Dialogue0024
@@ -30,3 +31,5 @@ Dialogue0024
 - d\_dialoguecodename: null
 
 - d\_responsetrigger: null
+
+- d\_dialoguetype: null

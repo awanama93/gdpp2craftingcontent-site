@@ -1,10 +1,10 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-07-28T17:31:01.686Z
-published: 2026-07-28T17:31:01.686Z
+modified: 2026-08-04T12:18:49.473Z
+published: 2026-08-04T12:18:49.473Z
 ResponseID: "[[Response0011]]"
-R_Type:
+R_Type: Starter
 R_Prerequisite:
   - "[[Quest0018]]"
 R_Text: Ask her where should you gather things
@@ -15,13 +15,15 @@ R_ResponseRelation:
 R_PrerequisiteValue: Complete
 R_ResponseCodename: StartQuest0019
 R_DialogueParent: "[[Dialogue0001]]"
+R_ResponseType: Starter
+R_QuestRelation: "[[Quest0019]]"
 ---
 
 Response0011
 
 - responseid: [[QuestNarrative/Response/Response0011|Response0011]]
 
-- r\_type: null
+- r\_type: Starter
 
 - r\_prerequisite: [[QuestNarrative/Quest/Quest0018|Quest0018]]
 
@@ -38,3 +40,7 @@ Response0011
 - r\_responsecodename: StartQuest0019
 
 - r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0001|Dialogue0001]]
+
+- r\_responsetype: Starter
+
+- r\_questrelation: [[QuestNarrative/Quest/Quest0019|Quest0019]]

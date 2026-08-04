@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:53:16.760Z
-published: 2026-07-28T14:53:16.760Z
+modified: 2026-08-04T13:25:48.339Z
+published: 2026-08-04T13:25:48.339Z
 QuestID: "[[Quest0024]]"
 Q_Name: Hunt all birds
 Q_Description:
@@ -47,6 +47,7 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0024
@@ -138,3 +139,5 @@ Quest0024
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- q\_characterrelation: null

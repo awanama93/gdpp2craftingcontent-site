@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:32:34.552Z
-modified: 2026-07-28T13:39:40.941Z
-published: 2026-07-28T13:39:40.941Z
+modified: 2026-08-04T12:14:14.248Z
+published: 2026-08-04T12:14:14.248Z
 ResponseID: "[[Response0057]]"
 R_Type:
 R_Prerequisite:
@@ -13,6 +13,8 @@ R_ResponseRelation:
 R_PrerequisiteValue:
 R_ResponseCodename:
 R_DialogueParent:
+R_ResponseType:
+R_QuestRelation:
 ---
 
 Response0057
@@ -36,3 +38,7 @@ Response0057
 - r\_responsecodename: null
 
 - r\_dialogueparent: null
+
+- r\_responsetype: null
+
+- r\_questrelation: null

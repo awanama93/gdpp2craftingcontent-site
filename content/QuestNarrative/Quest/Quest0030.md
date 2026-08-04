@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-07-28T14:53:17.070Z
-published: 2026-07-28T14:53:17.070Z
+modified: 2026-08-04T13:25:48.668Z
+published: 2026-08-04T13:25:48.668Z
 QuestID: "[[Quest0030]]"
 Q_Name:
 Q_Description:
@@ -47,6 +47,7 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0030
@@ -138,3 +139,5 @@ Quest0030
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- q\_characterrelation: null

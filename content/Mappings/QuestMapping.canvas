@@ -20,11 +20,143 @@
 		{"id":"a69642002a348758","type":"file","file":"QuestNarrative/Quest/Quest0018.md","x":-4240,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"f858eb2292e397d3","type":"file","file":"QuestNarrative/Quest/Quest0019.md","x":-3720,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"0bc6a8e054797187","type":"file","file":"QuestNarrative/Quest/Quest0022.md","x":-2120,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"f15d4f3de455e94a","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-5840,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"856de9859861a1a9","type":"file","file":"QuestNarrative/Quest/Quest0021.md","x":-3160,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"7bc29101adaf72a1","type":"file","file":"QuestNarrative/Quest/Quest0026.md","x":-960,"y":1700,"width":400,"height":400,"color":"5"},
 		{"id":"422e2b268c3b03f5","type":"file","file":"QuestNarrative/Quest/Quest0020.md","x":-2640,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"ce6ca5e39e7a4103","type":"file","file":"QuestNarrative/Quest/Quest0001.md","x":-5040,"y":1360,"width":400,"height":400,"color":"1"}
+		{"id":"ce6ca5e39e7a4103","type":"file","file":"QuestNarrative/Quest/Quest0001.md","x":-5040,"y":1360,"width":400,"height":400,"color":"1"},
+		{"id":"f15d4f3de455e94a","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-5920,"y":1440,"width":400,"height":400,"color":"5"},
+		{"id":"0e055264b083cc53","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-6480,"y":4240,"width":400,"height":400,"color":"1"},
+		{"id":"bafced6661e4991b","type":"file","file":"QuestNarrative/Dialogue/Dialogue0001.md","x":-8360,"y":4520,"width":400,"height":400,"color":"4"},
+		{"id":"c52178d70229dc10","type":"file","file":"QuestNarrative/Dialogue/Dialogue0002.md","x":-6960,"y":5120,"width":400,"height":400,"color":"4"},
+		{"id":"bd660363a1fc951d","type":"file","file":"QuestNarrative/Response/Response0002.md","x":-6320,"y":5120,"width":400,"height":500,"color":"2"},
+		{"id":"d6b9ae91d76a3a2a","type":"file","file":"QuestNarrative/Dialogue/Dialogue0003.md","x":-5680,"y":5120,"width":400,"height":400,"color":"4"},
+		{"id":"1f9698b10854b4cd","type":"file","file":"QuestNarrative/Response/Response0003.md","x":-5080,"y":5120,"width":400,"height":500,"color":"2"},
+		{
+			"id":"f7ce70af537061b5",
+			"type":"text",
+			"text":"Quest",
+			"styleAttributes":{},
+			"x":-7725,
+			"y":2790,
+			"width":250,
+			"height":60,
+			"color":"1"
+		},
+		{
+			"id":"93378b5a8a4cecc9",
+			"type":"text",
+			"text":"Main quest dialogue",
+			"styleAttributes":{},
+			"x":-8705,
+			"y":2850,
+			"width":250,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"adfc64d27346b1ee",
+			"type":"text",
+			"text":"quest starter",
+			"styleAttributes":{},
+			"x":-8325,
+			"y":3060,
+			"width":250,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"a6c3191d72ced845",
+			"type":"text",
+			"text":"quest completion confirmer dialogue if different person",
+			"styleAttributes":{},
+			"x":-8265,
+			"y":2730,
+			"width":250,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"8a790bddbfb42905",
+			"type":"text",
+			"text":"confirmer if it's same person confirmer",
+			"styleAttributes":{},
+			"x":-6800,
+			"y":2920,
+			"width":250,
+			"height":120,
+			"color":"2"
+		},
+		{"id":"db75efd4bdacb801","type":"file","file":"QuestNarrative/Dialogue/Dialogue0001.md","x":-7960,"y":6640,"width":400,"height":400,"color":"4"},
+		{"id":"384f002f87cc486d","type":"file","file":"QuestNarrative/Response/Response0025.md","x":-7320,"y":7160,"width":400,"height":400,"color":"2"},
+		{"id":"8b5af95f0bb82241","type":"file","file":"QuestNarrative/Quest/Quest0001.md","x":-6480,"y":6320,"width":400,"height":400,"color":"1"},
+		{
+			"id":"f22855ea349ed1b8",
+			"type":"text",
+			"text":"anything that complete a quest\nif response, then the type is completer",
+			"styleAttributes":{},
+			"x":-7520,
+			"y":3230,
+			"width":250,
+			"height":120,
+			"color":"2"
+		},
+		{
+			"id":"01305ac3e2513beb",
+			"type":"text",
+			"text":"dialogue to say the quest is complete if its dialogue completion type (completion notifier)",
+			"styleAttributes":{},
+			"x":-6925,
+			"y":3230,
+			"width":250,
+			"height":120,
+			"color":"4"
+		},
+		{
+			"id":"0d47dc243be82dd8",
+			"type":"text",
+			"text":"Dialogue quest direction",
+			"styleAttributes":{},
+			"x":-8200,
+			"y":3290,
+			"width":250,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"1d619d346e223209","type":"file","file":"QuestNarrative/Dialogue/Dialogue0020.md","x":-6560,"y":7400,"width":400,"height":400,"color":"4"},
+		{
+			"id":"5f2bd47de7df1943",
+			"type":"text",
+			"text":"Dialogue Acknowledgement",
+			"styleAttributes":{},
+			"x":-7850,
+			"y":2560,
+			"width":250,
+			"height":60,
+			"color":"4"
+		},
+		{"id":"84f04594f7594f6d","type":"file","file":"QuestNarrative/Response/Response0026.md","x":-5880,"y":7080,"width":400,"height":400,"color":"2"},
+		{"id":"12acc850ccc5d44a","type":"file","file":"QuestNarrative/Quest/Quest0016.md","x":-9810,"y":9960,"width":400,"height":400},
+		{"id":"406b74f93fa477c7","type":"file","file":"QuestNarrative/Response/Response0004.md","x":-9920,"y":10720,"width":400,"height":400},
+		{"id":"f1f586d5e999d231","type":"file","file":"QuestNarrative/Response/Response0005.md","x":-9720,"y":11120,"width":400,"height":400},
+		{"id":"75e41cdf67fb3ac3","type":"file","file":"QuestNarrative/Dialogue/Dialogue0004.md","x":-6080,"y":10120,"width":400,"height":400,"color":"4"},
+		{"id":"2d9126fc6f033432","type":"file","file":"QuestNarrative/Response/Response0028.md","x":-6720,"y":10160,"width":400,"height":400,"color":"2"},
+		{"id":"4066aa98ba545723","type":"file","file":"QuestNarrative/Dialogue/Dialogue0001.md","x":-8280,"y":10240,"width":400,"height":400,"color":"4"},
+		{"id":"8bcb67b72f12b4d6","type":"file","file":"QuestNarrative/Quest/Quest0016.md","x":-6440,"y":9020,"width":400,"height":400,"color":"1"},
+		{"id":"911258b9c0437196","type":"file","file":"QuestNarrative/Response/Response0005.md","x":-7480,"y":9020,"width":400,"height":400,"color":"2"},
+		{"id":"52bf796ca5acf645","type":"file","file":"QuestNarrative/Dialogue/Dialogue0005.md","x":-8195,"y":9020,"width":400,"height":400,"color":"4"},
+		{"id":"87647c70dcb89ea2","type":"file","file":"QuestNarrative/Dialogue/Dialogue0021.md","x":-6920,"y":8480,"width":400,"height":400,"color":"4"},
+		{"id":"c1c37026614a9bf7","type":"file","file":"QuestNarrative/Response/Response0029.md","x":-7795,"y":9640,"width":400,"height":400,"color":"2"},
+		{"id":"f829058980a27bfa","type":"file","file":"QuestNarrative/Dialogue/Dialogue0022.md","x":-7080,"y":9640,"width":400,"height":400,"color":"4"},
+		{"id":"1398b45eca252b1d","type":"file","file":"QuestNarrative/Response/Response0001.md","x":-7520,"y":4640,"width":400,"height":400,"color":"2"},
+		{"id":"ec81913e9e5e9bbb","type":"file","file":"QuestNarrative/Quest/Quest0017.md","x":-5880,"y":12800,"width":400,"height":400,"color":"1"},
+		{"id":"6aef48e1485f9988","type":"file","file":"QuestNarrative/Dialogue/Dialogue0007.md","x":-6080,"y":14800,"width":400,"height":400,"color":"4"},
+		{"id":"f50c4cdaabb4df1b","type":"file","file":"QuestNarrative/Response/Response0006.md","x":-7120,"y":12600,"width":400,"height":400,"color":"2"},
+		{"id":"4d0b78f2fed6133e","type":"file","file":"QuestNarrative/Dialogue/Dialogue0001.md","x":-8360,"y":12600,"width":400,"height":400,"color":"4"},
+		{"id":"43b4491cc4f4190b","type":"file","file":"QuestNarrative/Response/Response0007.md","x":-7120,"y":14800,"width":400,"height":400,"color":"2"},
+		{"id":"32867d2e6d48548d","type":"file","file":"QuestNarrative/Dialogue/Dialogue0008.md","x":-7960,"y":14800,"width":400,"height":400,"color":"4"},
+		{"id":"6ace305d016da3fc","type":"file","file":"QuestNarrative/Dialogue/Dialogue0006.md","x":-7320,"y":13200,"width":400,"height":400,"color":"4"},
+		{"id":"26efbe08eaa22122","type":"file","file":"QuestNarrative/Response/Response0030.md","x":-7960,"y":13840,"width":400,"height":400,"color":"2"},
+		{"id":"04b28b0624fcfbc3","type":"file","file":"QuestNarrative/Dialogue/Dialogue0023.md","x":-7120,"y":13920,"width":400,"height":400,"color":"4"}
 	],
 	"edges":[
 		{
@@ -160,7 +292,8 @@
 			"fromNode":"a93d2261befda792",
 			"fromSide":"right",
 			"toNode":"268400ca7c799a10",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"f62e9df5ff769a34",
@@ -169,7 +302,8 @@
 			"fromNode":"268400ca7c799a10",
 			"fromSide":"right",
 			"toNode":"a69642002a348758",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"85eb51827bb5978e",
@@ -178,7 +312,8 @@
 			"fromNode":"a69642002a348758",
 			"fromSide":"right",
 			"toNode":"f858eb2292e397d3",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"57f0c8b7bd9bab48",
@@ -193,10 +328,12 @@
 			"id":"e0818df1a9bdcf44",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"ce6ca5e39e7a4103",
 			"fromSide":"right",
 			"toNode":"6fe543f24ef8423a",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"2"
 		},
 		{
 			"id":"629b5974bb3e67b4",
@@ -213,9 +350,9 @@
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromNode":"ce6ca5e39e7a4103",
-			"fromSide":"bottom",
+			"fromSide":"left",
 			"toNode":"f15d4f3de455e94a",
-			"toSide":"top"
+			"toSide":"right"
 		},
 		{
 			"id":"51bf7daced6c4b83",
@@ -223,8 +360,9 @@
 			"toFloating":false,
 			"fromNode":"f15d4f3de455e94a",
 			"fromSide":"right",
-			"toNode":"a93d2261befda792",
-			"toSide":"left"
+			"toNode":"ce6ca5e39e7a4103",
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"823dd0b8f4a775b3",
@@ -243,7 +381,8 @@
 			"fromNode":"f858eb2292e397d3",
 			"fromSide":"right",
 			"toNode":"856de9859861a1a9",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"4dea89bf390ac3b0",
@@ -252,7 +391,8 @@
 			"fromNode":"856de9859861a1a9",
 			"fromSide":"right",
 			"toNode":"422e2b268c3b03f5",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"7793c5a11f741787",
@@ -261,16 +401,17 @@
 			"fromNode":"422e2b268c3b03f5",
 			"fromSide":"right",
 			"toNode":"0bc6a8e054797187",
-			"toSide":"left"
+			"toSide":"left",
+			"color":"3"
 		},
 		{
 			"id":"d53a033480bf9c21",
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromNode":"ce6ca5e39e7a4103",
-			"fromSide":"bottom",
+			"fromSide":"left",
 			"toNode":"f15d4f3de455e94a",
-			"toSide":"top"
+			"toSide":"right"
 		},
 		{
 			"id":"848a9f52976787dc",
@@ -279,17 +420,458 @@
 			"fromFloating":false,
 			"fromNode":"ce6ca5e39e7a4103",
 			"fromSide":"bottom",
-			"toNode":"f15d4f3de455e94a",
+			"toNode":"a93d2261befda792",
+			"toSide":"top",
+			"color":"2"
+		},
+		{
+			"id":"096a81e409dc9e9a",
+			"styleAttributes":{
+				"path":null,
+				"pathfindingMethod":null,
+				"arrow":null
+			},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"bafced6661e4991b",
+			"fromSide":"right",
+			"toNode":"1398b45eca252b1d",
+			"toSide":"left",
+			"color":"3",
+			"label":"contain"
+		},
+		{
+			"id":"b441aa6ced4ccd3f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1398b45eca252b1d",
+			"fromSide":"right",
+			"toNode":"0e055264b083cc53",
+			"toSide":"left",
+			"color":"2",
+			"label":"start"
+		},
+		{
+			"id":"39cec5743bc70279",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"1398b45eca252b1d",
+			"fromSide":"right",
+			"toNode":"c52178d70229dc10",
+			"toSide":"top",
+			"color":"2",
+			"label":"next dialogue"
+		},
+		{
+			"id":"8c0c18fb8269c466",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c52178d70229dc10",
+			"fromSide":"right",
+			"toNode":"bd660363a1fc951d",
+			"toSide":"left",
+			"color":"2",
+			"label":"contain"
+		},
+		{
+			"id":"626709c85acda9fc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"bd660363a1fc951d",
+			"fromSide":"top",
+			"toNode":"0e055264b083cc53",
+			"toSide":"bottom",
+			"color":"2",
+			"label":"quest complete"
+		},
+		{
+			"id":"9d6a108c2191167d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"bd660363a1fc951d",
+			"fromSide":"right",
+			"toNode":"d6b9ae91d76a3a2a",
+			"toSide":"left",
+			"color":"2",
+			"label":"next dialogue"
+		},
+		{
+			"id":"34829ec81f5fa42b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"93378b5a8a4cecc9",
+			"fromSide":"right",
+			"toNode":"adfc64d27346b1ee",
+			"toSide":"left",
+			"color":"2",
+			"label":"contain"
+		},
+		{
+			"id":"1322f1264415bf79",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"adfc64d27346b1ee",
+			"fromSide":"bottom",
+			"toNode":"0d47dc243be82dd8",
+			"toSide":"top",
+			"color":"2",
+			"label":"nextdialogue"
+		},
+		{
+			"id":"a6209840608258b3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"0d47dc243be82dd8",
+			"fromSide":"right",
+			"toNode":"f22855ea349ed1b8",
+			"toSide":"left",
+			"color":"2",
+			"label":"if qgoal = response"
+		},
+		{
+			"id":"eaa08b2b6692a1c2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"adfc64d27346b1ee",
+			"fromSide":"right",
+			"toNode":"f7ce70af537061b5",
+			"toSide":"left",
+			"color":"2",
+			"label":"start"
+		},
+		{
+			"id":"6f66541411ec06af",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"93378b5a8a4cecc9",
+			"fromSide":"right",
+			"toNode":"a6c3191d72ced845",
+			"toSide":"left",
+			"color":"2",
+			"label":"contain"
+		},
+		{
+			"id":"1e819ea22ff21808",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a6c3191d72ced845",
+			"fromSide":"right",
+			"toNode":"f7ce70af537061b5",
+			"toSide":"left",
+			"color":"2",
+			"label":"confirm"
+		},
+		{
+			"id":"6deb42bd6746d6e9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f22855ea349ed1b8",
+			"fromSide":"top",
+			"toNode":"f7ce70af537061b5",
+			"toSide":"bottom",
+			"color":"2",
+			"label":"complete"
+		},
+		{
+			"id":"c2803e7b6a34f7a8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f22855ea349ed1b8",
+			"fromSide":"right",
+			"toNode":"01305ac3e2513beb",
+			"toSide":"left",
+			"color":"2",
+			"label":"if qgoal = response "
+		},
+		{
+			"id":"20cb73b21b357f5f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d6b9ae91d76a3a2a",
+			"fromSide":"right",
+			"toNode":"1f9698b10854b4cd",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"a634ec4762bb80c8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"01305ac3e2513beb",
+			"fromSide":"top",
+			"toNode":"8a790bddbfb42905",
+			"toSide":"bottom"
+		},
+		{
+			"id":"2af895fd3937eb82",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"8a790bddbfb42905",
+			"fromSide":"left",
+			"toNode":"f7ce70af537061b5",
+			"toSide":"right",
+			"color":"2",
+			"label":"confirm"
+		},
+		{
+			"id":"ac2c60b64319e5d8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1f9698b10854b4cd",
+			"fromSide":"left",
+			"toNode":"0e055264b083cc53",
+			"toSide":"right",
+			"color":"2",
+			"label":"Confirm"
+		},
+		{
+			"id":"9d752d81c3f9c396",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"db75efd4bdacb801",
+			"fromSide":"right",
+			"toNode":"384f002f87cc486d",
+			"toSide":"top",
+			"label":"contain"
+		},
+		{
+			"id":"4b4f8923a83ce605",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"384f002f87cc486d",
+			"fromSide":"right",
+			"toNode":"8b5af95f0bb82241",
+			"toSide":"bottom",
+			"label":"start"
+		},
+		{
+			"id":"caaef4cd2b94a437",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"384f002f87cc486d",
+			"fromSide":"right",
+			"toNode":"1d619d346e223209",
+			"toSide":"left",
+			"label":"next dialogue"
+		},
+		{
+			"id":"a57214fdc40bbed7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a6c3191d72ced845",
+			"fromSide":"right",
+			"toNode":"5f2bd47de7df1943",
+			"toSide":"left",
+			"color":"2"
+		},
+		{
+			"id":"5d67d6f656f2e9a0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1d619d346e223209",
+			"fromSide":"right",
+			"toNode":"84f04594f7594f6d",
+			"toSide":"left"
+		},
+		{
+			"id":"734ef30ac6e2b7d9",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"4066aa98ba545723",
+			"fromSide":"right",
+			"toNode":"2d9126fc6f033432",
+			"toSide":"left",
+			"label":"contain"
+		},
+		{
+			"id":"63407c09f1265c11",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2d9126fc6f033432",
+			"fromSide":"top",
+			"toNode":"8bcb67b72f12b4d6",
+			"toSide":"bottom",
+			"label":"start"
+		},
+		{
+			"id":"342178d5bd59c71a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"2d9126fc6f033432",
+			"fromSide":"right",
+			"toNode":"75e41cdf67fb3ac3",
+			"toSide":"left",
+			"label":"next"
+		},
+		{
+			"id":"1ba5ec422b5d49e4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"52bf796ca5acf645",
+			"fromSide":"right",
+			"toNode":"911258b9c0437196",
+			"toSide":"left",
+			"label":"contain"
+		},
+		{
+			"id":"3c96f23348c51ef0",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"911258b9c0437196",
+			"fromSide":"right",
+			"toNode":"8bcb67b72f12b4d6",
+			"toSide":"left",
+			"label":"complete"
+		},
+		{
+			"id":"3155f9432e782c43",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"911258b9c0437196",
+			"fromSide":"right",
+			"toNode":"87647c70dcb89ea2",
+			"toSide":"bottom",
+			"label":"acknowledge"
+		},
+		{
+			"id":"3105d7d2fe8e3046",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4066aa98ba545723",
+			"fromSide":"right",
+			"toNode":"c1c37026614a9bf7",
+			"toSide":"bottom",
+			"label":"contain"
+		},
+		{
+			"id":"8ae9009178b3dfe2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c1c37026614a9bf7",
+			"fromSide":"right",
+			"toNode":"8bcb67b72f12b4d6",
+			"toSide":"left",
+			"label":"confirm"
+		},
+		{
+			"id":"5517e283bb8a6f9a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c1c37026614a9bf7",
+			"fromSide":"right",
+			"toNode":"f829058980a27bfa",
+			"toSide":"left",
+			"label":"next dialogue"
+		},
+		{
+			"id":"ed669aff81c12fb6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f50c4cdaabb4df1b",
+			"fromSide":"right",
+			"toNode":"ec81913e9e5e9bbb",
+			"toSide":"left",
+			"label":"start"
+		},
+		{
+			"id":"31189d46384d62b5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"4d0b78f2fed6133e",
+			"fromSide":"right",
+			"toNode":"f50c4cdaabb4df1b",
+			"toSide":"left",
+			"label":"contain"
+		},
+		{
+			"id":"af130f4d958768a2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"f50c4cdaabb4df1b",
+			"fromSide":"bottom",
+			"toNode":"6ace305d016da3fc",
+			"toSide":"top",
+			"label":"next dialogue"
+		},
+		{
+			"id":"6ccc010db243e02c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"32867d2e6d48548d",
+			"fromSide":"right",
+			"toNode":"43b4491cc4f4190b",
+			"toSide":"left",
+			"label":"contain"
+		},
+		{
+			"id":"c129a8e3c360ace8",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"43b4491cc4f4190b",
+			"fromSide":"top",
+			"toNode":"ec81913e9e5e9bbb",
+			"toSide":"bottom",
+			"label":"complete"
+		},
+		{
+			"id":"0d3a96b6b1f7d93a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"43b4491cc4f4190b",
+			"fromSide":"right",
+			"toNode":"6aef48e1485f9988",
+			"toSide":"left",
+			"label":"acknowledge"
+		},
+		{
+			"id":"a8a8691e00d1c3b1",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"4d0b78f2fed6133e",
+			"fromSide":"bottom",
+			"toNode":"26efbe08eaa22122",
 			"toSide":"top"
 		},
 		{
-			"id":"4dbd53eb81c9da1a",
+			"id":"694365a2f057c749",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"ce6ca5e39e7a4103",
-			"fromSide":"bottom",
-			"toNode":"ea96fedfbcd0ebe0",
-			"toSide":"top"
+			"fromNode":"26efbe08eaa22122",
+			"fromSide":"right",
+			"toNode":"ec81913e9e5e9bbb",
+			"toSide":"left",
+			"label":"confirm"
+		},
+		{
+			"id":"95e72a5c18b0628f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"26efbe08eaa22122",
+			"fromSide":"right",
+			"toNode":"04b28b0624fcfbc3",
+			"toSide":"left",
+			"label":"acknowledge"
 		}
 	],
 	"metadata":{

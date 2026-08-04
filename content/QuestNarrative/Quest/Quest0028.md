@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:04:55.591Z
-published: 2026-08-04T02:04:55.591Z
+modified: 2026-08-04T13:25:48.546Z
+published: 2026-08-04T13:25:48.546Z
 QuestID: "[[Quest0028]]"
 Q_Name: Talk to The Signaler
 Q_Description: Some of the survivor think that we'd better looking for help, and we will get help if we can reach out to others via radio communication. Find out who they are.
@@ -47,6 +47,7 @@ QC_ClosenessNPC:
 QC_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0028
@@ -138,3 +139,5 @@ Quest0028
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- q\_characterrelation: null

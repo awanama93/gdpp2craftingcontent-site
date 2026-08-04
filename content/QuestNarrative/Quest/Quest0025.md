@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T01:50:09.971Z
-published: 2026-08-04T01:50:09.971Z
+modified: 2026-08-04T13:25:48.284Z
+published: 2026-08-04T13:25:48.284Z
 QuestID: "[[Quest0025]]"
 Q_Name: '"Help to build the [[TO_Crafter | Crafter]] machine"'
 Q_Description: You need to build machine to craft item. Find the materials then talk to
@@ -50,6 +50,7 @@ Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping: []
+Q_CharacterRelation:
 ---
 
 Quest0025
@@ -145,3 +146,5 @@ Quest0025
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping:
+
+- q\_characterrelation: null

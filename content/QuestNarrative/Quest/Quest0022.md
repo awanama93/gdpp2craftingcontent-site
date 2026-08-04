@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T03:02:53.730Z
-published: 2026-08-04T03:02:53.730Z
+modified: 2026-08-04T13:25:48.180Z
+published: 2026-08-04T13:25:48.180Z
 QuestID: "[[Quest0022]]"
 Q_Name: Get to know the people and their conviction
 Q_Description: People has different views on how to survive from this rooftop island. Talk to people to know their view on it.
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Dialogue completion
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0001]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0022
@@ -63,7 +64,7 @@ Quest0022
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
 - q\_conditiontype: null
 
@@ -139,10 +140,12 @@ Quest0022
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0001|Quest0001]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

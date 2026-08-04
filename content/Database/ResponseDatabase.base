@@ -15,6 +15,7 @@ views:
       - R_Outcome
       - R_NextDialogue
       - R_ResponseRelation
+      - R_Type
     columnSize:
       note.ResponseID: 148
       note.R_Type: 99
@@ -32,9 +33,6 @@ views:
       note.R_Text: 172
   - type: table
     name: DialoguePrerequisiteView
-    filters:
-      and:
-        - "!R_Prerequisite.isEmpty()"
     order:
       - file.name
       - R_DialogueParent
@@ -45,18 +43,40 @@ views:
     name: OutcomeNextDialogueView
     order:
       - file.name
-      - R_NextDialogue
       - R_DialogueParent
       - R_ResponseCodename
       - R_Outcome
+      - R_NextDialogue
     columnSize:
+      file.name: 121
+      note.R_DialogueParent: 125
       note.R_ResponseCodename: 190
   - type: table
     name: PrerequisiteOnlyView
-    filters:
-      and:
-        - "!R_Prerequisite.isEmpty()"
     order:
       - file.name
+      - R_ResponseCodename
       - R_Prerequisite
       - R_PrerequisiteValue
+  - type: table
+    name: ResponseTypeNRelationView
+    order:
+      - file.name
+      - R_ResponseCodename
+      - R_ResponseType
+      - R_ResponseRelation
+  - type: table
+    name: AllQuestRelationView
+    order:
+      - file.name
+      - R_Type
+      - R_ResponseCodename
+      - R_QuestRelation
+      - R_Text
+      - R_Prerequisite
+      - R_PrerequisiteValue
+    columnSize:
+      file.name: 121
+      note.R_Type: 99
+      note.R_ResponseCodename: 172
+      note.R_Text: 172

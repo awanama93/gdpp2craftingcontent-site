@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:02:33.299Z
-published: 2026-08-04T02:02:33.299Z
+modified: 2026-08-04T13:25:48.038Z
+published: 2026-08-04T13:25:48.038Z
 QuestID: "[[Quest0019]]"
 Q_Name: Learn about lantern and urban mining
 Q_Description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there
 QuestType: Main
-Q_GoalType:
+Q_GoalType: Dialogue completion
 Q_ConditionType:
 IsTimeLimit:
 TimeLimit:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
-canvas:
-  - "[[QuestMapping.canvas]]"
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+canvas:
+  - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0021]]"
+Q_CharacterRelation:
 ---
 
 Quest0019
@@ -63,7 +64,7 @@ Quest0019
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
 - q\_conditiontype: null
 
@@ -139,10 +140,12 @@ Quest0019
 
 - qc\_closenessamount: null
 
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
 
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
 - questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+
+- q\_characterrelation: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:32:34.552Z
-modified: 2026-08-04T05:51:51.152Z
-published: 2026-08-04T05:51:51.152Z
+modified: 2026-08-04T12:14:15.030Z
+published: 2026-08-04T12:14:15.030Z
 ResponseID: "[[_ResponseToQuestHeadSettler]]"
 R_Type:
 R_Prerequisite:
@@ -13,6 +13,8 @@ R_ResponseRelation:
 R_PrerequisiteValue:
 R_ResponseCodename: Back to head settler quest dialogue
 R_DialogueParent:
+R_ResponseType:
+R_QuestRelation:
 ---
 
 \_ResponseToQuestHeadSettler
@@ -36,3 +38,7 @@ R_DialogueParent:
 - r\_responsecodename: Back to head settler quest dialogue
 
 - r\_dialogueparent: null
+
+- r\_responsetype: null
+
+- r\_questrelation: null

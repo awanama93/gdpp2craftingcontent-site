@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T12:36:59.354Z
-modified: 2026-07-28T13:39:44.066Z
-published: 2026-07-28T13:39:44.066Z
+modified: 2026-08-04T12:14:15.249Z
+published: 2026-08-04T12:14:15.249Z
 ResponseID: "[[_ResponseXXXX]]"
 R_DialogueParent:
 R_ResponseCodename: Back to default dialogue
@@ -13,6 +13,8 @@ R_Text:
 R_Outcome:
 R_NextDialogue:
 R_ResponseRelation:
+R_ResponseType:
+R_QuestRelation:
 ---
 
 \_ResponseXXXX
@@ -36,3 +38,7 @@ R_ResponseRelation:
 - r\_nextdialogue: null
 
 - r\_responserelation: null
+
+- r\_responsetype: null
+
+- r\_questrelation: null

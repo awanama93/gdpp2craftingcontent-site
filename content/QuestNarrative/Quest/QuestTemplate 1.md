@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T10:18:56.500Z
-modified: 2026-07-28T14:53:16.860Z
-published: 2026-07-28T14:53:16.860Z
+modified: 2026-08-04T13:25:48.706Z
+published: 2026-08-04T13:25:48.706Z
 QuestID:
 QuestType:
 Q_Name:
@@ -48,6 +48,7 @@ QG_ClosenessNPC:
 QG_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 QuestTemplate 1
@@ -141,3 +142,5 @@ QuestTemplate 1
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- q\_characterrelation: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T12:58:49.802Z
-modified: 2026-07-28T14:53:15.153Z
-published: 2026-07-28T14:53:15.153Z
+modified: 2026-08-04T13:25:47.142Z
+published: 2026-08-04T13:25:47.142Z
 QuestID: "[[Quest0004]]"
 Q_Name: Help The Signaler to build the radio transmitter
 Q_Description: Help The Signaler to build radio transmitter to call for help
@@ -48,12 +48,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
   - "[[Quest0013]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+Q_CharacterRelation:
 ---
 
 Quest0004
@@ -142,10 +143,12 @@ Quest0004
 
 - qc\_closenessamount: null
 
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null
+
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
 - questmapping: [[QuestNarrative/Quest/Quest0013|Quest0013]]
 
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+- q\_characterrelation: null

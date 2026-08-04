@@ -1,14 +1,14 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T02:04:19.482Z
-published: 2026-08-04T02:04:19.482Z
+modified: 2026-08-04T13:27:00.561Z
+published: 2026-08-04T13:27:00.561Z
 QuestID: "[[Quest0023]]"
 Q_Name: Talk about the storm
 Q_Description: It seems that people here is preparing for something. Ask around about that.
 QuestType: Main
-Q_GoalType:
-Q_ConditionType:
+Q_GoalType: Dialogue completion
+Q_ConditionType: none
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -22,7 +22,7 @@ QG_ItemB_ID:
 QG_ItemB_Amount:
 QG_ItemA_ID:
 QG_ItemA_Amount:
-QG_DialogueID:
+QG_DialogueID: "[[Response0002]]"
 QG_ConvictionType:
 QG_ConvictionCharacter:
 QG_ConvictionAmount:
@@ -45,12 +45,13 @@ QC_ConvictionCharacter:
 QC_ConvictionAmount:
 QC_ClosenessNPC:
 QC_ClosenessAmount:
+Q_GoalActionType:
+Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0016]]"
-Q_GoalActionType:
-Q_GoalActionTargetObject:
+  - "[[Quest0001]]"
+Q_CharacterRelation: "[[HeadSettler]]"
 ---
 
 Quest0023
@@ -63,9 +64,9 @@ Quest0023
 
 - questtype: Main
 
-- q\_goaltype: null
+- q\_goaltype: Dialogue completion
 
-- q\_conditiontype: null
+- q\_conditiontype: none
 
 - istimelimit: null
 
@@ -93,7 +94,7 @@ Quest0023
 
 - qg\_itema\_amount: null
 
-- qg\_dialogueid: null
+- qg\_dialogueid: [[QuestNarrative/Response/Response0002|Response0002]]
 
 - qg\_convictiontype: null
 
@@ -139,10 +140,12 @@ Quest0023
 
 - qc\_closenessamount: null
 
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0016|Quest0016]]
-
 - q\_goalactiontype: null
 
 - q\_goalactiontargetobject: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0001|Quest0001]]
+
+- q\_characterrelation: [[Characters/HeadSettler|HeadSettler]]
