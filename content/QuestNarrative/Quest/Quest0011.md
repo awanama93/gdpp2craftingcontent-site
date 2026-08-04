@@ -53,64 +53,96 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-```datacorejsx
+Quest0011
 
-return function TitleHeader() {
+- questid: [[QuestNarrative/Quest/Quest0011|Quest0011]]
 
-const file = dc.useCurrentFile();
+- q\_name: Help to build bouyancy so the deck can float on the water
 
-if (!file) return null;
+- q\_description: To make the boat floating, we need bouyancy
 
-// file.$name contains the clean string of the note title
+- questtype: Main
 
-return <h1>{file.$name}</h1>; }
+- q\_goaltype: Item ownership
 
-  
+- q\_conditiontype: null
 
-```
+- istimelimit: null
 
-```datacorejsx
+- timelimit: null
 
-  
+- qg\_questid: null
 
-return function View() {
+- qg\_iteme\_id: null
 
-  
+- qg\_iteme\_amount: null
 
-  const file = dc.useCurrentFile();
+- qg\_itemd\_id: null
 
-  
+- qg\_itemd\_amount: null
 
-  if (!file) return <p>loading</p>;
+- qg\_itemc\_id: [[Item/IN_BoatSealing|IN_BoatSealing]]
 
-  
+- qg\_itemc\_amount: 1
 
-  const KUMPULAN = file.$frontmatter;
+- qg\_itemb\_id: [[Item/IN_FlotationSupport|IN_FlotationSupport]]
 
-  
+- qg\_itemb\_amount: 1
 
-  
+- qg\_itema\_id: [[Item/IN_PontoonPrimer|IN_PontoonPrimer]]
 
-  const items = Object.entries(KUMPULAN)
+- qg\_itema\_amount: 1
 
-  
+- qg\_dialogueid: null
 
-    .filter(([key]) => !key.startsWith("__"))
+- qg\_convictiontype: null
 
-  
+- qg\_convictioncharacter: null
 
-    .map(([key, field]) => `${key}: ${field?.value}`);
+- qg\_convictionamount: null
 
-  
+- qg\_closenessnpc: null
 
-  
+- qg\_closenessamount: null
 
-  return <dc.List rows={items} />;
+- qc\_time: null
 
-  
+- qc\_iteme\_id: null
 
-}
+- qc\_iteme\_amount: null
 
-  
+- qc\_itemd\_id: null
 
-```
+- qc\_itemd\_amount: null
+
+- qc\_itemc\_id: null
+
+- qc\_itemc\_amount: null
+
+- qc\_itemb\_id: null
+
+- qc\_itemb\_amount: null
+
+- qc\_itema\_id: null
+
+- qc\_itema\_amount: null
+
+- qc\_dialogueid: null
+
+- qc\_convictiontype: null
+
+- qc\_convictioncharacter: null
+
+- qc\_convictionamount: null
+
+- qc\_closenessnpc: null
+
+- qc\_closenessamount: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0012|Quest0012]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

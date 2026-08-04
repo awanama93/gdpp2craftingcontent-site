@@ -21,3 +21,33 @@ O_QuestStatusE:
 ---
 
 Outcome0058
+
+- outcomeid: [[QuestNarrative/Outcome/Outcome0058|Outcome0058]]
+
+- o\_responsetext: null
+
+- o\_alternativeresponse: null
+
+- o\_experiencepoint: null
+
+- o\_questdataa: null
+
+- o\_queststatusa: null
+
+- o\_responserelation: null
+
+- o\_questdatab: null
+
+- o\_queststatusb: null
+
+- o\_questdatac: null
+
+- o\_queststatusc: null
+
+- o\_questdatad: null
+
+- o\_queststatusd: null
+
+- o\_questdatae: null
+
+- o\_queststatuse: null

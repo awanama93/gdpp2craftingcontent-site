@@ -20,3 +20,13 @@ views:
       - O_QuestStatusE
     columnSize:
       note.OutcomeID: 127
+  - type: table
+    name: OnlyQuestDataView
+    order:
+      - file.name
+      - O_QuestDataA
+      - O_QuestStatusA
+      - O_QuestDataB
+      - O_QuestStatusB
+      - O_QuestDataC
+      - O_QuestStatusC

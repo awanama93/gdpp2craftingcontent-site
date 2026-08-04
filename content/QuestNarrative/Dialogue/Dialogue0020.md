@@ -14,3 +14,19 @@ D_ResponseTrigger:
 ---
 
 Dialogue0020
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0020|Dialogue0020]]
+
+- d\_npc: null
+
+- d\_exposition: null
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: null
+
+- d\_responsetrigger: null

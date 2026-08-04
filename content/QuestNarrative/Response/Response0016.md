@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-07-29T05:14:07.076Z
-published: 2026-07-29T05:14:07.076Z
+modified: 2026-08-04T06:16:23.124Z
+published: 2026-08-04T06:16:23.124Z
 ResponseID: "[[Response0016]]"
 R_Type:
 R_Prerequisite:
   - "[[Quest0021]]"
-R_Text:
+R_Text: StartQuest0020
 R_Outcome:
   - "[[Outcome0011]]"
 R_NextDialogue: "[[Dialogue0015]]"
@@ -26,7 +26,7 @@ Response0016
 
 - r\_prerequisite: [[QuestNarrative/Quest/Quest0021|Quest0021]]
 
-- r\_text: null
+- r\_text: StartQuest0020
 
 - r\_outcome: [[QuestNarrative/Outcome/Outcome0011|Outcome0011]]
 

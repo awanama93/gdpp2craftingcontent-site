@@ -71,3 +71,101 @@ I_IsIngredientOf:
 ---
 
 IN\_Rope
+
+- itemid: null
+
+- itemtype: InventoryCraftable
+
+- i\_breakpoint: null
+
+- i\_stacksize: null
+
+- i\_description: null
+
+- i\_spawneditem: null
+
+- i\_processingstage: Level 0
+
+- i\_effecta: null
+
+- i\_effecta\_value: null
+
+- i\_effectb: null
+
+- i\_effectb\_value: null
+
+- i\_effectc: null
+
+- i\_effectc\_value: null
+
+- i\_lootablea: null
+
+- i\_lootablea\_dropchance: null
+
+- i\_lootablea\_quantity: null
+
+- i\_lootableb: null
+
+- i\_lootableb\_dropchance: null
+
+- i\_lootableb\_quantity: null
+
+- i\_lootablec: null
+
+- i\_lootablec\_dropchance: null
+
+- i\_lootablec\_quantity: null
+
+- i\_lootabled: null
+
+- i\_lootabled\_dropchance: null
+
+- i\_lootabled\_quantity: null
+
+- cr\_ingredienta: null
+
+- cr\_ingredientaquantity: null
+
+- cr\_ingredientb: null
+
+- cr\_ingredientbquantity: null
+
+- cr\_ingredientc: null
+
+- cr\_ingredientcquantity: null
+
+- cr\_ingredientd: null
+
+- cr\_ingredientdquantity: null
+
+- cr\_ingrediente: null
+
+- cr\_ingredientequantity: null
+
+- craftingmethod: Loot,[[Item/LO_CableRoll|LO_CableRoll]],[[Item/LO_IronCabinet|LO_IronCabinet]],[[Item/LO_ToolRack|LO_ToolRack]]
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: [[Item/IN_AntennaNGround|IN_AntennaNGround]],[[Item/IN_FastenerTies|IN_FastenerTies]],[[Item/IN_PlumbingDrainage|IN_PlumbingDrainage]],[[Item/IN_PontoonPrimer|IN_PontoonPrimer]],[[Item/IN_Rope|IN_Rope]],[[Item/IN_Sailing|IN_Sailing]],[[Item/IN_Shaft|IN_Shaft]],[[Item/IN_StructureWaterproofing|IN_StructureWaterproofing]],[[Item/IN_ValveSeals|IN_ValveSeals]],[[Item/TO_Glider|TO_Glider]],[[Item/TO_ObjectSmasher|TO_ObjectSmasher]],[[Item/TO_Slingshoter|TO_Slingshoter]]

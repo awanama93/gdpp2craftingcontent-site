@@ -41,12 +41,9 @@ views:
     columnSize:
       note.D_Exposition: 182
       note.D_ResponsesList: 233
-    rowHeight: medium
+    rowHeight: tall
   - type: table
     name: WhoHoldThisDialogueView
-    filters:
-      and:
-        - D_NPC.contains(link("HeadSelfsufficient"))
     order:
       - file.name
       - D_NPC

@@ -14,3 +14,19 @@ D_ResponseTrigger: "[[Response0018]]"
 ---
 
 Dialogue0018
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0018|Dialogue0018]]
+
+- d\_npc: [[Characters/HeadSettler|HeadSettler]]
+
+- d\_exposition: She told you that first we need to build campfire
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: EncounterQuest0002
+
+- d\_responsetrigger: [[QuestNarrative/Response/Response0018|Response0018]]

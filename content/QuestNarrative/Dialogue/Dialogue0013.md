@@ -14,3 +14,19 @@ D_ResponseTrigger: "[[Response0013]]"
 ---
 
 Dialogue0013
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0013|Dialogue0013]]
+
+- d\_npc: [[Characters/HeadSelfsufficient|HeadSelfsufficient]]
+
+- d\_exposition: He told you that you can hunt fish or bird using slingshoter. To use it, equip it first then press Q to aim then left click to shot.
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: EncounterQuest0021
+
+- d\_responsetrigger: [[QuestNarrative/Response/Response0013|Response0013]]

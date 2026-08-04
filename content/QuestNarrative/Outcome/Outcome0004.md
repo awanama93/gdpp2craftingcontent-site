@@ -21,3 +21,33 @@ O_QuestStatusE:
 ---
 
 Outcome0004
+
+- outcomeid: [[QuestNarrative/Outcome/Outcome0004|Outcome0004]]
+
+- o\_responsetext: null
+
+- o\_alternativeresponse: null
+
+- o\_experiencepoint: null
+
+- o\_questdataa: [[QuestNarrative/Quest/Quest0017|Quest0017]]
+
+- o\_queststatusa: Complete
+
+- o\_responserelation: [[QuestNarrative/Response/Response0007|Response0007]]
+
+- o\_questdatab: null
+
+- o\_queststatusb: null
+
+- o\_questdatac: null
+
+- o\_queststatusc: null
+
+- o\_questdatad: null
+
+- o\_queststatusd: null
+
+- o\_questdatae: null
+
+- o\_queststatuse: null

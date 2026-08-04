@@ -20,64 +20,34 @@ O_QuestDataE:
 O_QuestStatusE:
 ---
 
-```datacorejsx
+Outcome0059
 
-return function TitleHeader() {
+- outcomeid: [[QuestNarrative/Outcome/Outcome0059|Outcome0059]]
 
-const file = dc.useCurrentFile();
+- o\_responsetext: null
 
-if (!file) return null;
+- o\_alternativeresponse: null
 
-// file.$name contains the clean string of the note title
+- o\_experiencepoint: null
 
-return <h1>{file.$name}</h1>; }
+- o\_questdataa: null
 
-  
+- o\_queststatusa: null
 
-```
+- o\_responserelation: null
 
-```datacorejsx
+- o\_questdatab: null
 
-  
+- o\_queststatusb: null
 
-return function View() {
+- o\_questdatac: null
 
-  
+- o\_queststatusc: null
 
-  const file = dc.useCurrentFile();
+- o\_questdatad: null
 
-  
+- o\_queststatusd: null
 
-  if (!file) return <p>loading</p>;
+- o\_questdatae: null
 
-  
-
-  const KUMPULAN = file.$frontmatter;
-
-  
-
-  
-
-  const items = Object.entries(KUMPULAN)
-
-  
-
-    .filter(([key]) => !key.startsWith("__"))
-
-  
-
-    .map(([key, field]) => `${key}: ${field?.value}`);
-
-  
-
-  
-
-  return <dc.List rows={items} />;
-
-  
-
-}
-
-  
-
-```
+- o\_queststatuse: null

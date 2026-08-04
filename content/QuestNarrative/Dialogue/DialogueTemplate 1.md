@@ -14,3 +14,19 @@ D_ResponseTrigger:
 ---
 
 DialogueTemplate 1
+
+- dialogueid: null
+
+- d\_npc: null
+
+- d\_exposition: null
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: null
+
+- d\_responsetrigger: null

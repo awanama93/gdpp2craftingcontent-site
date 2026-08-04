@@ -53,3 +53,93 @@ I_IsIngredientOf:
 ---
 
 MO\_Bird
+
+- itemid: null
+
+- itemtype: Enemy
+
+- i\_breakpoint: null
+
+- i\_stacksize: null
+
+- i\_description: null
+
+- i\_spawneditem: null
+
+- i\_processingstage: Enemy
+
+- i\_effecta: null
+
+- i\_effecta\_value: null
+
+- i\_effectb: null
+
+- i\_effectb\_value: null
+
+- i\_effectc: null
+
+- i\_effectc\_value: null
+
+- i\_lootablea: [[Item/CO_BirdEgg|CO_BirdEgg]]
+
+- i\_lootablea\_dropchance: null
+
+- i\_lootablea\_quantity: 1
+
+- i\_lootableb: [[Item/CO_BirdMeat|CO_BirdMeat]]
+
+- i\_lootableb\_dropchance: null
+
+- i\_lootableb\_quantity: 1
+
+- i\_lootablec: [[Item/IN_BirdGuano|IN_BirdGuano]]
+
+- i\_lootablec\_dropchance: null
+
+- i\_lootablec\_quantity: 1
+
+- i\_lootabled: [[Item/IN_BeachPlumSeed|IN_BeachPlumSeed]]
+
+- i\_lootabled\_dropchance: null
+
+- i\_lootabled\_quantity: 1
+
+- cr\_ingredienta: null
+
+- cr\_ingredientaquantity: null
+
+- cr\_ingredientb: null
+
+- cr\_ingredientbquantity: null
+
+- cr\_ingredientc: null
+
+- cr\_ingredientcquantity: null
+
+- cr\_ingredientd: null
+
+- cr\_ingredientdquantity: null
+
+- cr\_ingrediente: null
+
+- cr\_ingredientequantity: null
+
+- i\_lootablee: null
+
+- i\_lootablee\_quantity: 1
+
+- i\_lootablef: [[Item/IN_JuniperBerrySeed|IN_JuniperBerrySeed]]
+
+- i\_lootablef\_quantity: 1
+
+- i\_lootableg: [[Item/IN_MaramGrass|IN_MaramGrass]]
+
+- i\_lootableg\_quantity: 1
+
+- i\_lootableh: [[Item/IN_SaltbushSeed|IN_SaltbushSeed]]
+
+- i\_lootableh\_quantity: 1
+
+- craftingmethod: Enemy
+
+- i\_isingredientof: Enemy

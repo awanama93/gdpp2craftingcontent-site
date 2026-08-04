@@ -14,3 +14,19 @@ D_ResponseTrigger: "[[Response0006]]"
 ---
 
 Dialogue0006
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0006|Dialogue0006]]
+
+- d\_npc: [[Characters/HeadSelfsufficient|HeadSelfsufficient]]
+
+- d\_exposition: He said that you can glide. To use it, you can open the equipment screen by pressing R. Then you have to equip the glide, then press G while jumping. Then he told you to talk to Marconi.
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: EncounterQuest0017
+
+- d\_responsetrigger: [[QuestNarrative/Response/Response0006|Response0006]]

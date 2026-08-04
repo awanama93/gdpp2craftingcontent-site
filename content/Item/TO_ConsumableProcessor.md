@@ -56,3 +56,101 @@ I_IsIngredientOf:
 ---
 
 TO\_ConsumableProcessor
+
+- itemid: null
+
+- itemtype: Machine
+
+- i\_breakpoint: null
+
+- i\_stacksize: null
+
+- i\_description: null
+
+- i\_spawneditem: null
+
+- i\_processingstage: Quest-based
+
+- i\_effecta: null
+
+- i\_effecta\_value: null
+
+- i\_effectb: null
+
+- i\_effectb\_value: null
+
+- i\_effectc: null
+
+- i\_effectc\_value: null
+
+- i\_lootablea: null
+
+- i\_lootablea\_dropchance: null
+
+- i\_lootablea\_quantity: null
+
+- i\_lootableb: null
+
+- i\_lootableb\_dropchance: null
+
+- i\_lootableb\_quantity: null
+
+- i\_lootablec: null
+
+- i\_lootablec\_dropchance: null
+
+- i\_lootablec\_quantity: null
+
+- i\_lootabled: null
+
+- i\_lootabled\_dropchance: null
+
+- i\_lootabled\_quantity: null
+
+- cr\_ingredienta: [[Item/IN_Gallon|IN_Gallon]]
+
+- cr\_ingredientaquantity: 1
+
+- cr\_ingredientb: [[Item/IN_MasonryDust|IN_MasonryDust]]
+
+- cr\_ingredientbquantity: 1
+
+- cr\_ingredientc: [[Item/IN_PlasticTube|IN_PlasticTube]]
+
+- cr\_ingredientcquantity: 1
+
+- cr\_ingredientd: [[Item/IN_Foil|IN_Foil]]
+
+- cr\_ingredientdquantity: 1
+
+- cr\_ingrediente: [[Item/IN_SteelPlate|IN_SteelPlate]]
+
+- cr\_ingredientequantity: 1
+
+- craftingmethod: Quest
+
+- i\_lootablee: null
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: null
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: Tool

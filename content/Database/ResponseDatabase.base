@@ -32,6 +32,9 @@ views:
       note.R_Text: 172
   - type: table
     name: DialoguePrerequisiteView
+    filters:
+      and:
+        - "!R_Prerequisite.isEmpty()"
     order:
       - file.name
       - R_DialogueParent
@@ -42,9 +45,18 @@ views:
     name: OutcomeNextDialogueView
     order:
       - file.name
+      - R_NextDialogue
       - R_DialogueParent
       - R_ResponseCodename
       - R_Outcome
-      - R_NextDialogue
     columnSize:
       note.R_ResponseCodename: 190
+  - type: table
+    name: PrerequisiteOnlyView
+    filters:
+      and:
+        - "!R_Prerequisite.isEmpty()"
+    order:
+      - file.name
+      - R_Prerequisite
+      - R_PrerequisiteValue

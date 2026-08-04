@@ -64,64 +64,96 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-```datacorejsx
+Quest0001
 
-return function TitleHeader() {
+- questtype: Main
 
-const file = dc.useCurrentFile();
+- questid: [[QuestNarrative/Quest/Quest0001|Quest0001]]
 
-if (!file) return null;
+- q\_name: Learn how the world works
 
-// file.$name contains the clean string of the note title
+- q\_description: Ask around to help you understand how this world works
 
-return <h1>{file.$name}</h1>; }
+- q\_goaltype: Quest completion
 
-  
+- q\_conditiontype: none
 
-```
+- istimelimit: null
 
-```datacorejsx
+- timelimit: null
 
-  
+- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0021|Quest0021]],[[QuestNarrative/Quest/Quest0022|Quest0022]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
 
-return function View() {
+- qg\_iteme\_id: null
 
-  
+- qg\_iteme\_amount: null
 
-  const file = dc.useCurrentFile();
+- qg\_itemd\_id: null
 
-  
+- qg\_itemd\_amount: null
 
-  if (!file) return <p>loading</p>;
+- qg\_itemc\_id: null
 
-  
+- qg\_itemc\_amount: null
 
-  const KUMPULAN = file.$frontmatter;
+- qg\_itemb\_id: null
 
-  
+- qg\_itemb\_amount: null
 
-  
+- qg\_itema\_id: null
 
-  const items = Object.entries(KUMPULAN)
+- qg\_itema\_amount: null
 
-  
+- qg\_dialogueid: null
 
-    .filter(([key]) => !key.startsWith("__"))
+- qg\_convictiontype: null
 
-  
+- qg\_convictioncharacter: null
 
-    .map(([key, field]) => `${key}: ${field?.value}`);
+- qg\_convictionamount: null
 
-  
+- qg\_closenessnpc: null
 
-  
+- qg\_closenessamount: null
 
-  return <dc.List rows={items} />;
+- qc\_time: null
 
-  
+- qc\_iteme\_id: null
 
-}
+- qc\_iteme\_amount: null
 
-  
+- qc\_itemd\_id: null
 
-```
+- qc\_itemd\_amount: null
+
+- qc\_itemc\_id: null
+
+- qc\_itemc\_amount: null
+
+- qc\_itemb\_id: null
+
+- qc\_itemb\_amount: null
+
+- qc\_itema\_id: null
+
+- qc\_itema\_amount: null
+
+- qc\_dialogueid: null
+
+- qc\_convictiontype: null
+
+- qc\_convictioncharacter: null
+
+- qc\_convictionamount: null
+
+- qc\_closenessnpc: null
+
+- qc\_closenessamount: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
+
+- q\_goalactiontype: null
+
+- q\_goalactiontargetobject: null

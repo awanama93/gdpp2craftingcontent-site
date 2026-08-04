@@ -14,3 +14,19 @@ D_ResponseTrigger: "[[Response0020]]"
 ---
 
 Dialogue0019
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0019|Dialogue0019]]
+
+- d\_npc: [[Characters/HeadSignaler|HeadSignaler]]
+
+- d\_exposition: He told you that we need to build fox hole radio
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: EncounterQuest0004
+
+- d\_responsetrigger: [[QuestNarrative/Response/Response0020|Response0020]]

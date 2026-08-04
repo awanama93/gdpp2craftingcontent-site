@@ -14,3 +14,19 @@ D_ResponseTrigger: "[[Response0014]]"
 ---
 
 Dialogue0014
+
+- dialogueid: [[QuestNarrative/Dialogue/Dialogue0014|Dialogue0014]]
+
+- d\_npc: [[Characters/HeadSelfsufficient|HeadSelfsufficient]]
+
+- d\_exposition: He said that it takes some practice to use that. Then he told you to talk to Currie again.
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
+
+- d\_questrelations: null
+
+- d\_dialoguecodename: FollowUpQuest0021
+
+- d\_responsetrigger: [[QuestNarrative/Response/Response0014|Response0014]]

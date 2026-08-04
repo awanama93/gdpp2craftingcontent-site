@@ -56,3 +56,101 @@ I_IsIngredientOf:
 ---
 
 LO\_WaterDispenser
+
+- itemid: null
+
+- itemtype: Lootable
+
+- i\_breakpoint: null
+
+- i\_stacksize: null
+
+- i\_description: null
+
+- i\_spawneditem: null
+
+- i\_processingstage: LootableBreakable
+
+- i\_effecta: null
+
+- i\_effecta\_value: null
+
+- i\_effectb: null
+
+- i\_effectb\_value: null
+
+- i\_effectc: null
+
+- i\_effectc\_value: null
+
+- i\_lootablea: [[Item/IN_MetalPipe|IN_MetalPipe]]
+
+- i\_lootablea\_dropchance: null
+
+- i\_lootablea\_quantity: 1
+
+- i\_lootableb: [[Item/IN_PlasticTube|IN_PlasticTube]]
+
+- i\_lootableb\_dropchance: null
+
+- i\_lootableb\_quantity: 1
+
+- i\_lootablec: [[Item/IN_Gallon|IN_Gallon]]
+
+- i\_lootablec\_dropchance: null
+
+- i\_lootablec\_quantity: 1
+
+- i\_lootabled: [[Item/IN_SiliconeGasket|IN_SiliconeGasket]]
+
+- i\_lootabled\_dropchance: null
+
+- i\_lootabled\_quantity: 1
+
+- cr\_ingredienta: null
+
+- cr\_ingredientaquantity: null
+
+- cr\_ingredientb: null
+
+- cr\_ingredientbquantity: null
+
+- cr\_ingredientc: null
+
+- cr\_ingredientcquantity: null
+
+- cr\_ingredientd: null
+
+- cr\_ingredientdquantity: null
+
+- cr\_ingrediente: null
+
+- cr\_ingredientequantity: null
+
+- craftingmethod: Non-craftable
+
+- i\_lootablee: [[Item/IN_PlasticScrap|IN_PlasticScrap]]
+
+- i\_lootablee\_dropchance: null
+
+- i\_lootablee\_quantity: 1
+
+- i\_lootablef: null
+
+- i\_lootablef\_dropchance: null
+
+- i\_lootablef\_quantity: null
+
+- i\_lootableg: null
+
+- i\_lootableg\_dropchance: null
+
+- i\_lootableg\_quantity: null
+
+- i\_lootableh: null
+
+- i\_lootableh\_dropchance: null
+
+- i\_lootableh\_quantity: null
+
+- i\_isingredientof: LootableItem

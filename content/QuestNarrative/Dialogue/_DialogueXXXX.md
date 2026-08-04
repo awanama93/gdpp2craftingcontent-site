@@ -14,3 +14,19 @@ D_DialogueRelations:
 ---
 
 \_DialogueXXXX
+
+- dialogueid: null
+
+- d\_questrelations: null
+
+- d\_npc: null
+
+- d\_dialoguecodename: DefaultDialogue
+
+- d\_responsetrigger: [[QuestNarrative/Response/_ResponseXXXX|_ResponseXXXX]]
+
+- d\_exposition: null
+
+- d\_responseslist: null
+
+- d\_dialoguerelations: null
