@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-28T20:39:38.669+07:00
-published: 2026-07-28T20:39:38.669+07:00
+created: 2026-07-27T15:24:34.195Z
+modified: 2026-07-28T13:39:38.669Z
+published: 2026-07-28T13:39:38.669Z
 ResponseID: "[[Response0001]]"
 R_Type:
 R_Prerequisite: "[[Quest0001]]"

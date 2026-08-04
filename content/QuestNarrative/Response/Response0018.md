@@ -1,18 +1,20 @@
 ---
 publish: true
-created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-28T20:39:39.335+07:00
-published: 2026-07-28T20:39:39.335+07:00
+created: 2026-07-27T15:24:34.195Z
+modified: 2026-08-04T03:36:32.327Z
+published: 2026-08-04T03:36:32.327Z
 ResponseID: "[[Response0018]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+  - "[[Quest0022]]"
+R_Text: Ask her what can you do to help her to settle
 R_Outcome:
 R_NextDialogue:
 R_ResponseRelation:
-R_PrerequisiteValue:
-R_ResponseCodename:
+R_PrerequisiteValue: ongoing
+R_ResponseCodename: StartQuest0002
 R_DialogueParent:
+  - "[[Dialogue0001]]"
 ---
 
 Response0018
@@ -21,9 +23,9 @@ Response0018
 
 - r\_type: null
 
-- r\_prerequisite: null
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0022|Quest0022]]
 
-- r\_text: null
+- r\_text: Ask her what can you do to help her to settle
 
 - r\_outcome: null
 
@@ -31,8 +33,8 @@ Response0018
 
 - r\_responserelation: null
 
-- r\_prerequisitevalue: null
+- r\_prerequisitevalue: ongoing
 
-- r\_responsecodename: null
+- r\_responsecodename: StartQuest0002
 
-- r\_dialogueparent: null
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0001|Dialogue0001]]

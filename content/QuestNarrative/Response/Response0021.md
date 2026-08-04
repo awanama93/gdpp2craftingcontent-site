@@ -1,18 +1,19 @@
 ---
 publish: true
-created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-28T20:39:39.455+07:00
-published: 2026-07-28T20:39:39.455+07:00
+created: 2026-07-27T15:24:34.195Z
+modified: 2026-08-04T03:42:21.986Z
+published: 2026-08-04T03:42:21.986Z
 ResponseID: "[[Response0021]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+R_Text: Tell her that you have gathered the materials for campfire
 R_Outcome:
 R_NextDialogue:
 R_ResponseRelation:
 R_PrerequisiteValue:
-R_ResponseCodename:
+R_ResponseCodename: CompleteQuest0005
 R_DialogueParent:
+  - "[[Dialogue0001]]"
 ---
 
 Response0021
@@ -23,7 +24,7 @@ Response0021
 
 - r\_prerequisite: null
 
-- r\_text: null
+- r\_text: Tell her that you have gathered the materials for campfire
 
 - r\_outcome: null
 
@@ -33,6 +34,6 @@ Response0021
 
 - r\_prerequisitevalue: null
 
-- r\_responsecodename: null
+- r\_responsecodename: CompleteQuest0005
 
-- r\_dialogueparent: null
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0001|Dialogue0001]]

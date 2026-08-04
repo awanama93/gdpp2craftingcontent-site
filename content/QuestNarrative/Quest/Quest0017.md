@@ -1,11 +1,11 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:16.380+07:00
-published: 2026-07-28T21:53:16.380+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:00:25.402Z
+published: 2026-08-04T02:00:25.402Z
 QuestID: "[[Quest0017]]"
 Q_Name: Learn how to glide
-Q_Description:
+Q_Description: Slocum told you about another way to traverse the island, that is using glider
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -59,7 +59,7 @@ Quest0017
 
 - q\_name: Learn how to glide
 
-- q\_description: null
+- q\_description: Slocum told you about another way to traverse the island, that is using glider
 
 - questtype: Main
 

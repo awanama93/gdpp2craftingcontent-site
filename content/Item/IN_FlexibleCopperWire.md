@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:21:18.180+07:00
-modified: 2026-07-29T18:01:34.443+07:00
-published: 2026-07-29T18:01:34.443+07:00
+created: 2026-07-28T04:21:18.180Z
+modified: 2026-07-30T13:24:06.974Z
+published: 2026-07-30T13:24:06.974Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -58,6 +58,13 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[IN_AntennaNGround]]"
+  - "[[IN_CoilNSlider]]"
+  - "[[IN_Headphone]]"
+  - "[[IN_HighvoltCharger]]"
+  - "[[IN_PowerCircuit]]"
+  - "[[IN_RFTuningFilter]]"
+  - "[[IN_Stator]]"
 ---
 
 IN\_FlexibleCopperWire
@@ -158,4 +165,4 @@ IN\_FlexibleCopperWire
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/IN_AntennaNGround|IN_AntennaNGround]],[[Item/IN_CoilNSlider|IN_CoilNSlider]],[[Item/IN_Headphone|IN_Headphone]],[[Item/IN_HighvoltCharger|IN_HighvoltCharger]],[[Item/IN_PowerCircuit|IN_PowerCircuit]],[[Item/IN_RFTuningFilter|IN_RFTuningFilter]],[[Item/IN_Stator|IN_Stator]]

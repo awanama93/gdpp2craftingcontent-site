@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:36:37.217+07:00
-modified: 2026-07-29T18:12:28.585+07:00
-published: 2026-07-29T18:12:28.585+07:00
+created: 2026-07-28T04:36:37.217Z
+modified: 2026-07-30T14:44:03.543Z
+published: 2026-07-30T14:44:03.543Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -38,7 +38,9 @@ Cr_IngredientD:
 Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
-CraftingMethod: "[[CM_Crafter]]"
+CraftingMethod:
+  - "[[CM_Crafter]]"
+  - "[[MS_CrafterS3]]"
 I_LootableE:
 I_LootableE_DropChance:
 I_LootableE_Quantity:
@@ -127,7 +129,7 @@ IN\_Diode
 
 - cr\_ingredientequantity: null
 
-- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]]
+- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]],[[Crafting/MachineStageData/MS_CrafterS3|MS_CrafterS3]]
 
 - i\_lootablee: null
 

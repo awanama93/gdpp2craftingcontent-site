@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:04:37.766+07:00
-modified: 2026-07-27T22:12:05.445+07:00
-published: 2026-07-27T22:12:05.445+07:00
+created: 2026-07-27T15:04:37.766Z
+modified: 2026-07-27T15:12:05.445Z
+published: 2026-07-27T15:12:05.445Z
 CharacterID:
 Ch_Name: Abby
 Ch_MaxHealth:

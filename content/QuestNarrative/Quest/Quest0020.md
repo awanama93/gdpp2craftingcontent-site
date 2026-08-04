@@ -1,11 +1,11 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-29T11:57:45.034+07:00
-published: 2026-07-29T11:57:45.034+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:03:11.519Z
+published: 2026-08-04T02:03:11.519Z
 QuestID: "[[Quest0020]]"
 Q_Name: Learn about crafting
-Q_Description:
+Q_Description: Currie told you about how crafting works
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -59,7 +59,7 @@ Quest0020
 
 - q\_name: Learn about crafting
 
-- q\_description: null
+- q\_description: Currie told you about how crafting works
 
 - questtype: Main
 

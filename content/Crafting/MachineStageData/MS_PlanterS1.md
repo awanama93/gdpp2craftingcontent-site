@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T17:35:24.283+07:00
-modified: 2026-07-28T17:37:31.877+07:00
-published: 2026-07-28T17:37:31.877+07:00
+created: 2026-07-28T10:35:24.283Z
+modified: 2026-07-28T10:37:31.877Z
+published: 2026-07-28T10:37:31.877Z
 MS_DisplayText:
 MS_MachineRelation: "[[CM_Planter]]"
 MS_Recipes:

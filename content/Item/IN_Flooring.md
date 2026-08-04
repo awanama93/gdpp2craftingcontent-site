@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:36:37.217+07:00
-modified: 2026-07-29T18:01:35.427+07:00
-published: 2026-07-29T18:01:35.427+07:00
+created: 2026-07-28T04:36:37.217Z
+modified: 2026-07-30T14:44:14.409Z
+published: 2026-07-30T14:44:14.409Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -38,7 +38,9 @@ Cr_IngredientD:
 Cr_IngredientDQuantity:
 Cr_IngredientE:
 Cr_IngredientEQuantity:
-CraftingMethod: "[[CM_Crafter]]"
+CraftingMethod:
+  - "[[CM_Crafter]]"
+  - "[[MS_CrafterS3]]"
 I_LootableE:
 I_LootableE_DropChance:
 I_LootableE_Quantity:
@@ -52,6 +54,7 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[GA_Decking]]"
 ---
 
 IN\_Flooring
@@ -126,7 +129,7 @@ IN\_Flooring
 
 - cr\_ingredientequantity: null
 
-- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]]
+- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]],[[Crafting/MachineStageData/MS_CrafterS3|MS_CrafterS3]]
 
 - i\_lootablee: null
 
@@ -152,4 +155,4 @@ IN\_Flooring
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/GA_Decking|GA_Decking]]

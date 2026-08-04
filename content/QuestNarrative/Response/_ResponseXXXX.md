@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T19:36:59.354+07:00
-modified: 2026-07-28T20:39:44.066+07:00
-published: 2026-07-28T20:39:44.066+07:00
+created: 2026-07-28T12:36:59.354Z
+modified: 2026-07-28T13:39:44.066Z
+published: 2026-07-28T13:39:44.066Z
 ResponseID: "[[_ResponseXXXX]]"
 R_DialogueParent:
 R_ResponseCodename: Back to default dialogue

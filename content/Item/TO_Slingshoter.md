@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:47:56.281+07:00
-modified: 2026-07-29T18:03:12.709+07:00
-published: 2026-07-29T18:03:12.709+07:00
+created: 2026-07-28T04:47:56.281Z
+modified: 2026-07-30T14:17:12.292Z
+published: 2026-07-30T14:17:12.292Z
 ItemID:
 ItemType: Equipment
 I_BreakPoint:
@@ -52,104 +52,7 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - Tool
 ---
 
 TO\_Slingshoter
-
-- itemid: null
-
-- itemtype: Equipment
-
-- i\_breakpoint: null
-
-- i\_stacksize: null
-
-- i\_description: null
-
-- i\_spawneditem: null
-
-- i\_processingstage: Quest-based
-
-- i\_effecta: null
-
-- i\_effecta\_value: null
-
-- i\_effectb: null
-
-- i\_effectb\_value: null
-
-- i\_effectc: null
-
-- i\_effectc\_value: null
-
-- i\_lootablea: null
-
-- i\_lootablea\_dropchance: null
-
-- i\_lootablea\_quantity: null
-
-- i\_lootableb: null
-
-- i\_lootableb\_dropchance: null
-
-- i\_lootableb\_quantity: null
-
-- i\_lootablec: null
-
-- i\_lootablec\_dropchance: null
-
-- i\_lootablec\_quantity: null
-
-- i\_lootabled: null
-
-- i\_lootabled\_dropchance: null
-
-- i\_lootabled\_quantity: null
-
-- cr\_ingredienta: [[Item/IN_Rope|IN_Rope]]
-
-- cr\_ingredientaquantity: 1
-
-- cr\_ingredientb: [[Item/IN_SteelSpring|IN_SteelSpring]]
-
-- cr\_ingredientbquantity: 1
-
-- cr\_ingredientc: [[Item/IN_SyntacticFoam|IN_SyntacticFoam]]
-
-- cr\_ingredientcquantity: 1
-
-- cr\_ingredientd: [[Item/IN_MetalPipe|IN_MetalPipe]]
-
-- cr\_ingredientdquantity: 1
-
-- cr\_ingrediente: null
-
-- cr\_ingredientequantity: null
-
-- craftingmethod: null
-
-- i\_lootablee: null
-
-- i\_lootablee\_dropchance: null
-
-- i\_lootablee\_quantity: null
-
-- i\_lootablef: null
-
-- i\_lootablef\_dropchance: null
-
-- i\_lootablef\_quantity: null
-
-- i\_lootableg: null
-
-- i\_lootableg\_dropchance: null
-
-- i\_lootableg\_quantity: null
-
-- i\_lootableh: null
-
-- i\_lootableh\_dropchance: null
-
-- i\_lootableh\_quantity: null
-
-- i\_isingredientof: null

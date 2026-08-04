@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:04:30.264+07:00
-modified: 2026-07-27T22:10:47.819+07:00
-published: 2026-07-27T22:10:47.819+07:00
+created: 2026-07-27T15:04:30.264Z
+modified: 2026-07-27T15:10:47.819Z
+published: 2026-07-27T15:10:47.819Z
 CharacterID:
 Ch_Name: Ezio
 Ch_MaxHealth:

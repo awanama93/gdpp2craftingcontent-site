@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T17:34:32.073+07:00
-modified: 2026-07-28T17:37:28.181+07:00
-published: 2026-07-28T17:37:28.181+07:00
+created: 2026-07-28T10:34:32.073Z
+modified: 2026-07-28T10:37:28.181Z
+published: 2026-07-28T10:37:28.181Z
 MS_DisplayText:
 MS_MachineRelation: "[[CM_Equipmaker]]"
 MS_Recipes:

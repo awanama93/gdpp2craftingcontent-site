@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:21:18.180+07:00
-modified: 2026-07-29T18:02:55.995+07:00
-published: 2026-07-29T18:02:55.995+07:00
+created: 2026-07-28T04:21:18.180Z
+modified: 2026-07-30T14:15:37.400Z
+published: 2026-07-30T14:15:37.400Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -56,6 +56,11 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[IN_Flooring]]"
+  - "[[IN_Housing]]"
+  - "[[IN_SignalKey]]"
+  - "[[IN_SteeringRudder]]"
+  - "[[IN_StructureFrame]]"
 ---
 
 IN\_WoodPanel
@@ -156,4 +161,4 @@ IN\_WoodPanel
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/IN_Flooring|IN_Flooring]],[[Item/IN_Housing|IN_Housing]],[[Item/IN_SignalKey|IN_SignalKey]],[[Item/IN_SteeringRudder|IN_SteeringRudder]],[[Item/IN_StructureFrame|IN_StructureFrame]]

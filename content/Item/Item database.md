@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T15:36:23.233+07:00
-modified: 2026-07-29T18:03:15.072+07:00
-published: 2026-07-29T18:03:15.072+07:00
+created: 2026-07-28T08:36:23.233Z
+modified: 2026-07-29T11:03:15.072Z
+published: 2026-07-29T11:03:15.072Z
 database-plugin: basic
 I_LootableE:
 I_LootableE_DropChance:

@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:21:18.180+07:00
-modified: 2026-07-29T18:01:51.281+07:00
-published: 2026-07-29T18:01:51.281+07:00
+created: 2026-07-28T04:21:18.180Z
+modified: 2026-07-30T13:26:49.187Z
+published: 2026-07-30T13:26:49.187Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -57,6 +57,9 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[IN_Rotor]]"
+  - "[[IN_SteeringRudder]]"
+  - "[[TO_Crafter]]"
 ---
 
 IN\_Gear
@@ -157,4 +160,4 @@ IN\_Gear
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/IN_Rotor|IN_Rotor]],[[Item/IN_SteeringRudder|IN_SteeringRudder]],[[Item/TO_Crafter|TO_Crafter]]

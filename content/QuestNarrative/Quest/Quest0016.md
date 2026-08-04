@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:54:55.420+07:00
-published: 2026-07-28T21:54:55.420+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:54:55.420Z
+published: 2026-07-28T14:54:55.420Z
 QuestID: "[[Quest0016]]"
 Q_Name: Learn how to climb
 Q_Description: Currie told you to climb the building next to this rooftop, and talk to Slocum

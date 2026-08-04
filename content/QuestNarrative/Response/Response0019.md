@@ -1,18 +1,20 @@
 ---
 publish: true
-created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-28T20:39:39.379+07:00
-published: 2026-07-28T20:39:39.379+07:00
+created: 2026-07-27T15:24:34.195Z
+modified: 2026-08-04T03:36:25.923Z
+published: 2026-08-04T03:36:25.923Z
 ResponseID: "[[Response0019]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+  - "[[Quest0022]]"
+R_Text: Ask him what can you do to help him to build the boat
 R_Outcome:
 R_NextDialogue:
 R_ResponseRelation:
-R_PrerequisiteValue:
-R_ResponseCodename:
+R_PrerequisiteValue: ongoing
+R_ResponseCodename: StartQuest0003
 R_DialogueParent:
+  - "[[Dialogue0005]]"
 ---
 
 Response0019
@@ -21,9 +23,9 @@ Response0019
 
 - r\_type: null
 
-- r\_prerequisite: null
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0022|Quest0022]]
 
-- r\_text: null
+- r\_text: Ask him what can you do to help him to build the boat
 
 - r\_outcome: null
 
@@ -31,8 +33,8 @@ Response0019
 
 - r\_responserelation: null
 
-- r\_prerequisitevalue: null
+- r\_prerequisitevalue: ongoing
 
-- r\_responsecodename: null
+- r\_responsecodename: StartQuest0003
 
-- r\_dialogueparent: null
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0005|Dialogue0005]]

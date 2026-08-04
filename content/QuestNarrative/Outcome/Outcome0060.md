@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:36:45.723+07:00
-modified: 2026-07-28T20:37:11.499+07:00
-published: 2026-07-28T20:37:11.499+07:00
+created: 2026-07-27T15:36:45.723Z
+modified: 2026-07-28T13:37:11.499Z
+published: 2026-07-28T13:37:11.499Z
 OutcomeID: "[[Outcome0060]]"
 O_ResponseText:
 O_AlternativeResponse:
@@ -20,34 +20,64 @@ O_QuestDataE:
 O_QuestStatusE:
 ---
 
-Outcome0060
+```datacorejsx
 
-- outcomeid: [[QuestNarrative/Outcome/Outcome0060|Outcome0060]]
+return function TitleHeader() {
 
-- o\_responsetext: null
+const file = dc.useCurrentFile();
 
-- o\_alternativeresponse: null
+if (!file) return null;
 
-- o\_experiencepoint: null
+// file.$name contains the clean string of the note title
 
-- o\_questdataa: null
+return <h1>{file.$name}</h1>; }
 
-- o\_queststatusa: null
+  
 
-- o\_responserelation: null
+```
 
-- o\_questdatab: null
+```datacorejsx
 
-- o\_queststatusb: null
+  
 
-- o\_questdatac: null
+return function View() {
 
-- o\_queststatusc: null
+  
 
-- o\_questdatad: null
+  const file = dc.useCurrentFile();
 
-- o\_queststatusd: null
+  
 
-- o\_questdatae: null
+  if (!file) return <p>loading</p>;
 
-- o\_queststatuse: null
+  
+
+  const KUMPULAN = file.$frontmatter;
+
+  
+
+  
+
+  const items = Object.entries(KUMPULAN)
+
+  
+
+    .filter(([key]) => !key.startsWith("__"))
+
+  
+
+    .map(([key, field]) => `${key}: ${field?.value}`);
+
+  
+
+  
+
+  return <dc.List rows={items} />;
+
+  
+
+}
+
+  
+
+```

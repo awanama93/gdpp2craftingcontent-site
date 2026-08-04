@@ -1,11 +1,11 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-29T11:57:43.197+07:00
-published: 2026-07-29T11:57:43.197+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:03:54.636Z
+published: 2026-08-04T02:03:54.636Z
 QuestID: "[[Quest0021]]"
 Q_Name: Learn about hunting
-Q_Description:
+Q_Description: Slocum told you about how you can gather ingredient for food
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -59,7 +59,7 @@ Quest0021
 
 - q\_name: Learn about hunting
 
-- q\_description: null
+- q\_description: Slocum told you about how you can gather ingredient for food
 
 - questtype: Main
 

@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:04:39.398+07:00
-modified: 2026-07-27T22:14:19.323+07:00
-published: 2026-07-27T22:14:19.323+07:00
+created: 2026-07-27T15:04:39.398Z
+modified: 2026-07-27T15:14:19.323Z
+published: 2026-07-27T15:14:19.323Z
 CharacterID:
 Ch_Name: Brea
 Ch_MaxHealth:

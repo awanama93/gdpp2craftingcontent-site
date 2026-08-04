@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T17:32:35.169+07:00
-modified: 2026-07-28T17:36:28.711+07:00
-published: 2026-07-28T17:36:28.711+07:00
+created: 2026-07-28T10:32:35.169Z
+modified: 2026-07-28T10:36:28.711Z
+published: 2026-07-28T10:36:28.711Z
 MS_DisplayText:
 MS_MachineRelation: "[[CM_Crafter]]"
 MS_Recipes:

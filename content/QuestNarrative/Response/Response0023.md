@@ -1,18 +1,19 @@
 ---
 publish: true
-created: 2026-07-27T22:24:34.195+07:00
-modified: 2026-07-28T20:39:39.525+07:00
-published: 2026-07-28T20:39:39.525+07:00
+created: 2026-07-27T15:24:34.195Z
+modified: 2026-08-04T03:42:51.669Z
+published: 2026-08-04T03:42:51.669Z
 ResponseID: "[[Response0023]]"
 R_Type:
 R_Prerequisite:
-R_Text:
+R_Text: Tell him that you have gathered materials for foxhole radio
 R_Outcome:
 R_NextDialogue:
 R_ResponseRelation:
 R_PrerequisiteValue:
-R_ResponseCodename:
+R_ResponseCodename: CompleteQuest00013
 R_DialogueParent:
+  - "[[Dialogue0008]]"
 ---
 
 Response0023
@@ -23,7 +24,7 @@ Response0023
 
 - r\_prerequisite: null
 
-- r\_text: null
+- r\_text: Tell him that you have gathered materials for foxhole radio
 
 - r\_outcome: null
 
@@ -33,6 +34,6 @@ Response0023
 
 - r\_prerequisitevalue: null
 
-- r\_responsecodename: null
+- r\_responsecodename: CompleteQuest00013
 
-- r\_dialogueparent: null
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0008|Dialogue0008]]

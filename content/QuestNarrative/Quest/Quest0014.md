@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:15.687+07:00
-published: 2026-07-28T21:53:15.687+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:53:15.687Z
+published: 2026-07-28T14:53:15.687Z
 QuestID: "[[Quest0014]]"
 Q_Name: Help to build the spark gap transmitter
 Q_Description: Currently, we can receive signal, and now we need to be able to send signal. Let's build the spark gap transmitter

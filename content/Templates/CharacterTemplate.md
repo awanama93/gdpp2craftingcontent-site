@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T21:57:03.882+07:00
-modified: 2026-07-27T22:02:58.776+07:00
-published: 2026-07-27T22:02:58.776+07:00
+created: 2026-07-27T14:57:03.882Z
+modified: 2026-07-27T15:02:58.776Z
+published: 2026-07-27T15:02:58.776Z
 CharacterID:
 Ch_Name:
 Ch_MaxHealth:

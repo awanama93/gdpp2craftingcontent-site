@@ -1,11 +1,11 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:16.572+07:00
-published: 2026-07-28T21:53:16.572+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:04:19.482Z
+published: 2026-08-04T02:04:19.482Z
 QuestID: "[[Quest0023]]"
 Q_Name: Talk about the storm
-Q_Description:
+Q_Description: It seems that people here is preparing for something. Ask around about that.
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -59,7 +59,7 @@ Quest0023
 
 - q\_name: Talk about the storm
 
-- q\_description: null
+- q\_description: It seems that people here is preparing for something. Ask around about that.
 
 - questtype: Main
 

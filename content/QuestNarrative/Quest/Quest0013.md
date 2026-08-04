@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:16.018+07:00
-published: 2026-07-28T21:53:16.018+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:53:16.018Z
+published: 2026-07-28T14:53:16.018Z
 QuestID: "[[Quest0013]]"
 Q_Name: Help to build the foxhole radio
 Q_Description: First, we need to receive signal

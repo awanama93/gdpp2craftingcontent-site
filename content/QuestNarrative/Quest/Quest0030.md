@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:17.070+07:00
-published: 2026-07-28T21:53:17.070+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:53:17.070Z
+published: 2026-07-28T14:53:17.070Z
 QuestID: "[[Quest0030]]"
 Q_Name:
 Q_Description:

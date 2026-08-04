@@ -1,15 +1,15 @@
 ---
 publish: true
-created: 2026-07-28T11:36:37.217+07:00
-modified: 2026-07-29T18:01:31.443+07:00
-published: 2026-07-29T18:01:31.443+07:00
+created: 2026-07-28T04:36:37.217Z
+modified: 2026-07-30T14:33:28.004Z
+published: 2026-07-30T14:33:28.004Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage: Level 3
+I_ProcessingStage: Level 2
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -52,6 +52,9 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[GA_Decking]]"
+  - "[[GA_Frame]]"
+  - "[[GA_Roofing]]"
 ---
 
 IN\_FastenerTies
@@ -68,7 +71,7 @@ IN\_FastenerTies
 
 - i\_spawneditem: null
 
-- i\_processingstage: Level 3
+- i\_processingstage: Level 2
 
 - i\_effecta: null
 
@@ -152,4 +155,4 @@ IN\_FastenerTies
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/GA_Decking|GA_Decking]],[[Item/GA_Frame|GA_Frame]],[[Item/GA_Roofing|GA_Roofing]]

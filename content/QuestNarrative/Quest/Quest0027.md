@@ -1,12 +1,12 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:16.799+07:00
-published: 2026-07-28T21:53:16.799+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:04:54.799Z
+published: 2026-08-04T02:04:54.799Z
 QuestID: "[[Quest0027]]"
-Q_Name:
-Q_Description:
-QuestType:
+Q_Name: Talk to The Settler
+Q_Description: Some of the survivors think that we should just settle on the rooftop island. Find out who they are.
+QuestType: Main
 Q_GoalType:
 Q_ConditionType:
 IsTimeLimit:
@@ -53,11 +53,11 @@ Quest0027
 
 - questid: [[QuestNarrative/Quest/Quest0027|Quest0027]]
 
-- q\_name: null
+- q\_name: Talk to The Settler
 
-- q\_description: null
+- q\_description: Some of the survivors think that we should just settle on the rooftop island. Find out who they are.
 
-- questtype: null
+- questtype: Main
 
 - q\_goaltype: null
 

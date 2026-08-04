@@ -27,6 +27,9 @@ views:
       - R_DialogueParent
       - R_ResponseCodename
       - R_Text
+    columnSize:
+      note.R_DialogueParent: 192
+      note.R_Text: 172
   - type: table
     name: DialoguePrerequisiteView
     order:

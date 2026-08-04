@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T19:58:49.802+07:00
-modified: 2026-07-28T21:53:15.153+07:00
-published: 2026-07-28T21:53:15.153+07:00
+created: 2026-07-27T12:58:49.802Z
+modified: 2026-07-28T14:53:15.153Z
+published: 2026-07-28T14:53:15.153Z
 QuestID: "[[Quest0004]]"
 Q_Name: Help The Signaler to build the radio transmitter
 Q_Description: Help The Signaler to build radio transmitter to call for help
@@ -56,96 +56,64 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-Quest0004
+```datacorejsx
 
-- questid: [[QuestNarrative/Quest/Quest0004|Quest0004]]
+return function TitleHeader() {
 
-- q\_name: Help The Signaler to build the radio transmitter
+const file = dc.useCurrentFile();
 
-- q\_description: Help The Signaler to build radio transmitter to call for help
+if (!file) return null;
 
-- questtype: Main
+// file.$name contains the clean string of the note title
 
-- q\_goaltype: Quest completion
+return <h1>{file.$name}</h1>; }
 
-- q\_conditiontype: null
+  
 
-- istimelimit: null
+```
 
-- timelimit: null
+```datacorejsx
 
-- qg\_questid: [[QuestNarrative/Quest/Quest0013|Quest0013]],[[QuestNarrative/Quest/Quest0014|Quest0014]],[[QuestNarrative/Quest/Quest0015|Quest0015]]
+  
 
-- qg\_iteme\_id: null
+return function View() {
 
-- qg\_iteme\_amount: null
+  
 
-- qg\_itemd\_id: null
+  const file = dc.useCurrentFile();
 
-- qg\_itemd\_amount: null
+  
 
-- qg\_itemc\_id: [[Item/GA_PowerGenerator|GA_PowerGenerator]]
+  if (!file) return <p>loading</p>;
 
-- qg\_itemc\_amount: 1
+  
 
-- qg\_itemb\_id: [[Item/GA_SparkGapTransmitter|GA_SparkGapTransmitter]]
+  const KUMPULAN = file.$frontmatter;
 
-- qg\_itemb\_amount: 1
+  
 
-- qg\_itema\_id: [[Item/GA_FoxholeRadio|GA_FoxholeRadio]]
+  
 
-- qg\_itema\_amount: 1
+  const items = Object.entries(KUMPULAN)
 
-- qg\_dialogueid: null
+  
 
-- qg\_convictiontype: null
+    .filter(([key]) => !key.startsWith("__"))
 
-- qg\_convictioncharacter: null
+  
 
-- qg\_convictionamount: null
+    .map(([key, field]) => `${key}: ${field?.value}`);
 
-- qg\_closenessnpc: null
+  
 
-- qg\_closenessamount: null
+  
 
-- qc\_time: null
+  return <dc.List rows={items} />;
 
-- qc\_iteme\_id: null
+  
 
-- qc\_iteme\_amount: null
+}
 
-- qc\_itemd\_id: null
+  
 
-- qc\_itemd\_amount: null
-
-- qc\_itemc\_id: null
-
-- qc\_itemc\_amount: null
-
-- qc\_itemb\_id: null
-
-- qc\_itemb\_amount: null
-
-- qc\_itema\_id: null
-
-- qc\_itema\_amount: null
-
-- qc\_dialogueid: null
-
-- qc\_convictiontype: null
-
-- qc\_convictioncharacter: null
-
-- qc\_convictionamount: null
-
-- qc\_closenessnpc: null
-
-- qc\_closenessamount: null
-
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0013|Quest0013]]
-
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+```

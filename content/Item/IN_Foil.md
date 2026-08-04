@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:21:18.180+07:00
-modified: 2026-07-29T18:01:49.878+07:00
-published: 2026-07-29T18:01:49.878+07:00
+created: 2026-07-28T04:21:18.180Z
+modified: 2026-07-30T13:25:42.174Z
+published: 2026-07-30T13:25:42.174Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -55,6 +55,11 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[IN_Headphone]]"
+  - "[[IN_LightReflector]]"
+  - "[[TO_ConsumableProcessor]]"
+  - "[[TO_Lantern]]"
+  - "[[TO_Planter]]"
 ---
 
 IN\_Foil
@@ -155,4 +160,4 @@ IN\_Foil
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: [[Item/IN_Headphone|IN_Headphone]],[[Item/IN_LightReflector|IN_LightReflector]],[[Item/TO_ConsumableProcessor|TO_ConsumableProcessor]],[[Item/TO_Lantern|TO_Lantern]],[[Item/TO_Planter|TO_Planter]]

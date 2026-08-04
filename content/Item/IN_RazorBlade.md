@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T19:15:08.675+07:00
-modified: 2026-07-29T18:02:31.600+07:00
-published: 2026-07-29T18:02:31.600+07:00
+created: 2026-07-27T12:15:08.675Z
+modified: 2026-07-30T13:55:34.991Z
+published: 2026-07-30T13:55:34.991Z
 ItemID:
 ItemType: InventoryCraftable
 I_Description:
@@ -55,104 +55,11 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - "[[IN_Diode]]"
+  - "[[IN_Igniter]]"
+  - "[[IN_SparkGapOscillator]]"
+  - "[[TO_Crafter]]"
+  - "[[TO_Disassembler]]"
 ---
 
 IN\_RazorBlade
-
-- itemid: null
-
-- itemtype: InventoryCraftable
-
-- i\_description: null
-
-- i\_stacksize: null
-
-- i\_processingstage: Level 0
-
-- i\_breakpoint: null
-
-- i\_spawneditem: null
-
-- i\_effecta: null
-
-- i\_effectb: null
-
-- i\_effectc: null
-
-- i\_effecta\_value: null
-
-- i\_effectb\_value: null
-
-- i\_effectc\_value: null
-
-- i\_lootablea: null
-
-- i\_lootablea\_quantity: null
-
-- i\_lootablea\_dropchance: null
-
-- i\_lootableb: null
-
-- i\_lootableb\_quantity: null
-
-- i\_lootableb\_dropchance: null
-
-- i\_lootablec: null
-
-- i\_lootablec\_quantity: null
-
-- i\_lootablec\_dropchance: null
-
-- i\_lootabled: null
-
-- i\_lootabled\_quantity: null
-
-- i\_lootabled\_dropchance: null
-
-- cr\_ingredienta: null
-
-- cr\_ingredientaquantity: null
-
-- cr\_ingredientb: null
-
-- cr\_ingredientbquantity: null
-
-- cr\_ingredientc: null
-
-- cr\_ingredientcquantity: null
-
-- cr\_ingredientd: null
-
-- cr\_ingredientdquantity: null
-
-- cr\_ingrediente: null
-
-- cr\_ingredientequantity: null
-
-- craftingmethod: Loot,[[Item/LO_CoffeeGrinder|LO_CoffeeGrinder]],[[Item/LO_PaperPrinter|LO_PaperPrinter]]
-
-- i\_lootablee: null
-
-- i\_lootablee\_dropchance: null
-
-- i\_lootablee\_quantity: null
-
-- i\_lootablef: null
-
-- i\_lootablef\_dropchance: null
-
-- i\_lootablef\_quantity: null
-
-- i\_lootableg: null
-
-- i\_lootableg\_dropchance: null
-
-- i\_lootableg\_quantity: null
-
-- i\_lootableh: null
-
-- i\_lootableh\_dropchance: null
-
-- i\_lootableh\_quantity: null
-
-- i\_isingredientof: null

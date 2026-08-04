@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T17:30:24.047+07:00
-modified: 2026-07-28T17:31:07.398+07:00
-published: 2026-07-28T17:31:07.398+07:00
+created: 2026-07-28T10:30:24.047Z
+modified: 2026-07-28T10:31:07.398Z
+published: 2026-07-28T10:31:07.398Z
 MS_DisplayText:
 MS_MachineRelation: "[[CM_ConsumableProcessor]]"
 MS_Recipes:

@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:04:35.967+07:00
-modified: 2026-07-27T22:10:52.735+07:00
-published: 2026-07-27T22:10:52.735+07:00
+created: 2026-07-27T15:04:35.967Z
+modified: 2026-07-27T15:10:52.735Z
+published: 2026-07-27T15:10:52.735Z
 CharacterID:
 Ch_Name: Dante
 Ch_MaxHealth:

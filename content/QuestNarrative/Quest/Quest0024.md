@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:16.760+07:00
-published: 2026-07-28T21:53:16.760+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:53:16.760Z
+published: 2026-07-28T14:53:16.760Z
 QuestID: "[[Quest0024]]"
 Q_Name: Hunt all birds
 Q_Description:

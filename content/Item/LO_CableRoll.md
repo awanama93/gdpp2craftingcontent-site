@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-28T11:25:40.245+07:00
-modified: 2026-07-29T18:02:56.953+07:00
-published: 2026-07-29T18:02:56.953+07:00
+created: 2026-07-28T04:25:40.245Z
+modified: 2026-07-30T14:16:03.876Z
+published: 2026-07-30T14:16:03.876Z
 ItemID:
 ItemType: Lootable
 I_BreakPoint:
@@ -52,6 +52,7 @@ I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
 I_IsIngredientOf:
+  - LootableItem
 ---
 
 LO\_CableRoll
@@ -152,4 +153,4 @@ LO\_CableRoll
 
 - i\_lootableh\_quantity: null
 
-- i\_isingredientof: null
+- i\_isingredientof: LootableItem

@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"47c08e566ed954e5","type":"file","file":"QuestNarrative/Quest/Quest0025.md","x":-1620,"y":1700,"width":400,"height":400,"color":"5"},
 		{"id":"75b1212837b0ccd6","type":"file","file":"QuestNarrative/Quest/Quest0010.md","x":960,"y":1760,"width":400,"height":400,"color":"5"},
 		{"id":"0b0bd6ca847904e3","type":"file","file":"QuestNarrative/Quest/Quest0007.md","x":1460,"y":300,"width":400,"height":400,"color":"5"},
 		{"id":"582c340f789c3100","type":"file","file":"QuestNarrative/Quest/Quest0006.md","x":960,"y":300,"width":400,"height":400,"color":"5"},
@@ -14,7 +15,6 @@
 		{"id":"9d513c2154a3f4a1","type":"file","file":"QuestNarrative/Quest/Quest0013.md","x":520,"y":3080,"width":400,"height":400,"color":"5"},
 		{"id":"e876c3c8bc44c9c2","type":"file","file":"QuestNarrative/Quest/Quest0014.md","x":1060,"y":3080,"width":400,"height":400,"color":"5"},
 		{"id":"09165f368d9bb6fa","type":"file","file":"QuestNarrative/Quest/Quest0015.md","x":1580,"y":3080,"width":400,"height":400,"color":"5"},
-		{"id":"ce6ca5e39e7a4103","type":"file","file":"QuestNarrative/Quest/Quest0001.md","x":-4960,"y":1080,"width":400,"height":400,"color":"1"},
 		{"id":"a93d2261befda792","type":"file","file":"QuestNarrative/Quest/Quest0016.md","x":-5280,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"268400ca7c799a10","type":"file","file":"QuestNarrative/Quest/Quest0017.md","x":-4760,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"a69642002a348758","type":"file","file":"QuestNarrative/Quest/Quest0018.md","x":-4240,"y":2680,"width":400,"height":400,"color":"5"},
@@ -22,7 +22,9 @@
 		{"id":"0bc6a8e054797187","type":"file","file":"QuestNarrative/Quest/Quest0022.md","x":-2120,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"f15d4f3de455e94a","type":"file","file":"QuestNarrative/Quest/Quest0023.md","x":-5840,"y":2680,"width":400,"height":400,"color":"5"},
 		{"id":"856de9859861a1a9","type":"file","file":"QuestNarrative/Quest/Quest0021.md","x":-3160,"y":2680,"width":400,"height":400,"color":"5"},
-		{"id":"422e2b268c3b03f5","type":"file","file":"QuestNarrative/Quest/Quest0020.md","x":-2640,"y":2880,"width":400,"height":400,"color":"5"}
+		{"id":"7bc29101adaf72a1","type":"file","file":"QuestNarrative/Quest/Quest0026.md","x":-960,"y":1700,"width":400,"height":400,"color":"5"},
+		{"id":"422e2b268c3b03f5","type":"file","file":"QuestNarrative/Quest/Quest0020.md","x":-2640,"y":2680,"width":400,"height":400,"color":"5"},
+		{"id":"ce6ca5e39e7a4103","type":"file","file":"QuestNarrative/Quest/Quest0001.md","x":-5040,"y":1360,"width":400,"height":400,"color":"1"}
 	],
 	"edges":[
 		{
@@ -200,6 +202,7 @@
 			"id":"629b5974bb3e67b4",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"ce6ca5e39e7a4103",
 			"fromSide":"right",
 			"toNode":"0f9c22e06d7a4d1f",
@@ -227,6 +230,7 @@
 			"id":"823dd0b8f4a775b3",
 			"styleAttributes":{},
 			"toFloating":false,
+			"fromFloating":false,
 			"fromNode":"0bc6a8e054797187",
 			"fromSide":"left",
 			"toNode":"ce6ca5e39e7a4103",
@@ -258,6 +262,34 @@
 			"fromSide":"right",
 			"toNode":"0bc6a8e054797187",
 			"toSide":"left"
+		},
+		{
+			"id":"d53a033480bf9c21",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ce6ca5e39e7a4103",
+			"fromSide":"bottom",
+			"toNode":"f15d4f3de455e94a",
+			"toSide":"top"
+		},
+		{
+			"id":"848a9f52976787dc",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"ce6ca5e39e7a4103",
+			"fromSide":"bottom",
+			"toNode":"f15d4f3de455e94a",
+			"toSide":"top"
+		},
+		{
+			"id":"4dbd53eb81c9da1a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ce6ca5e39e7a4103",
+			"fromSide":"bottom",
+			"toNode":"ea96fedfbcd0ebe0",
+			"toSide":"top"
 		}
 	],
 	"metadata":{

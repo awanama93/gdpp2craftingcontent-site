@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T19:55:51.328+07:00
-modified: 2026-07-28T21:53:15.084+07:00
-published: 2026-07-28T21:53:15.084+07:00
+created: 2026-07-27T12:55:51.328Z
+modified: 2026-07-28T14:53:15.084Z
+published: 2026-07-28T14:53:15.084Z
 QuestID: "[[Quest0003]]"
 Q_Name: Help The Self-Sufficient to build the Boat
 Q_Description: Help The Self-Sufficient to build the big boat to sail to the Safe Place
@@ -57,96 +57,64 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-Quest0003
+```datacorejsx
 
-- questid: [[QuestNarrative/Quest/Quest0003|Quest0003]]
+return function TitleHeader() {
 
-- q\_name: Help The Self-Sufficient to build the Boat
+const file = dc.useCurrentFile();
 
-- q\_description: Help The Self-Sufficient to build the big boat to sail to the Safe Place
+if (!file) return null;
 
-- questtype: Main
+// file.$name contains the clean string of the note title
 
-- q\_goaltype: Quest completion
+return <h1>{file.$name}</h1>; }
 
-- q\_conditiontype: null
+  
 
-- istimelimit: null
+```
 
-- timelimit: null
+```datacorejsx
 
-- qg\_questid: [[QuestNarrative/Quest/Quest0009|Quest0009]],[[QuestNarrative/Quest/Quest0010|Quest0010]],[[QuestNarrative/Quest/Quest0011|Quest0011]],[[QuestNarrative/Quest/Quest0012|Quest0012]]
+  
 
-- qg\_iteme\_id: null
+return function View() {
 
-- qg\_iteme\_amount: null
+  
 
-- qg\_itemd\_id: [[Item/GA_Propulsion|GA_Propulsion]]
+  const file = dc.useCurrentFile();
 
-- qg\_itemd\_amount: 1
+  
 
-- qg\_itemc\_id: [[Item/GA_Decking|GA_Decking]]
+  if (!file) return <p>loading</p>;
 
-- qg\_itemc\_amount: 1
+  
 
-- qg\_itemb\_id: [[Item/GA_Frame|GA_Frame]]
+  const KUMPULAN = file.$frontmatter;
 
-- qg\_itemb\_amount: 1
+  
 
-- qg\_itema\_id: [[Item/GA_Bouyancy|GA_Bouyancy]]
+  
 
-- qg\_itema\_amount: 1
+  const items = Object.entries(KUMPULAN)
 
-- qg\_dialogueid: null
+  
 
-- qg\_convictiontype: null
+    .filter(([key]) => !key.startsWith("__"))
 
-- qg\_convictioncharacter: null
+  
 
-- qg\_convictionamount: null
+    .map(([key, field]) => `${key}: ${field?.value}`);
 
-- qg\_closenessnpc: null
+  
 
-- qg\_closenessamount: null
+  
 
-- qc\_time: null
+  return <dc.List rows={items} />;
 
-- qc\_iteme\_id: null
+  
 
-- qc\_iteme\_amount: null
+}
 
-- qc\_itemd\_id: null
+  
 
-- qc\_itemd\_amount: null
-
-- qc\_itemc\_id: null
-
-- qc\_itemc\_amount: null
-
-- qc\_itemb\_id: null
-
-- qc\_itemb\_amount: null
-
-- qc\_itema\_id: null
-
-- qc\_itema\_amount: null
-
-- qc\_dialogueid: null
-
-- qc\_convictiontype: null
-
-- qc\_convictioncharacter: null
-
-- qc\_convictionamount: null
-
-- qc\_closenessnpc: null
-
-- qc\_closenessamount: null
-
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0009|Quest0009]]
-
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+```

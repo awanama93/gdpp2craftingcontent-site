@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:04:40.769+07:00
-modified: 2026-07-27T22:11:07.354+07:00
-published: 2026-07-27T22:11:07.354+07:00
+created: 2026-07-27T15:04:40.769Z
+modified: 2026-07-27T15:11:07.354Z
+published: 2026-07-27T15:11:07.354Z
 CharacterID:
 Ch_Name: Croft
 Ch_MaxHealth:

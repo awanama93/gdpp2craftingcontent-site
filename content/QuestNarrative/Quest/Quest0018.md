@@ -1,11 +1,11 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:15.937+07:00
-published: 2026-07-28T21:53:15.937+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:01:08.071Z
+published: 2026-08-04T02:01:08.071Z
 QuestID: "[[Quest0018]]"
 Q_Name: Learn how to break object
-Q_Description:
+Q_Description: Slocum told you to talk to Marconi about objecsmasher that you can use to break things
 QuestType: Main
 Q_GoalType:
 Q_ConditionType:
@@ -59,7 +59,7 @@ Quest0018
 
 - q\_name: Learn how to break object
 
-- q\_description: null
+- q\_description: Slocum told you to talk to Marconi about objecsmasher that you can use to break things
 
 - questtype: Main
 

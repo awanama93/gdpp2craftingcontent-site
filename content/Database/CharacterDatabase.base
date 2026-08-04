@@ -14,3 +14,9 @@ views:
       - Ch_Conviction_Settler_Start
       - Ch_Conviction_Signaler_Start
       - Ch_Dialogues
+  - type: table
+    name: DialogueDataView
+    order:
+      - file.name
+      - Ch_Name
+      - Ch_Dialogues

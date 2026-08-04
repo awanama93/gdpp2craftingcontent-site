@@ -1,15 +1,15 @@
 ---
 publish: true
-created: 2026-07-28T11:36:37.217+07:00
-modified: 2026-07-29T18:10:02.282+07:00
-published: 2026-07-29T18:10:02.282+07:00
+created: 2026-07-28T04:36:37.217Z
+modified: 2026-07-30T14:29:33.029Z
+published: 2026-07-30T14:29:33.029Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
 I_StackSize:
 I_Description:
 I_SpawnedItem:
-I_ProcessingStage: Level 3
+I_ProcessingStage: Level 2
 I_EffectA:
 I_EffectA_Value:
 I_EffectB:
@@ -69,7 +69,7 @@ IN\_Bearing
 
 - i\_spawneditem: null
 
-- i\_processingstage: Level 3
+- i\_processingstage: Level 2
 
 - i\_effecta: null
 

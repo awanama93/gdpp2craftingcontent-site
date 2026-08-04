@@ -57,6 +57,10 @@ views:
       - I_IsIngredientOf
   - type: table
     name: LootableView
+    filters:
+      or:
+        - ItemType.contains("InventoryCraftable")
+        - ItemType.contains("Consumable")
     order:
       - file.name
       - ItemID
@@ -114,7 +118,7 @@ views:
     columnSize:
       file.name: 108
       note.CraftingMethod: 204
-    rowHeight: extra
+    rowHeight: medium
   - type: table
     name: ConsumableView
     order:
@@ -151,8 +155,13 @@ views:
       - I_LootableH
   - type: table
     name: IngredientsView
+    filters:
+      and:
+        - I_ProcessingStage.contains("Level 1")
     order:
       - file.name
       - I_IsIngredientOf
+      - I_ProcessingStage
     columnSize:
       file.name: 154
+      note.I_IsIngredientOf: 214

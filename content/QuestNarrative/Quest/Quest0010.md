@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:15.395+07:00
-published: 2026-07-28T21:53:15.395+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-07-28T14:53:15.395Z
+published: 2026-07-28T14:53:15.395Z
 QuestID: "[[Quest0010]]"
 Q_Name: Help to build decking for the frame
 Q_Description: We need decking so people can stand and sleep on the boat. Let's find the components
@@ -53,96 +53,64 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-Quest0010
+```datacorejsx
 
-- questid: [[QuestNarrative/Quest/Quest0010|Quest0010]]
+return function TitleHeader() {
 
-- q\_name: Help to build decking for the frame
+const file = dc.useCurrentFile();
 
-- q\_description: We need decking so people can stand and sleep on the boat. Let's find the components
+if (!file) return null;
 
-- questtype: Main
+// file.$name contains the clean string of the note title
 
-- q\_goaltype: Item ownership
+return <h1>{file.$name}</h1>; }
 
-- q\_conditiontype: null
+  
 
-- istimelimit: null
+```
 
-- timelimit: null
+```datacorejsx
 
-- qg\_questid: null
+  
 
-- qg\_iteme\_id: null
+return function View() {
 
-- qg\_iteme\_amount: null
+  
 
-- qg\_itemd\_id: null
+  const file = dc.useCurrentFile();
 
-- qg\_itemd\_amount: null
+  
 
-- qg\_itemc\_id: [[Item/IN_Flooring|IN_Flooring]]
+  if (!file) return <p>loading</p>;
 
-- qg\_itemc\_amount: 1
+  
 
-- qg\_itemb\_id: [[Item/IN_FastenerTies|IN_FastenerTies]]
+  const KUMPULAN = file.$frontmatter;
 
-- qg\_itemb\_amount: 1
+  
 
-- qg\_itema\_id: [[Item/IN_StructureWaterproofing|IN_StructureWaterproofing]]
+  
 
-- qg\_itema\_amount: 1
+  const items = Object.entries(KUMPULAN)
 
-- qg\_dialogueid: null
+  
 
-- qg\_convictiontype: null
+    .filter(([key]) => !key.startsWith("__"))
 
-- qg\_convictioncharacter: null
+  
 
-- qg\_convictionamount: null
+    .map(([key, field]) => `${key}: ${field?.value}`);
 
-- qg\_closenessnpc: null
+  
 
-- qg\_closenessamount: null
+  
 
-- qc\_time: null
+  return <dc.List rows={items} />;
 
-- qc\_iteme\_id: null
+  
 
-- qc\_iteme\_amount: null
+}
 
-- qc\_itemd\_id: null
+  
 
-- qc\_itemd\_amount: null
-
-- qc\_itemc\_id: null
-
-- qc\_itemc\_amount: null
-
-- qc\_itemb\_id: null
-
-- qc\_itemb\_amount: null
-
-- qc\_itema\_id: null
-
-- qc\_itema\_amount: null
-
-- qc\_dialogueid: null
-
-- qc\_convictiontype: null
-
-- qc\_convictioncharacter: null
-
-- qc\_convictionamount: null
-
-- qc\_closenessnpc: null
-
-- qc\_closenessamount: null
-
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0011|Quest0011]]
-
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+```

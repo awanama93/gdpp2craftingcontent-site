@@ -1,12 +1,12 @@
 ---
 publish: true
-created: 2026-07-27T20:19:58.152+07:00
-modified: 2026-07-28T21:53:17.016+07:00
-published: 2026-07-28T21:53:17.016+07:00
+created: 2026-07-27T13:19:58.152Z
+modified: 2026-08-04T02:04:55.591Z
+published: 2026-08-04T02:04:55.591Z
 QuestID: "[[Quest0028]]"
-Q_Name:
-Q_Description:
-QuestType:
+Q_Name: Talk to The Signaler
+Q_Description: Some of the survivor think that we'd better looking for help, and we will get help if we can reach out to others via radio communication. Find out who they are.
+QuestType: Main
 Q_GoalType:
 Q_ConditionType:
 IsTimeLimit:
@@ -53,11 +53,11 @@ Quest0028
 
 - questid: [[QuestNarrative/Quest/Quest0028|Quest0028]]
 
-- q\_name: null
+- q\_name: Talk to The Signaler
 
-- q\_description: null
+- q\_description: Some of the survivor think that we'd better looking for help, and we will get help if we can reach out to others via radio communication. Find out who they are.
 
-- questtype: null
+- questtype: Main
 
 - q\_goaltype: null
 

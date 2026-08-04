@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T19:45:35.533+07:00
-modified: 2026-07-28T21:53:15.024+07:00
-published: 2026-07-28T21:53:15.024+07:00
+created: 2026-07-27T12:45:35.533Z
+modified: 2026-07-28T14:53:15.024Z
+published: 2026-07-28T14:53:15.024Z
 QuestType: Main
 QuestID: "[[Quest0001]]"
 Q_Name: Learn how the world works
@@ -64,96 +64,64 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 ---
 
-Quest0001
+```datacorejsx
 
-- questtype: Main
+return function TitleHeader() {
 
-- questid: [[QuestNarrative/Quest/Quest0001|Quest0001]]
+const file = dc.useCurrentFile();
 
-- q\_name: Learn how the world works
+if (!file) return null;
 
-- q\_description: Ask around to help you understand how this world works
+// file.$name contains the clean string of the note title
 
-- q\_goaltype: Quest completion
+return <h1>{file.$name}</h1>; }
 
-- q\_conditiontype: none
+  
 
-- istimelimit: null
+```
 
-- timelimit: null
+```datacorejsx
 
-- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0021|Quest0021]],[[QuestNarrative/Quest/Quest0022|Quest0022]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
+  
 
-- qg\_iteme\_id: null
+return function View() {
 
-- qg\_iteme\_amount: null
+  
 
-- qg\_itemd\_id: null
+  const file = dc.useCurrentFile();
 
-- qg\_itemd\_amount: null
+  
 
-- qg\_itemc\_id: null
+  if (!file) return <p>loading</p>;
 
-- qg\_itemc\_amount: null
+  
 
-- qg\_itemb\_id: null
+  const KUMPULAN = file.$frontmatter;
 
-- qg\_itemb\_amount: null
+  
 
-- qg\_itema\_id: null
+  
 
-- qg\_itema\_amount: null
+  const items = Object.entries(KUMPULAN)
 
-- qg\_dialogueid: null
+  
 
-- qg\_convictiontype: null
+    .filter(([key]) => !key.startsWith("__"))
 
-- qg\_convictioncharacter: null
+  
 
-- qg\_convictionamount: null
+    .map(([key, field]) => `${key}: ${field?.value}`);
 
-- qg\_closenessnpc: null
+  
 
-- qg\_closenessamount: null
+  
 
-- qc\_time: null
+  return <dc.List rows={items} />;
 
-- qc\_iteme\_id: null
+  
 
-- qc\_iteme\_amount: null
+}
 
-- qc\_itemd\_id: null
+  
 
-- qc\_itemd\_amount: null
-
-- qc\_itemc\_id: null
-
-- qc\_itemc\_amount: null
-
-- qc\_itemb\_id: null
-
-- qc\_itemb\_amount: null
-
-- qc\_itema\_id: null
-
-- qc\_itema\_amount: null
-
-- qc\_dialogueid: null
-
-- qc\_convictiontype: null
-
-- qc\_convictioncharacter: null
-
-- qc\_convictionamount: null
-
-- qc\_closenessnpc: null
-
-- qc\_closenessamount: null
-
-- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
-
-- questmapping: [[QuestNarrative/Quest/Quest0002|Quest0002]],[[QuestNarrative/Quest/Quest0003|Quest0003]],[[QuestNarrative/Quest/Quest0004|Quest0004]],[[QuestNarrative/Quest/Quest0023|Quest0023]]
-
-- q\_goalactiontype: null
-
-- q\_goalactiontargetobject: null
+```

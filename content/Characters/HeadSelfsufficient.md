@@ -1,8 +1,8 @@
 ---
 publish: true
-created: 2026-07-27T22:03:12.249+07:00
-modified: 2026-07-27T22:18:15.312+07:00
-published: 2026-07-27T22:18:15.312+07:00
+created: 2026-07-27T15:03:12.249Z
+modified: 2026-08-04T03:08:11.550Z
+published: 2026-08-04T03:08:11.550Z
 CharacterID:
 Ch_Name: Slocum
 Ch_MaxHealth:
@@ -11,6 +11,10 @@ Ch_Conviction_Selfsufficient_Start:
 Ch_Conviction_Signaler_Start:
 Ch_Closeness_Start:
 Ch_Dialogues:
+  - "[[Dialogue0005]]"
+  - "[[Dialogue0006]]"
+  - "[[Dialogue0013]]"
+  - "[[Dialogue0014]]"
 ---
 
 HeadSelfsufficient
@@ -29,4 +33,4 @@ HeadSelfsufficient
 
 - ch\_closeness\_start: null
 
-- ch\_dialogues: null
+- ch\_dialogues: [[QuestNarrative/Dialogue/Dialogue0005|Dialogue0005]],[[QuestNarrative/Dialogue/Dialogue0006|Dialogue0006]],[[QuestNarrative/Dialogue/Dialogue0013|Dialogue0013]],[[QuestNarrative/Dialogue/Dialogue0014|Dialogue0014]]
