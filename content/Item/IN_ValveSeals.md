@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T04:36:37.217Z
-modified: 2026-07-30T14:45:34.928Z
-published: 2026-07-30T14:45:34.928Z
+modified: 2026-08-06T14:41:58.993Z
+published: 2026-08-06T14:41:58.993Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -28,7 +28,7 @@ I_LootableC_Quantity:
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
-Cr_IngredientA: "[[IN_ValveSeals]]"
+Cr_IngredientA: "[[IN_SiliconeGasket]]"
 Cr_IngredientAQuantity: "1"
 Cr_IngredientB: "[[IN_Rope]]"
 Cr_IngredientBQuantity: "1"
@@ -109,7 +109,7 @@ IN\_ValveSeals
 
 - i\_lootabled\_quantity: null
 
-- cr\_ingredienta: [[Item/IN_ValveSeals|IN_ValveSeals]]
+- cr\_ingredienta: [[Item/IN_SiliconeGasket|IN_SiliconeGasket]]
 
 - cr\_ingredientaquantity: 1
 

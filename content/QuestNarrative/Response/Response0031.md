@@ -1,44 +1,56 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T12:14:12.698Z
-published: 2026-08-04T12:14:12.698Z
+modified: 2026-08-07T02:40:09.108Z
+published: 2026-08-07T02:40:09.108Z
 ResponseID: "[[Response0031]]"
-R_Type:
+R_Type: Starter
 R_Prerequisite:
-R_Text:
+  - "[[Quest0030]]"
+R_Text: Oblige to the crafting request
 R_Outcome:
-R_NextDialogue:
+  - "[[Outcome0019]]"
+R_NextDialogue: "[[Dialogue0024]]"
 R_ResponseRelation:
-R_PrerequisiteValue:
-R_ResponseCodename:
+R_PrerequisiteValue: available
+R_ResponseCodename: StarterQuest0030
 R_DialogueParent:
+  - "[[Dialogue0035]]"
 R_ResponseType:
 R_QuestRelation:
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Quest0030]]"
+  - "[[Dialogue0024]]"
 ---
 
 Response0031
 
 - responseid: [[QuestNarrative/Response/Response0031|Response0031]]
 
-- r\_type: null
+- r\_type: Starter
 
-- r\_prerequisite: null
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0030|Quest0030]]
 
-- r\_text: null
+- r\_text: Oblige to the crafting request
 
-- r\_outcome: null
+- r\_outcome: [[QuestNarrative/Outcome/Outcome0019|Outcome0019]]
 
-- r\_nextdialogue: null
+- r\_nextdialogue: [[QuestNarrative/Dialogue/Dialogue0024|Dialogue0024]]
 
 - r\_responserelation: null
 
-- r\_prerequisitevalue: null
+- r\_prerequisitevalue: available
 
-- r\_responsecodename: null
+- r\_responsecodename: StarterQuest0030
 
-- r\_dialogueparent: null
+- r\_dialogueparent: [[QuestNarrative/Dialogue/Dialogue0035|Dialogue0035]]
 
 - r\_responsetype: null
 
 - r\_questrelation: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0030|Quest0030]],[[QuestNarrative/Dialogue/Dialogue0024|Dialogue0024]]

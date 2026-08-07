@@ -18,7 +18,7 @@ views:
     sort: []
     columnSize:
       note.DialogueID: 131
-      note.D_NPC: 110
+      note.D_NPC: 134
       note.D_Exposition: 182
   - type: table
     name: CodenameExpositionView
@@ -43,7 +43,6 @@ views:
     columnSize:
       note.D_Exposition: 182
       note.D_ResponsesList: 233
-    rowHeight: tall
   - type: table
     name: WhoHoldThisDialogueView
     order:

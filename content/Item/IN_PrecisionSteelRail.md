@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T04:21:18.180Z
-modified: 2026-07-30T13:54:56.247Z
-published: 2026-07-30T13:54:56.247Z
+modified: 2026-08-06T15:57:46.054Z
+published: 2026-08-06T15:57:46.054Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -28,12 +28,12 @@ I_LootableC_Quantity:
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
-Cr_IngredientA:
-Cr_IngredientAQuantity:
-Cr_IngredientB:
-Cr_IngredientBQuantity:
-Cr_IngredientC:
-Cr_IngredientCQuantity:
+Cr_IngredientA: "[[IN_MetalPipe]]"
+Cr_IngredientAQuantity: "1"
+Cr_IngredientB: "[[IN_Hinge]]"
+Cr_IngredientBQuantity: "1"
+Cr_IngredientC: "[[IN_SteelFrame]]"
+Cr_IngredientCQuantity: "1"
 Cr_IngredientD:
 Cr_IngredientDQuantity:
 Cr_IngredientE:
@@ -42,6 +42,8 @@ CraftingMethod:
   - Loot
   - "[[LO_Fax]]"
   - "[[LO_PaperPrinter]]"
+  - "[[CM_Crafter]]"
+  - "[[MS_CrafterS2]]"
 I_LootableE:
 I_LootableE_DropChance:
 I_LootableE_Quantity:
@@ -111,17 +113,17 @@ IN\_PrecisionSteelRail
 
 - i\_lootabled\_quantity: null
 
-- cr\_ingredienta: null
+- cr\_ingredienta: [[Item/IN_MetalPipe|IN_MetalPipe]]
 
-- cr\_ingredientaquantity: null
+- cr\_ingredientaquantity: 1
 
-- cr\_ingredientb: null
+- cr\_ingredientb: [[Item/IN_Hinge|IN_Hinge]]
 
-- cr\_ingredientbquantity: null
+- cr\_ingredientbquantity: 1
 
-- cr\_ingredientc: null
+- cr\_ingredientc: [[Item/IN_SteelFrame|IN_SteelFrame]]
 
-- cr\_ingredientcquantity: null
+- cr\_ingredientcquantity: 1
 
 - cr\_ingredientd: null
 
@@ -131,7 +133,7 @@ IN\_PrecisionSteelRail
 
 - cr\_ingredientequantity: null
 
-- craftingmethod: Loot,[[Item/LO_Fax|LO_Fax]],[[Item/LO_PaperPrinter|LO_PaperPrinter]]
+- craftingmethod: Loot,[[Item/LO_Fax|LO_Fax]],[[Item/LO_PaperPrinter|LO_PaperPrinter]],[[Crafting/Machine/CM_Crafter|CM_Crafter]],[[Crafting/MachineStageData/MS_CrafterS2|MS_CrafterS2]]
 
 - i\_lootablee: null
 

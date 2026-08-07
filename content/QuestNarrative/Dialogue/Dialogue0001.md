@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-04T15:25:58.556Z
-published: 2026-08-04T15:25:58.556Z
+modified: 2026-08-07T17:50:42.581Z
+published: 2026-08-07T17:50:42.581Z
 DialogueID: "[[Dialogue0001]]"
 D_NPC: "[[HeadSettler]]"
 D_Exposition: Currie is talking to you about what you should do next
@@ -31,6 +31,10 @@ QuestMapping:
   - "[[Response0029]]"
   - "[[Response0006]]"
   - "[[Response0030]]"
+  - "[[Response0014]]"
+  - "[[Response0012]]"
+  - "[[Response0035]]"
+  - "[[Response0036]]"
 D_DialogueType: Holder
 ---
 
@@ -54,6 +58,6 @@ Dialogue0001
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Response/Response0001|Response0001]],[[QuestNarrative/Response/Response0025|Response0025]],[[QuestNarrative/Response/Response0028|Response0028]],[[QuestNarrative/Response/Response0029|Response0029]],[[QuestNarrative/Response/Response0006|Response0006]],[[QuestNarrative/Response/Response0030|Response0030]]
+- questmapping: [[QuestNarrative/Response/Response0001|Response0001]],[[QuestNarrative/Response/Response0025|Response0025]],[[QuestNarrative/Response/Response0028|Response0028]],[[QuestNarrative/Response/Response0029|Response0029]],[[QuestNarrative/Response/Response0006|Response0006]],[[QuestNarrative/Response/Response0030|Response0030]],[[QuestNarrative/Response/Response0014|Response0014]],[[QuestNarrative/Response/Response0012|Response0012]],[[QuestNarrative/Response/Response0035|Response0035]],[[QuestNarrative/Response/Response0036|Response0036]]
 
 - d\_dialoguetype: Holder

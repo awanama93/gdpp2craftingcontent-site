@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T15:22:26.791Z
-modified: 2026-08-04T15:29:14.475Z
-published: 2026-08-04T15:29:14.475Z
+modified: 2026-08-05T04:11:08.935Z
+published: 2026-08-05T04:11:08.935Z
 DialogueID: "[[Dialogue0023]]"
 D_NPC: "[[HeadSettler]]"
-D_Exposition: Great! She also reminded you that gliding cost your stamina too.
+D_Exposition: Great! She also reminded you that gliding cost your stamina too. Now talk to Slocum
 D_ResponsesList:
 D_DialogueRelations:
 D_QuestRelations:
@@ -23,7 +23,7 @@ Dialogue0023
 
 - d\_npc: [[Characters/HeadSettler|HeadSettler]]
 
-- d\_exposition: Great! She also reminded you that gliding cost your stamina too.
+- d\_exposition: Great! She also reminded you that gliding cost your stamina too. Now talk to Slocum
 
 - d\_responseslist: null
 

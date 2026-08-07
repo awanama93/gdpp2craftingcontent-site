@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T12:18:58.341Z
-published: 2026-08-04T12:18:58.341Z
+modified: 2026-08-07T16:58:48.453Z
+published: 2026-08-07T16:58:48.453Z
 ResponseID: "[[Response0013]]"
 R_Type: Starter
 R_Prerequisite:
-  - "[[Quest0019]]"
-R_Text: Tell him Currie ask you to talk to him about hunting
+  - "[[Quest0030]]"
+R_Text: Tell him Slocum ask you to talk to him about hunting
 R_Outcome:
   - "[[Outcome0009]]"
 R_NextDialogue: "[[Dialogue0013]]"
@@ -18,6 +18,11 @@ R_DialogueParent:
   - "[[Dialogue0005]]"
 R_ResponseType: Starter
 R_QuestRelation: "[[Quest0021]]"
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Quest0021]]"
+  - "[[Dialogue0013]]"
 ---
 
 Response0013
@@ -26,9 +31,9 @@ Response0013
 
 - r\_type: Starter
 
-- r\_prerequisite: [[QuestNarrative/Quest/Quest0019|Quest0019]]
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0030|Quest0030]]
 
-- r\_text: Tell him Currie ask you to talk to him about hunting
+- r\_text: Tell him Slocum ask you to talk to him about hunting
 
 - r\_outcome: [[QuestNarrative/Outcome/Outcome0009|Outcome0009]]
 
@@ -45,3 +50,7 @@ Response0013
 - r\_responsetype: Starter
 
 - r\_questrelation: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]],[[QuestNarrative/Dialogue/Dialogue0013|Dialogue0013]]

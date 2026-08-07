@@ -1,14 +1,16 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.979Z
-published: 2026-08-04T13:25:47.979Z
+modified: 2026-08-05T14:41:00.721Z
+published: 2026-08-05T14:41:00.721Z
 QuestID: "[[Quest0018]]"
 Q_Name: Learn how to break object
-Q_Description: Slocum told you to talk to Marconi about objecsmasher that you can use to break things
+Q_Description: Slocum told you to talk to Marconi about objectmasher that you can use to break things
 QuestType: Main
-Q_GoalType: Dialogue completion
-Q_ConditionType:
+Q_GoalType:
+  - Dialogue completion
+  - Item ownership
+Q_ConditionType: Quest completion
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -20,8 +22,8 @@ QG_ItemC_ID:
 QG_ItemC_Amount:
 QG_ItemB_ID:
 QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemA_ID: "[[IN_Pencil]]"
+QG_ItemA_Amount: "2"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -50,8 +52,11 @@ Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0019]]"
+  - "[[Quest0020]]"
 Q_CharacterRelation:
+  - "[[HeadSignaler]]"
+  - "[[HeadSelfsufficient]]"
+QC_QuestID: "[[Quest0017]]"
 ---
 
 Quest0018
@@ -60,13 +65,13 @@ Quest0018
 
 - q\_name: Learn how to break object
 
-- q\_description: Slocum told you to talk to Marconi about objecsmasher that you can use to break things
+- q\_description: Slocum told you to talk to Marconi about objectmasher that you can use to break things
 
 - questtype: Main
 
-- q\_goaltype: Dialogue completion
+- q\_goaltype: Dialogue completion,Item ownership
 
-- q\_conditiontype: null
+- q\_conditiontype: Quest completion
 
 - istimelimit: null
 
@@ -90,9 +95,9 @@ Quest0018
 
 - qg\_itemb\_amount: null
 
-- qg\_itema\_id: null
+- qg\_itema\_id: [[Item/IN_Pencil|IN_Pencil]]
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 2
 
 - qg\_dialogueid: null
 
@@ -146,6 +151,8 @@ Quest0018
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0019|Quest0019]]
+- questmapping: [[QuestNarrative/Quest/Quest0020|Quest0020]]
 
-- q\_characterrelation: null
+- q\_characterrelation: [[Characters/HeadSignaler|HeadSignaler]],[[Characters/HeadSelfsufficient|HeadSelfsufficient]]
+
+- qc\_questid: [[QuestNarrative/Quest/Quest0017|Quest0017]]

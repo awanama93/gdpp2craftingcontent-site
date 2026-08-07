@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T05:55:10.612Z
-modified: 2026-07-29T11:00:53.627Z
-published: 2026-07-29T11:00:53.627Z
+modified: 2026-08-06T15:05:46.621Z
+published: 2026-08-06T15:05:46.621Z
 ItemID:
 ItemType: Consumable
 I_BreakPoint:
@@ -28,10 +28,10 @@ I_LootableC_Quantity:
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
-Cr_IngredientA:
-Cr_IngredientAQuantity:
-Cr_IngredientB:
-Cr_IngredientBQuantity:
+Cr_IngredientA: "[[CO_BirdEgg]]"
+Cr_IngredientAQuantity: "1"
+Cr_IngredientB: "[[IN_SaltbushSeed]]"
+Cr_IngredientBQuantity: "1"
 Cr_IngredientC:
 Cr_IngredientCQuantity:
 Cr_IngredientD:
@@ -50,7 +50,9 @@ I_LootableG_Quantity:
 I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
-CraftingMethod: "[[CM_ConsumableProcessor]]"
+CraftingMethod:
+  - "[[CM_ConsumableProcessor]]"
+  - "[[MS_ConsumableS2]]"
 I_IsIngredientOf:
 ---
 
@@ -106,13 +108,13 @@ CO\_Omelette
 
 - i\_lootabled\_quantity: null
 
-- cr\_ingredienta: null
+- cr\_ingredienta: [[Item/CO_BirdEgg|CO_BirdEgg]]
 
-- cr\_ingredientaquantity: null
+- cr\_ingredientaquantity: 1
 
-- cr\_ingredientb: null
+- cr\_ingredientb: [[Item/IN_SaltbushSeed|IN_SaltbushSeed]]
 
-- cr\_ingredientbquantity: null
+- cr\_ingredientbquantity: 1
 
 - cr\_ingredientc: null
 
@@ -150,6 +152,6 @@ CO\_Omelette
 
 - i\_lootableh\_quantity: null
 
-- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]]
+- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]],[[Crafting/MachineStageData/MS_ConsumableS2|MS_ConsumableS2]]
 
 - i\_isingredientof: null

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T05:55:10.612Z
-modified: 2026-07-29T11:00:51.720Z
-published: 2026-07-29T11:00:51.720Z
+modified: 2026-08-06T15:05:12.364Z
+published: 2026-08-06T15:05:12.364Z
 ItemID:
 ItemType: Consumable
 I_BreakPoint:
@@ -28,14 +28,14 @@ I_LootableC_Quantity:
 I_LootableD:
 I_LootableD_DropChance:
 I_LootableD_Quantity:
-Cr_IngredientA:
-Cr_IngredientAQuantity:
-Cr_IngredientB:
-Cr_IngredientBQuantity:
-Cr_IngredientC:
-Cr_IngredientCQuantity:
-Cr_IngredientD:
-Cr_IngredientDQuantity:
+Cr_IngredientA: "[[CO_BirdMeat]]"
+Cr_IngredientAQuantity: "1"
+Cr_IngredientB: "[[IN_JuniperBerrySeed]]"
+Cr_IngredientBQuantity: "1"
+Cr_IngredientC: "[[IN_BeachPlumSeed]]"
+Cr_IngredientCQuantity: "1"
+Cr_IngredientD: "[[IN_SeadBuckthornSeed]]"
+Cr_IngredientDQuantity: "1"
 Cr_IngredientE:
 Cr_IngredientEQuantity:
 I_LootableE:
@@ -50,7 +50,9 @@ I_LootableG_Quantity:
 I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
-CraftingMethod: "[[CM_ConsumableProcessor]]"
+CraftingMethod:
+  - "[[CM_ConsumableProcessor]]"
+  - "[[MS_ConsumableS2]]"
 I_IsIngredientOf:
 ---
 
@@ -106,21 +108,21 @@ CO\_BirdPemmican
 
 - i\_lootabled\_quantity: null
 
-- cr\_ingredienta: null
+- cr\_ingredienta: [[Item/CO_BirdMeat|CO_BirdMeat]]
 
-- cr\_ingredientaquantity: null
+- cr\_ingredientaquantity: 1
 
-- cr\_ingredientb: null
+- cr\_ingredientb: [[Item/IN_JuniperBerrySeed|IN_JuniperBerrySeed]]
 
-- cr\_ingredientbquantity: null
+- cr\_ingredientbquantity: 1
 
-- cr\_ingredientc: null
+- cr\_ingredientc: [[Item/IN_BeachPlumSeed|IN_BeachPlumSeed]]
 
-- cr\_ingredientcquantity: null
+- cr\_ingredientcquantity: 1
 
-- cr\_ingredientd: null
+- cr\_ingredientd: [[Item/IN_SeadBuckthornSeed|IN_SeadBuckthornSeed]]
 
-- cr\_ingredientdquantity: null
+- cr\_ingredientdquantity: 1
 
 - cr\_ingrediente: null
 
@@ -150,6 +152,6 @@ CO\_BirdPemmican
 
 - i\_lootableh\_quantity: null
 
-- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]]
+- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]],[[Crafting/MachineStageData/MS_ConsumableS2|MS_ConsumableS2]]
 
 - i\_isingredientof: null

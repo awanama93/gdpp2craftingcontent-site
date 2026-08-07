@@ -116,7 +116,8 @@ views:
       - Cr_IngredientE
       - Cr_IngredientEQuantity
     columnSize:
-      file.name: 108
+      file.name: 128
+      note.ItemID: 56
       note.CraftingMethod: 204
     rowHeight: medium
   - type: table

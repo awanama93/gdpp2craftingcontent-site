@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:48.668Z
-published: 2026-08-04T13:25:48.668Z
+modified: 2026-08-07T16:47:37.955Z
+published: 2026-08-07T16:47:37.955Z
 QuestID: "[[Quest0030]]"
-Q_Name:
-Q_Description:
+Q_Name: Try to craft an item
+Q_Description: Craft a precision steel rail then talk again to Slocum
 QuestType:
 Q_GoalType:
 Q_ConditionType:
@@ -48,15 +48,19 @@ QC_ClosenessAmount:
 Q_GoalActionType:
 Q_GoalActionTargetObject:
 Q_CharacterRelation:
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Quest0021]]"
 ---
 
 Quest0030
 
 - questid: [[QuestNarrative/Quest/Quest0030|Quest0030]]
 
-- q\_name: null
+- q\_name: Try to craft an item
 
-- q\_description: null
+- q\_description: Craft a precision steel rail then talk again to Slocum
 
 - questtype: null
 
@@ -141,3 +145,7 @@ Quest0030
 - q\_goalactiontargetobject: null
 
 - q\_characterrelation: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]]

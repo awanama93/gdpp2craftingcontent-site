@@ -1,22 +1,28 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-04T12:16:58.831Z
-published: 2026-08-04T12:16:58.831Z
+modified: 2026-08-06T16:33:53.217Z
+published: 2026-08-06T16:33:53.217Z
 ResponseID: "[[Response0017]]"
 R_Type: Confirmer
 R_Prerequisite:
-R_Text: '"Tell her that you have craft the [[CO_RoastBird | Roast bird]]"'
+  - "[[Quest0020]]"
+R_Text: Tell him that you have gathered all materials to build crafter machine
 R_Outcome:
   - "[[Outcome0012]]"
 R_NextDialogue: "[[Dialogue0016]]"
 R_ResponseRelation:
-R_PrerequisiteValue:
+R_PrerequisiteValue: Complete
 R_ResponseCodename: ConfirmQuest0020Complete
 R_DialogueParent:
   - "[[Dialogue0001]]"
 R_ResponseType:
 R_QuestRelation:
+canvas:
+  - "[[QuestMapping.canvas]]"
+QuestMapping:
+  - "[[Quest0020]]"
+  - "[[Dialogue0016]]"
 ---
 
 Response0017
@@ -25,9 +31,9 @@ Response0017
 
 - r\_type: Confirmer
 
-- r\_prerequisite: null
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0020|Quest0020]]
 
-- r\_text: "Tell her that you have craft the [[CO_RoastBird|Roast bird]]"
+- r\_text: Tell him that you have gathered all materials to build crafter machine
 
 - r\_outcome: [[QuestNarrative/Outcome/Outcome0012|Outcome0012]]
 
@@ -35,7 +41,7 @@ Response0017
 
 - r\_responserelation: null
 
-- r\_prerequisitevalue: null
+- r\_prerequisitevalue: Complete
 
 - r\_responsecodename: ConfirmQuest0020Complete
 
@@ -44,3 +50,7 @@ Response0017
 - r\_responsetype: null
 
 - r\_questrelation: null
+
+- canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
+
+- questmapping: [[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Dialogue/Dialogue0016|Dialogue0016]]

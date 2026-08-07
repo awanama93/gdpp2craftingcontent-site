@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T04:36:37.217Z
-modified: 2026-07-30T14:35:01.497Z
-published: 2026-07-30T14:35:01.497Z
+modified: 2026-08-06T14:18:57.620Z
+published: 2026-08-06T14:18:57.620Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:
@@ -38,7 +38,9 @@ Cr_IngredientD: "[[IN_Pencil]]"
 Cr_IngredientDQuantity: "1"
 Cr_IngredientE: "[[IN_Paper]]"
 Cr_IngredientEQuantity: "1"
-CraftingMethod: "[[CM_Crafter]]"
+CraftingMethod:
+  - "[[CM_Crafter]]"
+  - "[[MS_CrafterS2]]"
 I_LootableE:
 I_LootableE_DropChance:
 I_LootableE_Quantity:
@@ -127,7 +129,7 @@ IN\_Igniter
 
 - cr\_ingredientequantity: 1
 
-- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]]
+- craftingmethod: [[Crafting/Machine/CM_Crafter|CM_Crafter]],[[Crafting/MachineStageData/MS_CrafterS2|MS_CrafterS2]]
 
 - i\_lootablee: null
 

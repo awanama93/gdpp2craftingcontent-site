@@ -1,14 +1,15 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:48.038Z
-published: 2026-08-04T13:25:48.038Z
+modified: 2026-08-07T17:07:26.728Z
+published: 2026-08-07T17:07:26.728Z
 QuestID: "[[Quest0019]]"
 Q_Name: Learn about lantern and urban mining
-Q_Description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there
+Q_Description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there. Go to one of the urban ruin then bring one mysterious item that you gather there.
 QuestType: Main
 Q_GoalType: Dialogue completion
 Q_ConditionType:
+  - Quest completion
 IsTimeLimit:
 TimeLimit:
 QG_QuestID:
@@ -20,8 +21,8 @@ QG_ItemC_ID:
 QG_ItemC_Amount:
 QG_ItemB_ID:
 QG_ItemB_Amount:
-QG_ItemA_ID:
-QG_ItemA_Amount:
+QG_ItemA_ID: Mysterious Item
+QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
 QG_ConvictionCharacter:
@@ -49,9 +50,10 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0021]]"
 Q_CharacterRelation:
+QuestMapping:
+  - "[[Quest0022]]"
+QC_QuestID: "[[Quest0021]]"
 ---
 
 Quest0019
@@ -60,13 +62,13 @@ Quest0019
 
 - q\_name: Learn about lantern and urban mining
 
-- q\_description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there
+- q\_description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there. Go to one of the urban ruin then bring one mysterious item that you gather there.
 
 - questtype: Main
 
 - q\_goaltype: Dialogue completion
 
-- q\_conditiontype: null
+- q\_conditiontype: Quest completion
 
 - istimelimit: null
 
@@ -90,9 +92,9 @@ Quest0019
 
 - qg\_itemb\_amount: null
 
-- qg\_itema\_id: null
+- qg\_itema\_id: Mysterious Item
 
-- qg\_itema\_amount: null
+- qg\_itema\_amount: 1
 
 - qg\_dialogueid: null
 
@@ -146,6 +148,8 @@ Quest0019
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]]
-
 - q\_characterrelation: null
+
+- questmapping: [[QuestNarrative/Quest/Quest0022|Quest0022]]
+
+- qc\_questid: [[QuestNarrative/Quest/Quest0021|Quest0021]]

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T05:55:10.612Z
-modified: 2026-07-29T11:00:49.592Z
-published: 2026-07-29T11:00:49.592Z
+modified: 2026-08-06T14:19:23.097Z
+published: 2026-08-06T14:19:23.097Z
 ItemID:
 ItemType: Consumable
 I_BreakPoint:
@@ -50,7 +50,9 @@ I_LootableG_Quantity:
 I_LootableH:
 I_LootableH_DropChance:
 I_LootableH_Quantity:
-CraftingMethod: "[[CM_ConsumableProcessor]]"
+CraftingMethod:
+  - "[[CM_ConsumableProcessor]]"
+  - "[[MS_ConsumableS2]]"
 I_IsIngredientOf:
 ---
 
@@ -150,6 +152,6 @@ CO\_BerryJamFlatbread
 
 - i\_lootableh\_quantity: null
 
-- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]]
+- craftingmethod: [[Crafting/Machine/CM_ConsumableProcessor|CM_ConsumableProcessor]],[[Crafting/MachineStageData/MS_ConsumableS2|MS_ConsumableS2]]
 
 - i\_isingredientof: null
