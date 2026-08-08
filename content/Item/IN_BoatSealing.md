@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-28T04:36:37.217Z
-modified: 2026-07-30T14:43:47.532Z
-published: 2026-07-30T14:43:47.532Z
+modified: 2026-08-08T02:26:11.704Z
+published: 2026-08-08T02:26:11.704Z
 ItemID:
 ItemType: InventoryCraftable
 I_BreakPoint:

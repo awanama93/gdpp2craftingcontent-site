@@ -1,12 +1,12 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-07T17:13:03.952Z
-published: 2026-08-07T17:13:03.952Z
+modified: 2026-08-08T06:36:53.703Z
+published: 2026-08-08T06:36:53.703Z
 ResponseID: "[[Response0011]]"
 R_Type: Starter
 R_Prerequisite:
-  - "[[Quest0021]]"
+  - "[[Quest0031]]"
 R_Text: Ask her about the urban ruin
 R_Outcome:
   - "[[Outcome0007]]"
@@ -31,7 +31,7 @@ Response0011
 
 - r\_type: Starter
 
-- r\_prerequisite: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+- r\_prerequisite: [[QuestNarrative/Quest/Quest0031|Quest0031]]
 
 - r\_text: Ask her about the urban ruin
 

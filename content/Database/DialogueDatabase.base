@@ -18,6 +18,8 @@ views:
     sort: []
     columnSize:
       note.DialogueID: 131
+      note.D_QuestRelations: 102
+      note.D_DialogueType: 64
       note.D_NPC: 134
       note.D_Exposition: 182
   - type: table

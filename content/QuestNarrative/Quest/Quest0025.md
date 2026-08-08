@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:48.284Z
-published: 2026-08-04T13:25:48.284Z
+modified: 2026-08-08T07:27:24.872Z
+published: 2026-08-08T07:27:24.872Z
 QuestID: "[[Quest0025]]"
-Q_Name: '"Help to build the [[TO_Crafter | Crafter]] machine"'
-Q_Description: You need to build machine to craft item. Find the materials then talk to
+Q_Name: Upgrade the Crafter machine
+Q_Description: Upgrade the Crafter machine to unlock recipe to build more complex things. Gather the materials then talk to Currie
 QuestType: Main
 Q_GoalType: Item ownership
 Q_ConditionType:
@@ -57,9 +57,9 @@ Quest0025
 
 - questid: [[QuestNarrative/Quest/Quest0025|Quest0025]]
 
-- q\_name: "Help to build the [[TO_Crafter|Crafter]] machine"
+- q\_name: Upgrade the Crafter machine
 
-- q\_description: You need to build machine to craft item. Find the materials then talk to
+- q\_description: Upgrade the Crafter machine to unlock recipe to build more complex things. Gather the materials then talk to Currie
 
 - questtype: Main
 

@@ -1,13 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T15:36:45.723Z
-modified: 2026-07-29T04:56:22.287Z
-published: 2026-07-29T04:56:22.287Z
+modified: 2026-08-08T06:36:53.614Z
+published: 2026-08-08T06:36:53.614Z
 OutcomeID: "[[Outcome0010]]"
 O_ResponseText:
 O_AlternativeResponse:
 O_ExperiencePoint:
-O_QuestDataA: "[[Quest0021]]"
+O_QuestDataA: "[[Quest0031]]"
 O_QuestStatusA: Complete
 O_ResponseRelation: "[[Response0014]]"
 O_QuestDataB:
@@ -30,7 +30,7 @@ Outcome0010
 
 - o\_experiencepoint: null
 
-- o\_questdataa: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+- o\_questdataa: [[QuestNarrative/Quest/Quest0031|Quest0031]]
 
 - o\_queststatusa: Complete
 

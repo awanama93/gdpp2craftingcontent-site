@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.314Z
-published: 2026-08-04T13:25:47.314Z
+modified: 2026-08-08T13:54:40.219Z
+published: 2026-08-08T13:54:40.219Z
 QuestID: "[[Quest0007]]"
 Q_Name: Help to build lighting with The Settler
 Q_Description: To help us better see things at night, we have to build the lighting
@@ -49,9 +49,8 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0008]]"
 Q_CharacterRelation:
+QuestMapping: []
 ---
 
 Quest0007
@@ -146,6 +145,6 @@ Quest0007
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0008|Quest0008]]
-
 - q\_characterrelation: null
+
+- questmapping:

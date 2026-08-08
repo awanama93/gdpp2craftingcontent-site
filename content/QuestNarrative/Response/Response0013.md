@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:24:34.195Z
-modified: 2026-08-07T16:58:48.453Z
-published: 2026-08-07T16:58:48.453Z
+modified: 2026-08-08T06:36:53.728Z
+published: 2026-08-08T06:36:53.728Z
 ResponseID: "[[Response0013]]"
 R_Type: Starter
 R_Prerequisite:
@@ -17,11 +17,11 @@ R_ResponseCodename: StartQuest0021
 R_DialogueParent:
   - "[[Dialogue0005]]"
 R_ResponseType: Starter
-R_QuestRelation: "[[Quest0021]]"
+R_QuestRelation: "[[Quest0031]]"
 canvas:
   - "[[QuestMapping.canvas]]"
 QuestMapping:
-  - "[[Quest0021]]"
+  - "[[Quest0031]]"
   - "[[Dialogue0013]]"
 ---
 
@@ -49,8 +49,8 @@ Response0013
 
 - r\_responsetype: Starter
 
-- r\_questrelation: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+- r\_questrelation: [[QuestNarrative/Quest/Quest0031|Quest0031]]
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0021|Quest0021]],[[QuestNarrative/Dialogue/Dialogue0013|Dialogue0013]]
+- questmapping: [[QuestNarrative/Quest/Quest0031|Quest0031]],[[QuestNarrative/Dialogue/Dialogue0013|Dialogue0013]]

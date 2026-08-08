@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-07T17:07:26.728Z
-published: 2026-08-07T17:07:26.728Z
+modified: 2026-08-08T06:36:53.660Z
+published: 2026-08-08T06:36:53.660Z
 QuestID: "[[Quest0019]]"
 Q_Name: Learn about lantern and urban mining
 Q_Description: Currie told you about the urban mine where you can gather things, but you have to use lantern to go there. Go to one of the urban ruin then bring one mysterious item that you gather there.
@@ -53,7 +53,7 @@ canvas:
 Q_CharacterRelation:
 QuestMapping:
   - "[[Quest0022]]"
-QC_QuestID: "[[Quest0021]]"
+QC_QuestID: "[[Quest0031]]"
 ---
 
 Quest0019
@@ -152,4 +152,4 @@ Quest0019
 
 - questmapping: [[QuestNarrative/Quest/Quest0022|Quest0022]]
 
-- qc\_questid: [[QuestNarrative/Quest/Quest0021|Quest0021]]
+- qc\_questid: [[QuestNarrative/Quest/Quest0031|Quest0031]]

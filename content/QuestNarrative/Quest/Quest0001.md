@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T12:45:35.533Z
-modified: 2026-08-04T13:25:46.952Z
-published: 2026-08-04T13:25:46.952Z
+modified: 2026-08-08T06:36:53.639Z
+published: 2026-08-08T06:36:53.639Z
 QuestType: Main
 QuestID: "[[Quest0001]]"
 Q_Name: Learn how the world works
@@ -17,7 +17,7 @@ QG_QuestID:
   - "[[Quest0018]]"
   - "[[Quest0019]]"
   - "[[Quest0020]]"
-  - "[[Quest0021]]"
+  - "[[Quest0031]]"
 QG_ItemE_ID:
 QG_ItemE_Amount:
 QG_ItemD_ID:
@@ -83,7 +83,7 @@ Quest0001
 
 - timelimit: null
 
-- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0021|Quest0021]]
+- qg\_questid: [[QuestNarrative/Quest/Quest0016|Quest0016]],[[QuestNarrative/Quest/Quest0017|Quest0017]],[[QuestNarrative/Quest/Quest0018|Quest0018]],[[QuestNarrative/Quest/Quest0019|Quest0019]],[[QuestNarrative/Quest/Quest0020|Quest0020]],[[QuestNarrative/Quest/Quest0031|Quest0031]]
 
 - qg\_iteme\_id: null
 

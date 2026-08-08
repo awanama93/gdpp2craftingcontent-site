@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.248Z
-published: 2026-08-04T13:25:47.248Z
+modified: 2026-08-08T15:25:39.548Z
+published: 2026-08-08T15:25:39.548Z
 QuestID: "[[Quest0006]]"
 Q_Name: Help to build roofing with The Settler
-Q_Description: Now we have campfire, maybe we can build better roofing
+Q_Description: Now the last thing to build is roofing above our heads. Talk to Currie when you have the materials.
 QuestType: Main
 Q_GoalType: Item ownership
 Q_ConditionType:
@@ -49,9 +49,8 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0007]]"
 Q_CharacterRelation:
+QuestMapping: []
 ---
 
 Quest0006
@@ -60,7 +59,7 @@ Quest0006
 
 - q\_name: Help to build roofing with The Settler
 
-- q\_description: Now we have campfire, maybe we can build better roofing
+- q\_description: Now the last thing to build is roofing above our heads. Talk to Currie when you have the materials.
 
 - questtype: Main
 
@@ -146,6 +145,6 @@ Quest0006
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0007|Quest0007]]
-
 - q\_characterrelation: null
+
+- questmapping:

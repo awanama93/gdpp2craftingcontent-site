@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.564Z
-published: 2026-08-04T13:25:47.564Z
+modified: 2026-08-08T15:48:27.029Z
+published: 2026-08-08T15:48:27.029Z
 QuestID: "[[Quest0011]]"
-Q_Name: Help to build bouyancy so the deck can float on the water
-Q_Description: To make the boat floating, we need bouyancy
+Q_Name: Help to build frame for the boat
+Q_Description: Build the frame for the decking foundation later
 QuestType: Main
 Q_GoalType: Item ownership
 Q_ConditionType:
@@ -14,13 +14,13 @@ TimeLimit:
 QG_QuestID:
 QG_ItemE_ID:
 QG_ItemE_Amount:
-QG_ItemD_ID:
-QG_ItemD_Amount:
-QG_ItemC_ID: "[[IN_BoatSealing]]"
+QG_ItemD_ID: "[[IN_StructureFrame]]"
+QG_ItemD_Amount: "1"
+QG_ItemC_ID: "[[IN_LightReflector]]"
 QG_ItemC_Amount: "1"
-QG_ItemB_ID: "[[IN_FlotationSupport]]"
+QG_ItemB_ID: "[[IN_LightMount]]"
 QG_ItemB_Amount: "1"
-QG_ItemA_ID: "[[IN_PontoonPrimer]]"
+QG_ItemA_ID: "[[IN_FastenerTies]]"
 QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
@@ -49,18 +49,17 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0012]]"
 Q_CharacterRelation:
+QuestMapping: []
 ---
 
 Quest0011
 
 - questid: [[QuestNarrative/Quest/Quest0011|Quest0011]]
 
-- q\_name: Help to build bouyancy so the deck can float on the water
+- q\_name: Help to build frame for the boat
 
-- q\_description: To make the boat floating, we need bouyancy
+- q\_description: Build the frame for the decking foundation later
 
 - questtype: Main
 
@@ -78,19 +77,19 @@ Quest0011
 
 - qg\_iteme\_amount: null
 
-- qg\_itemd\_id: null
+- qg\_itemd\_id: [[Item/IN_StructureFrame|IN_StructureFrame]]
 
-- qg\_itemd\_amount: null
+- qg\_itemd\_amount: 1
 
-- qg\_itemc\_id: [[Item/IN_BoatSealing|IN_BoatSealing]]
+- qg\_itemc\_id: [[Item/IN_LightReflector|IN_LightReflector]]
 
 - qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: [[Item/IN_FlotationSupport|IN_FlotationSupport]]
+- qg\_itemb\_id: [[Item/IN_LightMount|IN_LightMount]]
 
 - qg\_itemb\_amount: 1
 
-- qg\_itema\_id: [[Item/IN_PontoonPrimer|IN_PontoonPrimer]]
+- qg\_itema\_id: [[Item/IN_FastenerTies|IN_FastenerTies]]
 
 - qg\_itema\_amount: 1
 
@@ -146,6 +145,6 @@ Quest0011
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0012|Quest0012]]
-
 - q\_characterrelation: null
+
+- questmapping:

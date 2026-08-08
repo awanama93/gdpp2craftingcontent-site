@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-07T17:50:42.581Z
-published: 2026-08-07T17:50:42.581Z
+modified: 2026-08-08T13:29:43.971Z
+published: 2026-08-08T13:29:43.971Z
 DialogueID: "[[Dialogue0001]]"
 D_NPC: "[[HeadSettler]]"
 D_Exposition: Currie is talking to you about what you should do next
@@ -35,6 +35,15 @@ QuestMapping:
   - "[[Response0012]]"
   - "[[Response0035]]"
   - "[[Response0036]]"
+  - "[[Response0018]]"
+  - "[[Response0044]]"
+  - "[[Response0051]]"
+  - "[[Response0054]]"
+  - "[[Response0055]]"
+  - "[[Response0056]]"
+  - "[[Response0057]]"
+  - "[[Response0058]]"
+  - "[[Response0059]]"
 D_DialogueType: Holder
 ---
 
@@ -58,6 +67,6 @@ Dialogue0001
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Response/Response0001|Response0001]],[[QuestNarrative/Response/Response0025|Response0025]],[[QuestNarrative/Response/Response0028|Response0028]],[[QuestNarrative/Response/Response0029|Response0029]],[[QuestNarrative/Response/Response0006|Response0006]],[[QuestNarrative/Response/Response0030|Response0030]],[[QuestNarrative/Response/Response0014|Response0014]],[[QuestNarrative/Response/Response0012|Response0012]],[[QuestNarrative/Response/Response0035|Response0035]],[[QuestNarrative/Response/Response0036|Response0036]]
+- questmapping: [[QuestNarrative/Response/Response0001|Response0001]],[[QuestNarrative/Response/Response0025|Response0025]],[[QuestNarrative/Response/Response0028|Response0028]],[[QuestNarrative/Response/Response0029|Response0029]],[[QuestNarrative/Response/Response0006|Response0006]],[[QuestNarrative/Response/Response0030|Response0030]],[[QuestNarrative/Response/Response0014|Response0014]],[[QuestNarrative/Response/Response0012|Response0012]],[[QuestNarrative/Response/Response0035|Response0035]],[[QuestNarrative/Response/Response0036|Response0036]],[[QuestNarrative/Response/Response0018|Response0018]],[[QuestNarrative/Response/Response0044|Response0044]],[[QuestNarrative/Response/Response0051|Response0051]],[[QuestNarrative/Response/Response0054|Response0054]],[[QuestNarrative/Response/Response0055|Response0055]],[[QuestNarrative/Response/Response0056|Response0056]],[[QuestNarrative/Response/Response0057|Response0057]],[[QuestNarrative/Response/Response0058|Response0058]],[[QuestNarrative/Response/Response0059|Response0059]]
 
 - d\_dialoguetype: Holder

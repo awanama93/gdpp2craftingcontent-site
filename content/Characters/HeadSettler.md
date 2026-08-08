@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:04:26.265Z
-modified: 2026-08-04T03:07:45.068Z
-published: 2026-08-04T03:07:45.068Z
+modified: 2026-08-08T15:34:06.942Z
+published: 2026-08-08T15:34:06.942Z
 CharacterID:
 Ch_Name: Currie
 Ch_MaxHealth:

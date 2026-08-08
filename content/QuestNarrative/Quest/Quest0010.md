@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.461Z
-published: 2026-08-04T13:25:47.461Z
+modified: 2026-08-08T13:54:40.224Z
+published: 2026-08-08T13:54:40.224Z
 QuestID: "[[Quest0010]]"
 Q_Name: Help to build decking for the frame
 Q_Description: We need decking so people can stand and sleep on the boat. Let's find the components
@@ -49,9 +49,8 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0011]]"
 Q_CharacterRelation:
+QuestMapping: []
 ---
 
 Quest0010
@@ -146,6 +145,6 @@ Quest0010
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0011|Quest0011]]
-
 - q\_characterrelation: null
+
+- questmapping:

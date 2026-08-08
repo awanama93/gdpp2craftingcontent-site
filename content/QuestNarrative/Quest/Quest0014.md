@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.800Z
-published: 2026-08-04T13:25:47.800Z
+modified: 2026-08-08T13:54:40.235Z
+published: 2026-08-08T13:54:40.235Z
 QuestID: "[[Quest0014]]"
 Q_Name: Help to build the spark gap transmitter
 Q_Description: Currently, we can receive signal, and now we need to be able to send signal. Let's build the spark gap transmitter
@@ -49,9 +49,8 @@ Q_GoalActionType:
 Q_GoalActionTargetObject:
 canvas:
   - "[[QuestMapping.canvas]]"
-QuestMapping:
-  - "[[Quest0015]]"
 Q_CharacterRelation:
+QuestMapping: []
 ---
 
 Quest0014
@@ -146,6 +145,6 @@ Quest0014
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Quest/Quest0015|Quest0015]]
-
 - q\_characterrelation: null
+
+- questmapping:

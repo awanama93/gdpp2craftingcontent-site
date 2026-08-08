@@ -1,13 +1,12 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-07T17:29:21.368Z
-published: 2026-08-07T17:29:21.368Z
+modified: 2026-08-08T08:39:19.427Z
+published: 2026-08-08T08:39:19.427Z
 DialogueID: "[[Dialogue0012]]"
 D_NPC: "[[HeadSettler]]"
 D_Exposition: She asked to bring her a mysterious item that you can find at any urban ruin.
 D_ResponsesList:
-  - "[[Response0010]]"
 D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename: FollowUpQuest0019A
@@ -26,7 +25,7 @@ Dialogue0012
 
 - d\_exposition: She asked to bring her a mysterious item that you can find at any urban ruin.
 
-- d\_responseslist: [[QuestNarrative/Response/Response0010|Response0010]]
+- d\_responseslist: null
 
 - d\_dialoguerelations: null
 

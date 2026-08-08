@@ -1,12 +1,13 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-07T17:09:11.220Z
-published: 2026-08-07T17:09:11.220Z
+modified: 2026-08-08T11:28:39.812Z
+published: 2026-08-08T11:28:39.812Z
 DialogueID: "[[Dialogue0014]]"
 D_NPC: "[[HeadSelfsufficient]]"
 D_Exposition: She thanked you for the food, then start talking about the urban ruin
 D_ResponsesList:
+  - "[[Response0011]]"
 D_DialogueRelations:
 D_QuestRelations:
 D_DialogueCodename: FollowUpQuest0021
@@ -26,7 +27,7 @@ Dialogue0014
 
 - d\_exposition: She thanked you for the food, then start talking about the urban ruin
 
-- d\_responseslist: null
+- d\_responseslist: [[QuestNarrative/Response/Response0011|Response0011]]
 
 - d\_dialoguerelations: null
 

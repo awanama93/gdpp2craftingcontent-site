@@ -4,6 +4,9 @@ filters:
 views:
   - type: table
     name: BasicView
+    filters:
+      and:
+        - I_ProcessingStage.contains("Level 1")
     order:
       - file.name
       - ItemID
@@ -158,7 +161,7 @@ views:
     name: IngredientsView
     filters:
       and:
-        - I_ProcessingStage.contains("Level 1")
+        - I_IsIngredientOf.contains(link("GA_Frame"))
     order:
       - file.name
       - I_IsIngredientOf

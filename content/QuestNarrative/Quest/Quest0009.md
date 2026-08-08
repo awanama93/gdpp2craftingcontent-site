@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:47.418Z
-published: 2026-08-04T13:25:47.418Z
+modified: 2026-08-08T15:11:36.597Z
+published: 2026-08-08T15:11:36.597Z
 QuestID: "[[Quest0009]]"
-Q_Name: Help to build base frame for the boat
-Q_Description: The basic component of a boat is frame. Find component to build that
+Q_Name: Help to build bouyancy for the boat
+Q_Description: The basic component of a boat is bouyancy. Find component to build that
 QuestType: Main
 Q_GoalType: Item ownership
 Q_ConditionType:
@@ -14,13 +14,13 @@ TimeLimit:
 QG_QuestID:
 QG_ItemE_ID:
 QG_ItemE_Amount:
-QG_ItemD_ID: "[[IN_FastenerTies]]"
-QG_ItemD_Amount: "1"
-QG_ItemC_ID: "[[IN_StructureFrame]]"
+QG_ItemD_ID:
+QG_ItemD_Amount:
+QG_ItemC_ID: "[[IN_FlotationSupport]]"
 QG_ItemC_Amount: "1"
-QG_ItemB_ID: "[[IN_LightMount]]"
+QG_ItemB_ID: "[[IN_BoatSealing]]"
 QG_ItemB_Amount: "1"
-QG_ItemA_ID: "[[IN_LightReflector]]"
+QG_ItemA_ID: "[[IN_PontoonPrimer]]"
 QG_ItemA_Amount: "1"
 QG_DialogueID:
 QG_ConvictionType:
@@ -58,9 +58,9 @@ Quest0009
 
 - questid: [[QuestNarrative/Quest/Quest0009|Quest0009]]
 
-- q\_name: Help to build base frame for the boat
+- q\_name: Help to build bouyancy for the boat
 
-- q\_description: The basic component of a boat is frame. Find component to build that
+- q\_description: The basic component of a boat is bouyancy. Find component to build that
 
 - questtype: Main
 
@@ -78,19 +78,19 @@ Quest0009
 
 - qg\_iteme\_amount: null
 
-- qg\_itemd\_id: [[Item/IN_FastenerTies|IN_FastenerTies]]
+- qg\_itemd\_id: null
 
-- qg\_itemd\_amount: 1
+- qg\_itemd\_amount: null
 
-- qg\_itemc\_id: [[Item/IN_StructureFrame|IN_StructureFrame]]
+- qg\_itemc\_id: [[Item/IN_FlotationSupport|IN_FlotationSupport]]
 
 - qg\_itemc\_amount: 1
 
-- qg\_itemb\_id: [[Item/IN_LightMount|IN_LightMount]]
+- qg\_itemb\_id: [[Item/IN_BoatSealing|IN_BoatSealing]]
 
 - qg\_itemb\_amount: 1
 
-- qg\_itema\_id: [[Item/IN_LightReflector|IN_LightReflector]]
+- qg\_itema\_id: [[Item/IN_PontoonPrimer|IN_PontoonPrimer]]
 
 - qg\_itema\_amount: 1
 

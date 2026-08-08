@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-07T18:11:55.997Z
-published: 2026-08-07T18:11:55.997Z
+modified: 2026-08-08T15:46:02.918Z
+published: 2026-08-08T15:46:02.918Z
 DialogueID: "[[Dialogue0005]]"
 D_NPC: "[[HeadSelfsufficient]]"
 D_Exposition: Slocum is talking to you about what you should do next
@@ -31,6 +31,17 @@ QuestMapping:
   - "[[Response0017]]"
   - "[[Response0032]]"
   - "[[Response0037]]"
+  - "[[Response0019]]"
+  - "[[Response0045]]"
+  - "[[Response0047]]"
+  - "[[Response0048]]"
+  - "[[Response0052]]"
+  - "[[Response0062]]"
+  - "[[Response0063]]"
+  - "[[Response0064]]"
+  - "[[Response0065]]"
+  - "[[Response0060]]"
+  - "[[Response0061]]"
 ---
 
 Dialogue0005
@@ -55,4 +66,4 @@ Dialogue0005
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Response/Response0005|Response0005]],[[QuestNarrative/Response/Response0008|Response0008]],[[QuestNarrative/Response/Response0016|Response0016]],[[QuestNarrative/Response/Response0017|Response0017]],[[QuestNarrative/Response/Response0032|Response0032]],[[QuestNarrative/Response/Response0037|Response0037]]
+- questmapping: [[QuestNarrative/Response/Response0005|Response0005]],[[QuestNarrative/Response/Response0008|Response0008]],[[QuestNarrative/Response/Response0016|Response0016]],[[QuestNarrative/Response/Response0017|Response0017]],[[QuestNarrative/Response/Response0032|Response0032]],[[QuestNarrative/Response/Response0037|Response0037]],[[QuestNarrative/Response/Response0019|Response0019]],[[QuestNarrative/Response/Response0045|Response0045]],[[QuestNarrative/Response/Response0047|Response0047]],[[QuestNarrative/Response/Response0048|Response0048]],[[QuestNarrative/Response/Response0052|Response0052]],[[QuestNarrative/Response/Response0062|Response0062]],[[QuestNarrative/Response/Response0063|Response0063]],[[QuestNarrative/Response/Response0064|Response0064]],[[QuestNarrative/Response/Response0065|Response0065]],[[QuestNarrative/Response/Response0060|Response0060]],[[QuestNarrative/Response/Response0061|Response0061]]

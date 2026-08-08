@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:03:12.249Z
-modified: 2026-08-04T03:08:11.550Z
-published: 2026-08-04T03:08:11.550Z
+modified: 2026-08-08T12:53:40.203Z
+published: 2026-08-08T12:53:40.203Z
 CharacterID:
 Ch_Name: Slocum
 Ch_MaxHealth:

@@ -1,11 +1,11 @@
 ---
 publish: true
 created: 2026-07-27T13:19:58.152Z
-modified: 2026-08-04T13:25:48.424Z
-published: 2026-08-04T13:25:48.424Z
+modified: 2026-08-08T07:27:04.893Z
+published: 2026-08-08T07:27:04.893Z
 QuestID: "[[Quest0026]]"
-Q_Name: '"Help to build the [[TO_ConsumableProcessor | Consumable processor]]"'
-Q_Description: You need to build machine to cook food. Find the ingredients then talk to
+Q_Name: Build the Consumable Processor machine
+Q_Description: You can craft more consumable item if you build consumable processor. Gather the materials then talk to Currie
 QuestType: Main
 Q_GoalType: Item ownership
 Q_ConditionType:
@@ -57,9 +57,9 @@ Quest0026
 
 - questid: [[QuestNarrative/Quest/Quest0026|Quest0026]]
 
-- q\_name: "Help to build the [[TO_ConsumableProcessor|Consumable processor]]"
+- q\_name: Build the Consumable Processor machine
 
-- q\_description: You need to build machine to cook food. Find the ingredients then talk to
+- q\_description: You can craft more consumable item if you build consumable processor. Gather the materials then talk to Currie
 
 - questtype: Main
 

@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2026-07-27T15:19:19.677Z
-modified: 2026-08-07T18:11:57.500Z
-published: 2026-08-07T18:11:57.500Z
+modified: 2026-08-08T13:37:23.955Z
+published: 2026-08-08T13:37:23.955Z
 DialogueID: "[[Dialogue0008]]"
 D_NPC: "[[HeadSignaler]]"
 D_Exposition: Marconi is talking to you about what you should do next
@@ -24,6 +24,15 @@ QuestMapping:
   - "[[Response0009]]"
   - "[[Response0013]]"
   - "[[Response0038]]"
+  - "[[Response0020]]"
+  - "[[Response0046]]"
+  - "[[Response0049]]"
+  - "[[Response0050]]"
+  - "[[Response0053]]"
+  - "[[Response0066]]"
+  - "[[Response0067]]"
+  - "[[Response0068]]"
+  - "[[Response0069]]"
 ---
 
 Dialogue0008
@@ -48,4 +57,4 @@ Dialogue0008
 
 - canvas: [[Mappings/QuestMapping.canvas|QuestMapping.canvas]]
 
-- questmapping: [[QuestNarrative/Response/Response0007|Response0007]],[[QuestNarrative/Response/Response0009|Response0009]],[[QuestNarrative/Response/Response0013|Response0013]],[[QuestNarrative/Response/Response0038|Response0038]]
+- questmapping: [[QuestNarrative/Response/Response0007|Response0007]],[[QuestNarrative/Response/Response0009|Response0009]],[[QuestNarrative/Response/Response0013|Response0013]],[[QuestNarrative/Response/Response0038|Response0038]],[[QuestNarrative/Response/Response0020|Response0020]],[[QuestNarrative/Response/Response0046|Response0046]],[[QuestNarrative/Response/Response0049|Response0049]],[[QuestNarrative/Response/Response0050|Response0050]],[[QuestNarrative/Response/Response0053|Response0053]],[[QuestNarrative/Response/Response0066|Response0066]],[[QuestNarrative/Response/Response0067|Response0067]],[[QuestNarrative/Response/Response0068|Response0068]],[[QuestNarrative/Response/Response0069|Response0069]]
